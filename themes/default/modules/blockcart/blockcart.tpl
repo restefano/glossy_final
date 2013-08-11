@@ -178,7 +178,7 @@ var delete_txt = '{l s='Delete' mod='blockcart' js=1}';
 			<a href="{$link->getPageLink("$order_process", true)}" id="button_order_cart" class="exclusive{if $order_process == 'order-opc'}_large{/if}" title="{l s='Check out' mod='blockcart'}" rel="nofollow"><span></span>{l s='Check out' mod='blockcart'}</a>
 		</p>
 
-		{if $cart_qties <= 0}		
+		{if $cart_qties = 1}		
 		<p style="color:red;">
 			Adicione mais um produto e você ganha FRETE GRÁTIS !
 		</p>
