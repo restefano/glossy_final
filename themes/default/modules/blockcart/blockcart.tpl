@@ -177,8 +177,8 @@ var delete_txt = '{l s='Delete' mod='blockcart' js=1}';
 			<a href="{$link->getPageLink("$order_process", true)}" id="button_order_cart" class="exclusive{if $order_process == 'order-opc'}_large{/if}" title="{l s='Check out' mod='blockcart'}" rel="nofollow"><span></span>{l s='Check out' mod='blockcart'}</a>
 		</p>
 
-		<p>
-			<span id="cart_block_mensagem_mais_um" class="price ajax_cart_mensagem_mais_um" style="color:red">{$mensagem_mais_um}</span>
+		<p><br><center>
+			<span id="cart_block_mensagem_mais_um" class="price ajax_cart_mensagem_mais_um" style="color:red">{$mensagem_mais_um}</span></center>
 		</p>
 
 	</div>

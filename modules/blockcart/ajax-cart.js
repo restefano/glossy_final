@@ -600,7 +600,7 @@ var ajaxCart = {
 		if (parseFloat(jsonData.shippingCostFloat) > 0 || jsonData.nbTotalProducts < 1)
 		{
 				$('.ajax_cart_shipping_cost').text(jsonData.shippingCost);
-				$('.ajax_cart_mensagem_mais_um').html("Adicione mais um item para ganhar FRETE GRÁTIS");
+				$('.ajax_cart_mensagem_mais_um').html("Dica: Adicione mais uma peça e ganhe FRETE GRÁTIS !");
 		}
 		else if (typeof(freeShippingTranslation) != 'undefined')
 		{
