@@ -600,7 +600,11 @@ var ajaxCart = {
 		if (parseFloat(jsonData.shippingCostFloat) > 0 || jsonData.nbTotalProducts < 1)
 		{
 				$('.ajax_cart_shipping_cost').text(jsonData.shippingCost);
-				$('.ajax_cart_mensagem_mais_um').html("Dica: Adicione mais uma peça para FRETE GRÁTIS !<p></p>");
+				if (jsonData.nbTotalProducts == 1)
+					$('.ajax_cart_mensagem_mais_um').html("Dica: Adicione mais uma peça para FRETE GRÁTIS !<p></p>");
+				else
+					$('.ajax_cart_mensagem_mais_um').html("");
+
 		}
 		else if (typeof(freeShippingTranslation) != 'undefined')
 		{
