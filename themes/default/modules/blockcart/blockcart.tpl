@@ -67,6 +67,12 @@ var delete_txt = '{l s='Delete' mod='blockcart' js=1}';
 		</span>
 		<span class="ajax_cart_no_product" {if $cart_qties != 0}style="display:none"{/if}>{l s='(empty)' mod='blockcart'}</span>
 	</div>
+
+		<p><center>
+			<span id="cart_block_mensagem_mais_um" class="price ajax_cart_mensagem_mais_um" style="color:#A000A0">{$mensagem_mais_um}</span>
+		</p></center>
+
+	
 	<!-- block list of products -->
 	<div id="cart_block_list" class="{if isset($colapseExpandStatus) && $colapseExpandStatus eq 'expanded' || !$ajax_allowed || !isset($colapseExpandStatus)}expanded{else}collapsed{/if}">
 	{if $products}
@@ -175,10 +181,6 @@ var delete_txt = '{l s='Delete' mod='blockcart' js=1}';
 		<p id="cart-buttons">
 			{if $order_process == 'order'}<a href="{$link->getPageLink("$order_process", true)}" class="button_small" title="{l s='View my shopping cart' mod='blockcart'}" rel="nofollow">{l s='Cart' mod='blockcart'}</a>{/if}
 			<a href="{$link->getPageLink("$order_process", true)}" id="button_order_cart" class="exclusive{if $order_process == 'order-opc'}_large{/if}" title="{l s='Check out' mod='blockcart'}" rel="nofollow"><span></span>{l s='Check out' mod='blockcart'}</a>
-		</p>
-
-		<p><br><center>
-			<span id="cart_block_mensagem_mais_um" class="price ajax_cart_mensagem_mais_um" style="color:red">{$mensagem_mais_um}</span></center>
 		</p>
 
 	</div>
