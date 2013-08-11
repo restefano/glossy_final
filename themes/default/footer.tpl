@@ -46,7 +46,7 @@
     	<tbody>
         <tr>
             <td style="width: 960px; padding-left: 0px; text-align: center;"><a href="http://www.glossyme.com.br/contato">
-            		<?php echo '<img src="'._PS_IMG_.'rodape.png" style="float:left"> width="850" height="165" alt="" />' ?>
+            		<img src="{$smarty.const._PS_IMG_}rodape.png" style="float:left" width="850" height="165" alt="" />
             </a></td>
         </tr>
     	</tbody>
