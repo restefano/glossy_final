@@ -28,6 +28,21 @@
 <!--[if IE 8]><html class="no-js lt-ie9 ie8" lang="{$lang_iso}"> <![endif]-->
 <!--[if gt IE 8]> <html class="no-js ie9" lang="{$lang_iso}"> <![endif]-->
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="{$lang_iso}">
+
+<link href='http://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Buda:300' rel='stylesheet' type='text/css'>
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/pt_BR/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
 	<head>
 		<title>{$meta_title|escape:'htmlall':'UTF-8'}</title>
 {if isset($meta_description) AND $meta_description}
@@ -61,10 +76,17 @@
 	<script type="text/javascript" src="{$js_uri}"></script>
 	{/foreach}
 {/if}
-		{$HOOK_HEADER}
 	</head>
 	
 	<body {if isset($page_name)}id="{$page_name|escape:'htmlall':'UTF-8'}"{/if} class="{if $hide_left_column}hide-left-column{/if} {if $hide_right_column}hide-right-column{/if} {if $content_only} content_only {/if}">
+
+	<div id="topo" class="container_9" style="background:#FFF">
+		<img src="ric/logo_superior.gif" style="float:left">
+
+		<div class="fb-like" data-href="http://www.facebook.com/glossyme.com.br" data-send="false" data-width="500" data-show-faces="true" data-font="arial" style="margin-top:15px; margin-left:20px;"></div>
+	</div>
+
+
 	{if !$content_only}
 		{if isset($restricted_country_mode) && $restricted_country_mode}
 		<div id="restricted-country">
@@ -75,9 +97,7 @@
 
 			<!-- Header -->
 			<div id="header" class="grid_9 alpha omega">
-				<a id="header_logo" href="{$base_dir}" title="{$shop_name|escape:'htmlall':'UTF-8'}">
-					<img class="logo" src="{$logo_url}" alt="{$shop_name|escape:'htmlall':'UTF-8'}" {if $logo_image_width}width="{$logo_image_width}"{/if} {if $logo_image_height}height="{$logo_image_height}" {/if} />
-				</a>
+			
 				<div id="header_right" class="grid_9 omega">
 					{$HOOK_TOP}
 				</div>
