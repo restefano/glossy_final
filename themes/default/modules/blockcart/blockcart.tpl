@@ -140,7 +140,21 @@ var delete_txt = '{l s='Delete' mod='blockcart' js=1}';
 			<br/>
 			{if $show_wrapping}
 				{assign var='cart_flag' value='Cart::ONLY_WRAPPING'|constant}
-				<span id="cart_block_wrapping_cost" class="price cart_block_wrapping_cost">{if $priceDisplay == 1}{convertPrice price=$cart->getOrderTotal(false, $cart_flag)}{else}{convertPrice price=$cart->getOrderTotal(true, $cart_flag)}{/if}</span>
+
+				<span id="cart_block_wrapping_cost" class="price cart_block_wrapping_cost">
+				{if $priceDisplay == 1}
+					{convertPrice price=$cart->getOrderTotal(false, $cart_flag)}
+				{else}
+					{convertPrice price=$cart->getOrderTotal(true, $cart_flag)}
+				{/if}
+				</span>
+
+					{if $cart->getOrderTotal(false, $cart_flag) > 0}
+						SIM<br>
+					{else}
+						NÃO<br>
+					{/if}
+
 				<span>{l s='Wrapping' mod='blockcart'}</span>
 				<br/>
 			{/if}
