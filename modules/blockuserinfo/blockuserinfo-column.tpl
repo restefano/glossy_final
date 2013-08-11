@@ -54,6 +54,8 @@
 <br>
 <br>
 <br>
+
+<!--
 	<ul id="header_nav">
 		{if !$PS_CATALOG_MODE}
 		<li id="shopping_cart" style="font-size:10px;">
@@ -78,6 +80,9 @@
 
 		{/if}
 	</ul>
+-->
+
+
 
 </div>
 </ul>
