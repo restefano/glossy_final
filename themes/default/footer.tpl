@@ -45,7 +45,9 @@
 	<table cellspacing="0" cellpadding="0" border="0" style="width:960px; margin: 0 auto; background-color=#FFF;">
     	<tbody>
         <tr>
-            <td style="width: 960px; padding-left: 0px; text-align: center;"><a href="http://www.glossyme.com.br/contato"><img src="'._PS_IMG_.'rodape.png" width="850" height="165" alt="" /></a></td>
+            <td style="width: 960px; padding-left: 0px; text-align: center;"><a href="http://www.glossyme.com.br/contato">
+            		<?php echo '<img src="'._PS_IMG_.'rodape.png" style="float:left"> width="850" height="165" alt="" />' ?>
+            </a></td>
         </tr>
     	</tbody>
 	</table>

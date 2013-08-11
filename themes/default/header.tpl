@@ -81,7 +81,7 @@
 	<body {if isset($page_name)}id="{$page_name|escape:'htmlall':'UTF-8'}"{/if} class="{if $hide_left_column}hide-left-column{/if} {if $hide_right_column}hide-right-column{/if} {if $content_only} content_only {/if}">
 
 	<div id="topo" class="container_9" style="background:#FFF">
-		<img src="'._PS_IMG_.'logo_superior.gif" style="float:left">
+		<?php echo '<img src="'._PS_IMG_.'logo_superior.gif" style="float:left">' ?>
 
 		<div class="fb-like" data-href="http://www.facebook.com/glossyme.com.br" data-send="false" data-width="500" data-show-faces="true" data-font="arial" style="margin-top:15px; margin-left:20px;"></div>
 	</div>
