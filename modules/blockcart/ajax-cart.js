@@ -600,12 +600,12 @@ var ajaxCart = {
 		if (parseFloat(jsonData.shippingCostFloat) > 0 || jsonData.nbTotalProducts < 1)
 		{
 				$('.ajax_cart_shipping_cost').text(jsonData.shippingCost);
-				$('.ajax_cart_mensagem_mais_um').html("MAIS UM?");
+				$('.ajax_cart_mensagem_mais_um').html("Adicione mais um item para ganhar FRETE GRÁTIS");
 		}
 		else if (typeof(freeShippingTranslation) != 'undefined')
 		{
 				$('.ajax_cart_shipping_cost').html(freeShippingTranslation);
-				$('.ajax_cart_mensagem_mais_um').html("MENOS UM?");
+				$('.ajax_cart_mensagem_mais_um').html("");
 		}
 
 		$('.ajax_cart_tax_cost').text(jsonData.taxCost);
