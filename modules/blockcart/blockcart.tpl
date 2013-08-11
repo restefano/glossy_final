@@ -138,12 +138,32 @@ var delete_txt = '{l s='Delete' mod='blockcart' js=1}';
 			<span id="cart_block_shipping_cost" class="price ajax_cart_shipping_cost">{$shipping_cost}</span>
 			<span>{l s='Shipping' mod='blockcart'}</span>
 			<br/>
+
+
 			{if $show_wrapping}
 				{assign var='cart_flag' value='Cart::ONLY_WRAPPING'|constant}
-				<span id="cart_block_wrapping_cost" class="price cart_block_wrapping_cost">{if $priceDisplay == 1}{convertPrice price=$cart->getOrderTotal(false, $cart_flag)}{else}{convertPrice price=$cart->getOrderTotal(true, $cart_flag)}{/if}</span>
+				<span id="cart_block_wrapping_cost" class="price cart_block_wrapping_cost">
+
+				{if $priceDisplay == 1}
+					{convertPrice price=$cart->getOrderTotal(false, $cart_flag)}
+				{else}
+					{convertPrice price=$cart->getOrderTotal(true, $cart_flag)}
+				{/if}
+
+					{if $cart->getOrderTotal(false, $cart_flag) > 0}
+						SIM<br>
+					{else}
+						NÃO<br>
+					{/if}
+
+
+				</span>
 				<span>{l s='Wrapping' mod='blockcart'}</span>
 				<br/>
 			{/if}
+
+
+
 			{if $show_tax && isset($tax_cost)}
 				<span id="cart_block_tax_cost" class="price ajax_cart_tax_cost">{$tax_cost}</span>
 				<span>{l s='Tax' mod='blockcart'}</span>
