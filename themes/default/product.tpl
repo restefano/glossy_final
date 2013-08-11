@@ -188,7 +188,7 @@ var fieldRequired = '{l s='Please fill in all the required fields before saving 
 			</span>
 		{else}
 			<span id="view_full_size">
-				<img src="{$img_prod_dir}{$lang_iso}-default-large_default.jpg" id="bigpic" alt="" title="{$product->name|escape:'htmlall':'UTF-8'}" width="{$largeSize.width}" height="{$largeSize.height}" />
+				<img src="{$img_prod_dir}{$lang_iso}-default-thickbox_default.jpg" id="bigpic" alt="" title="{$product->name|escape:'htmlall':'UTF-8'}" width="{$largeSize.width}" height="{$largeSize.height}" />
 				<span class="span_link">{l s='Maximize'}</span>
 			</span>
 		{/if}
@@ -248,6 +248,21 @@ var fieldRequired = '{l s='Please fill in all the required fields before saving 
 			</div>
 			{/if}
 		</div>
+			<!-- availability -->
+			<p id="availability_statut"{if ($product->quantity <= 0 && !$product->available_later && $allow_oosp) OR ($product->quantity > 0 && !$product->available_now) OR !$product->available_for_order OR $PS_CATALOG_MODE} style="display: none;"{/if}>
+				<span id="availability_label">{l s='Availability:'}</span><br>
+				<span id="availability_value" style="margin-left:20px" {if $product->quantity <= 0} class="warning_inline"{/if}>{if $product->quantity <= 0}{if $allow_oosp}{$product->available_later}{else}{l s='This product is no longer in stock'}{/if}{else}{$product->available_now}{/if}</span>				
+			</p>
+			<p id="availability_date"{if ($product->quantity > 0) OR !$product->available_for_order OR $PS_CATALOG_MODE OR !isset($product->available_date) OR $product->available_date < $smarty.now|date_format:'%Y-%m-%d'} style="display: none;"{/if}>
+				<span id="availability_date_label">{l s='Availability date:'}</span>
+				<span id="availability_date_value">{dateFormat date=$product->available_date full=false}</span>
+			</p>
+
+			<p id="product_reference" {if isset($groups) OR !$product->reference}style="display: none;"{/if}>
+				<label for="product_reference">{l s='Reference:'} </label>
+				<span class="editable">{$product->reference|escape:'htmlall':'UTF-8'}</span>
+			</p>
+
 		{/if}
 
 		{*{if isset($colors) && $colors}
@@ -326,10 +341,6 @@ var fieldRequired = '{l s='Please fill in all the required fields before saving 
 				{/foreach}
 				</div>
 			{/if}
-			<p id="product_reference" {if isset($groups) OR !$product->reference}style="display: none;"{/if}>
-				<label for="product_reference">{l s='Reference:'} </label>
-				<span class="editable">{$product->reference|escape:'htmlall':'UTF-8'}</span>
-			</p>
 
 			<!-- quantity wanted -->
 			<p id="quantity_wanted_p"{if (!$allow_oosp && $product->quantity <= 0) OR $virtual OR !$product->available_for_order OR $PS_CATALOG_MODE} style="display: none;"{/if}>
@@ -347,15 +358,6 @@ var fieldRequired = '{l s='Please fill in all the required fields before saving 
 			</script>
 			{/if}
 
-			<!-- availability -->
-			<p id="availability_statut"{if ($product->quantity <= 0 && !$product->available_later && $allow_oosp) OR ($product->quantity > 0 && !$product->available_now) OR !$product->available_for_order OR $PS_CATALOG_MODE} style="display: none;"{/if}>
-				<span id="availability_label">{l s='Availability:'}</span>
-				<span id="availability_value"{if $product->quantity <= 0} class="warning_inline"{/if}>{if $product->quantity <= 0}{if $allow_oosp}{$product->available_later}{else}{l s='This product is no longer in stock'}{/if}{else}{$product->available_now}{/if}</span>				
-			</p>
-			<p id="availability_date"{if ($product->quantity > 0) OR !$product->available_for_order OR $PS_CATALOG_MODE OR !isset($product->available_date) OR $product->available_date < $smarty.now|date_format:'%Y-%m-%d'} style="display: none;"{/if}>
-				<span id="availability_date_label">{l s='Availability date:'}</span>
-				<span id="availability_date_value">{dateFormat date=$product->available_date full=false}</span>
-			</p>
 			<!-- number of item in stock -->
 			{if ($display_qties == 1 && !$PS_CATALOG_MODE && $product->available_for_order)}
 			<p id="pQuantityAvailable"{if $product->quantity <= 0} style="display: none;"{/if}>
@@ -382,27 +384,20 @@ var fieldRequired = '{l s='Please fill in all the required fields before saving 
 			{/if}
 
 			<div class="price">
-				<p class="our_price_display">
-				{if $priceDisplay >= 0 && $priceDisplay <= 2}
-					<span id="our_price_display">{convertPrice price=$productPrice}</span>
-					<!--{if $tax_enabled  && ((isset($display_tax_label) && $display_tax_label == 1) OR !isset($display_tax_label))}
-						{if $priceDisplay == 1}{l s='tax excl.'}{else}{l s='tax incl.'}{/if}
-					{/if}-->
-				{/if}
-				</p>
 
+
+				<!-- Promoção ! -->
 				{if $product->on_sale}
-					<img src="{$img_dir}onsale_{$lang_iso}.gif" alt="{l s='On sale'}" class="on_sale_img"/>
-					<span class="on_sale">{l s='On sale!'}</span>
+					<span class="on_sale" style="color:red; font-weight: bold;">PROMOÇÃO</span>
 				{elseif $product->specificPrice AND $product->specificPrice.reduction AND $productPriceWithoutReduction > $productPrice}
-					<span class="discount">{l s='Reduced price!'}</span>
+					<span class="discount" style="color:red; font-weight: bold;">SUPER DESCONTO</span>
+
 				{/if}
-				{if $priceDisplay == 2}
-					<br />
-					<span id="pretaxe_price"><span id="pretaxe_price_display">{convertPrice price=$product->getPrice(false, $smarty.const.NULL)}</span>&nbsp;{l s='tax excl.'}</span>
-				{/if}
-			</div>
-			<p id="reduction_percent" {if !$product->specificPrice OR $product->specificPrice.reduction_type != 'percentage'} style="display:none;"{/if}><span id="reduction_percent_display">{if $product->specificPrice AND $product->specificPrice.reduction_type == 'percentage'}-{$product->specificPrice.reduction*100}%{/if}</span></p>
+
+
+			<p id="reduction_percent" {if !$product->specificPrice OR $product->specificPrice.reduction_type != 'percentage'} style="display:none;"{/if}><span id="reduction_percent_display">{if $product->specificPrice AND $product->specificPrice.reduction_type == 'percentage'}-{$product->specificPrice.reduction*100}%{/if}</span>
+			</p>
+			
 			<p id="reduction_amount" {if !$product->specificPrice OR $product->specificPrice.reduction_type != 'amount' || $product->specificPrice.reduction|intval ==0} style="display:none"{/if}>
 				<span id="reduction_amount_display">
 				{if $product->specificPrice AND $product->specificPrice.reduction_type == 'amount' AND $product->specificPrice.reduction|intval !=0}
@@ -410,6 +405,7 @@ var fieldRequired = '{l s='Please fill in all the required fields before saving 
 				{/if}
 				</span>
 			</p>
+			
 			{if $product->specificPrice AND $product->specificPrice.reduction && $product->specificPrice.reduction > 0}
 				<p id="old_price"><span class="bold">
 				{if $priceDisplay >= 0 && $priceDisplay <= 2}
@@ -434,12 +430,41 @@ var fieldRequired = '{l s='Please fill in all the required fields before saving 
 					{/if}
 				</p>
 			{/if}
+
+
 			{if !empty($product->unity) && $product->unit_price_ratio > 0.000000}
 				 {math equation="pprice / punit_price"  pprice=$productPrice  punit_price=$product->unit_price_ratio assign=unit_price}
-				<p class="unit-price"><span id="unit_price_display">{convertPrice price=$unit_price}</span> {l s='per'} {$product->unity|escape:'htmlall':'UTF-8'}</p>
+				<p class="unit-price"><span id="unit_price_display">De {convertPrice price=$unit_price}</span> <!--{l s='per'} {$product->unity|escape:'htmlall':'UTF-8'}--> por</p>
 			{/if}
+
 			{*close if for show price*}
 			{/if}
+
+
+				<!-- Preço -->
+				<p class="our_price_display">
+				{if $priceDisplay >= 0 && $priceDisplay <= 2}
+					<span id="our_price_display">{convertPrice price=$productPrice}</span>
+					<!--{if $tax_enabled  && ((isset($display_tax_label) && $display_tax_label == 1) OR !isset($display_tax_label))}
+						{if $priceDisplay == 1}{l s='tax excl.'}{else}{l s='tax incl.'}{/if}
+					{/if}-->
+					<p style="margin-bottom:5px">cada</p>
+				{/if}
+				</p>
+
+
+
+
+				{if $priceDisplay == 2}
+					<br />
+					<span id="pretaxe_price"><span id="pretaxe_price_display">{convertPrice price=$product->getPrice(false, $smarty.const.NULL)}</span>&nbsp;{l s='tax excl.'}</span>
+				{/if}
+
+			</div>
+
+
+
+
 			{if (!$allow_oosp && $product->quantity <= 0) OR !$product->available_for_order OR (isset($restricted_country_mode) AND $restricted_country_mode) OR $PS_CATALOG_MODE}
 				<span class="exclusive">
 					<span></span>
@@ -448,7 +473,7 @@ var fieldRequired = '{l s='Please fill in all the required fields before saving 
 			{else}
 				<p id="add_to_cart" class="buttons_bottom_block">
 					<span></span>
-					<input type="submit" name="Submit" value="{l s='Add to cart'}" class="exclusive" />
+					<input type="submit" name="Submit" value="Colocar no &#10;&#13; Meu Carrinho" class="exclusive" />
 				</p>
 			{/if}
 			{if isset($HOOK_PRODUCT_ACTIONS) && $HOOK_PRODUCT_ACTIONS}{$HOOK_PRODUCT_ACTIONS}{/if}
