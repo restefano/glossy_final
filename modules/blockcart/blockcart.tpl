@@ -151,13 +151,7 @@ var delete_txt = '{l s='Delete' mod='blockcart' js=1}';
 				{/if}
 
 				</span>
-
-					{if $cart->getOrderTotal(false, $cart_flag) > 0}
-						SIM<br>
-					{else}
-						NÃO<br>
-					{/if}
-
+				
 				<span>{l s='Wrapping' mod='blockcart'}</span>
 				<br/>
 			{/if}
