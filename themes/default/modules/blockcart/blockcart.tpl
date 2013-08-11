@@ -147,13 +147,16 @@ var delete_txt = '{l s='Delete' mod='blockcart' js=1}';
 				{else}
 					{convertPrice price=$cart->getOrderTotal(true, $cart_flag)}
 				{/if}
-				</span>
 
 					{if $cart->getOrderTotal(false, $cart_flag) > 0}
 						SIM<br>
 					{else}
 						NÃO<br>
 					{/if}
+
+
+				</span>
+
 
 				<span>{l s='Wrapping' mod='blockcart'}</span>
 				<br/>
