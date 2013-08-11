@@ -70,7 +70,7 @@ var delete_txt = '{l s='Delete' mod='blockcart' js=1}';
 
 
 	<center>
-			<span id="cart_block_mensagem_mais_um" class="price ajax_cart_mensagem_mais_um" style="color:#A000A0">{$mensagem_mais_um}</span>
+			<span id="cart_block_mensagem_mais_um" class="price ajax_cart_mensagem_mais_um" style="color:#F000A0">{$mensagem_mais_um}</span>
   
 	</center>
 
