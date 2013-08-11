@@ -54,7 +54,7 @@
 							{if ($product.quantity > 0 OR $product.allow_oosp)}
 							<a class="ajax_add_to_cart_button" rel="ajax_id_product_{$product.id_product}" href="{$link->getPageLink('cart')}?qty=1&amp;id_product={$product.id_product}&amp;token={$static_token}&amp;add" title="{l s='Add to cart' mod='homefeatured'}" style="font-size:10px; font-weight:bold; color:#38c81f">Colocar no meu carrinho</a>
 							{else}
-							<span style="font-size:10px; font-weight:bold; color:#BB0000">Item Indisponível</span>
+							<span style="font-size:10px; font-weight:bold; color:#BB0000">Item Indisponível</span><br>
 							{/if}
 						{else}
 							<div style="height:23px;"></div>
