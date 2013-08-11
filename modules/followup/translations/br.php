@@ -1,0 +1,44 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+
+$_MODULE['<{followup}prestashop>followup_9c34e90380dac7b56fdd19192a99d531'] = 'Acompanhamento do cliente';
+$_MODULE['<{followup}prestashop>followup_57476355fcd04050bff196ae9aa4673c'] = 'Entre em contato diariamente com os seus clientes através de e-mails personalizados.';
+$_MODULE['<{followup}prestashop>followup_f71a41841c80c2ef0ec02a6ad5449c65'] = 'Tem certeza de que deseja apagar todas as configurações e seus registros?';
+$_MODULE['<{followup}prestashop>followup_f4f70727dc34561dfde1a3c529b6205c'] = 'Configurações';
+$_MODULE['<{followup}prestashop>followup_599fac49ffe947cd0f9e934e6af89879'] = 'Quatro tipos de alertas de email disponível a fim de ficar em contato com seus clientes!';
+$_MODULE['<{followup}prestashop>followup_8b1aa589b33a54906ae78f5820eab42c'] = 'Definir as configurações e colocar este URL no crontab ou chamá-lo manualmente diária:';
+$_MODULE['<{followup}prestashop>followup_b547c073d144a57761d1d00d0b9d9f27'] = 'Carrinhos cancelados';
+$_MODULE['<{followup}prestashop>followup_ea9dc62a0ddf4640f019f04a22ab9835'] = 'Para cada carro cancelado (sem fim), gerar um desconto e enviá-lo ao cliente.';
+$_MODULE['<{followup}prestashop>followup_2faec1f9f8cc7f8f40d521c4dd574f49'] = 'Habilitar';
+$_MODULE['<{followup}prestashop>followup_b30690be173bcd4a83df0cd68f89a385'] = 'Quantidade de desconto';
+$_MODULE['<{followup}prestashop>followup_2018945d252b94aeb99b0909f288717c'] = 'Validade do desconto';
+$_MODULE['<{followup}prestashop>followup_225e75c29d32392d311f5dc94c792384'] = 'dia(s)';
+$_MODULE['<{followup}prestashop>followup_dcc0220e44b6d9be3d709d5c2cd34917'] = 'Próximo processo enviará: %d e-mails';
+$_MODULE['<{followup}prestashop>followup_3ae92a92fa710dca82e5b6667da30b7b'] = 'Próximo processo enviará: %d e-mail';
+$_MODULE['<{followup}prestashop>followup_a8b8dbd070a92fb8b17baab71d8d633f'] = 'Re-comprar';
+$_MODULE['<{followup}prestashop>followup_895858cf10b8a1750a42875cb9c69092'] = 'Para cada pedido de validação, gerar um desconto e enviá-lo ao cliente.';
+$_MODULE['<{followup}prestashop>followup_8b83489bd116cb60e2f348e9c63cd7f6'] = 'Melhores clientes';
+$_MODULE['<{followup}prestashop>followup_a46ad892f7f00e051cc90050ff2e1ddf'] = 'Para cada cliente, aumentando o limiar, geram um desconto e enviá-lo ao cliente.';
+$_MODULE['<{followup}prestashop>followup_2a63f555989152ba866b43a1faacd680'] = 'Começo';
+$_MODULE['<{followup}prestashop>followup_7d75b7b0f976b3091f490864c6ffbf97'] = 'Clientes ruins';
+$_MODULE['<{followup}prestashop>followup_e552313de5ebebdafa8bfa0dcc703e19'] = 'Para cada cliente que já passou pelo menos uma ordem e sem encomendas desde um determinado período, gerar um desconto e enviá-lo ao cliente.';
+$_MODULE['<{followup}prestashop>followup_d82843c16839bfb05827d1912d89c917'] = 'Desde x dias';
+$_MODULE['<{followup}prestashop>followup_3fb7b0bbf0c95bba3ed2ba0b147ca588'] = 'Excluir descontos desatualizados em cada lançamento de limpar banco de dados.';
+$_MODULE['<{followup}prestashop>followup_c9cc8cce247e49bae79f15173ce97354'] = 'Salvar';
+$_MODULE['<{followup}prestashop>followup_c33e404a441c6ba9648f88af3c68a1ca'] = 'Estatísticas';
+$_MODULE['<{followup}prestashop>followup_1deaabda093f617a57f732c07e635fac'] = 'Estatísticas dos últimos 30 dias:';
+$_MODULE['<{followup}prestashop>followup_f23b0eec6c25c49afa4b29c57e671728'] = 'E = Número de emails enviados';
+$_MODULE['<{followup}prestashop>followup_fde0b9a66bffdd6ee0886613e8031d9a'] = 'D = Número de descontos usados (válido paenas para compras)';
+$_MODULE['<{followup}prestashop>followup_cceb59e78d00c10436ff5e777dd5d895'] = '% = Taxa de conversão';
+$_MODULE['<{followup}prestashop>followup_44749712dbec183e983dcd78a7736c41'] = 'Data';
+$_MODULE['<{followup}prestashop>followup_5e53dfa887dfb989f0bc3e9fb9b34a2d'] = 'Melhor Cust.';
+$_MODULE['<{followup}prestashop>followup_66ff4e89c767ab0a4e5ddc0251a101bc'] = 'Pior Cust.';
+$_MODULE['<{followup}prestashop>followup_5dbc98dcc983a70728bd082d1a47546e'] = 'E';
+$_MODULE['<{followup}prestashop>followup_4c614360da93c0a041b22e537de151eb'] = 'D';
+$_MODULE['<{followup}prestashop>followup_85b6769250887ba6c16099596c75164d'] = 'Não há estatísticas no momento.';
+$_MODULE['<{followup}prestashop>followup_edf9feeab43a7623f6afc152d1ede515'] = 'Desconto de seu carrinho de compras foi cancelado';
+$_MODULE['<{followup}prestashop>followup_a053fc9952a7dfc79282eba56ab8ad3a'] = 'Obrigado pelo pedido.';
+$_MODULE['<{followup}prestashop>followup_7fcd592dd47028c7c1f2d0ce9168a303'] = 'Você é um dos nossos melhores clientes!';
+$_MODULE['<{followup}prestashop>followup_c2ab23672d4bb31c7664bf8e854a10f7'] = 'Estamos com saudades!';

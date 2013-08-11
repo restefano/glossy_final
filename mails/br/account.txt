@@ -1,0 +1,21 @@
+Olá {firstname} {lastname},
+
+Muito obrigado por ter criado uma conta conosco da {shop_name}.
+
+Logo abaixo segue os detalhes do login:
+
+Endereço de E-mail: {email}
+Senha: {passwd}
+ 
+Você já pode fazer suas compras na {shop_url}
+
+Dicas importantes de segurança:
+
+1. Mantenha protegido os dados da sua conta.
+2. Nunca revele a ninguém os dados do seu login.
+3. Troque regularmente a senha de sua conta.
+4. Em caso de suspeita de que alguem esteja utilizando a sua conta indevidamente, por favor contate-nos imediatamente.
+
+
+Muito obrigado,
+{shop_url} 

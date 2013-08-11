@@ -1,0 +1,14 @@
+Olá {firstname} {lastname},
+
+Obrigado pelo seu pedido. {order_name} from {shop_name}.
+
+Infelizmente, um ou mais itens estão atualmente fora de estoque.
+Isso pode causar um ligeiro atraso na sua entrega.
+Por favor, aceitem nossas desculpas e tenha a certeza de que estamos trabalhando  para corrigir esta situação.
+
+Entrando em minha conta você poderá rever o seu pedido.
+
+Se você tem conta de convidado, você pode acompanhar seu pedido através deste link: {shop_url}?controller=guest-tracking
+
+{shop_name} - {shop_url}
+

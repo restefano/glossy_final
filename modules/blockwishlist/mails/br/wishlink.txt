@@ -1,0 +1,7 @@
+Olá,
+
+{shop_name} convida você a enviar este link para seus amigos, para que eles vejam sua lista de desejos {wishlist} :
+
+{message}
+
+{shop_url} realised by PrestaShop™

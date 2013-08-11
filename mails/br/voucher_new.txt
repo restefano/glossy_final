@@ -1,0 +1,14 @@
+Olá {firstname} {lastname},
+
+Esta mensagem é ta lhe informar sobre um novo voucher.
+
+Aqui está o código do voucher: {voucher_num}.
+
+Na próxima compra basta colocar seu código de descontos.
+
+
+Obrigado pela compra
+{shop_name} - {shop_url}
+
+
+{shop_url}

@@ -1,0 +1,10 @@
+Olá {firstname} {lastname},
+
+Estamos processando seu {shop_name} pedido {order_name}.
+
+Entrando em minha conta, você poderá rever seu pedido.
+
+Se você tem conta de convidado, você pode acompanhar seu pedido através deste link: {shop_url}?controller=guest-tracking
+
+{shop_name} - {shop_url}
+

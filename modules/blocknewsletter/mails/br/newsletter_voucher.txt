@@ -1,0 +1,9 @@
+Hi
+
+Por você estar inscrito em nossa newsletter, temos o prazer de lhe oferecer o seguinte cupom de desconto: {discount}
+
+{shop_name} - {shop_url}
+
+
+
+{shop_url} Criado com PrestaShop™

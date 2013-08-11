@@ -1,0 +1,8 @@
+Olá {firstname} {lastname},
+
+Você recebeu uma nova mensagem de {shop_name} referente ao seu pedido {order_name}.
+
+Menssagem:
+{message}
+
+{shop_url} powered by PrestaShop&trade;

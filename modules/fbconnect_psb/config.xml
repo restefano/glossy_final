@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+        <module>
+            <name>fbconnect_psb</name>
+            <displayName><![CDATA[Facebook Connect (OpenID)]]></displayName>
+            <version><![CDATA[1.0b]]></version>
+            <description><![CDATA[This modules allows Customers to Register &amp; Login with Facebook.]]></description>
+            <author><![CDATA[Ha!*!*y]]></author>
+            <tab><![CDATA[social_networks]]></tab>
+            <is_configurable>1</is_configurable>
+            <need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+        </module>

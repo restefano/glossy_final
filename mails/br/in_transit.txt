@@ -1,0 +1,14 @@
+Olá {firstname} {lastname},
+
+Muito obrigado pela sua compra na {shop_name}!
+
+Seu pedido, {order_name} se encontra atualmente em trânsito.
+
+Você pode acompanhar o envio do produto usando o link: {followup}
+
+Se caso quiser visualizar o pedido entre em "Histórico de produtos" dentro da sua conta na loja virtual.
+
+Se caso a sua conta for convidado, pode visualizar o seu pedido usando o link: {shop_url}?controller=guest-tracking
+
+{shop_name} - {shop_url}
+

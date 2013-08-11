@@ -1,0 +1,14 @@
+Olá {firstname} {lastname},
+
+Obrigado pela sua compra {shop_name}!
+
+Seu pedido, {order_name} acaba de ser enviado.
+
+Você receberá um link para acompanhar o andamento do seu produto.
+
+Clicando em minha conta em nossa loja, você poderá rever o seu pedido.
+
+Você tem uma conta de convidado em nosso site, você pode acompanhar o seu pedido através deste link {shop_url}?controle  do convidado rastreamento.
+
+{shop_name} - {shop_url}
+

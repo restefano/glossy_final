@@ -1,0 +1,11 @@
+Caro lojista,
+
+Você recebeu uma mensagem de um consumidor, originado da loja {shop_name}
+
+E-mail do cliente: {email}
+
+Mensagem do cliente:
+
+{message}
+
+{shop_url} powered by PrestaShop™

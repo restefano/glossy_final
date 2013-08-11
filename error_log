@@ -1,0 +1,14 @@
+[10-Aug-2013 23:37:32] PHP Fatal error:  Uncaught exception 'Exception' with message 'PagSeguroLibrary XML parsing error: (4) not well-formed (invalid token)' in /home/gloss354/public_html/glossyme/modules/pagseguro/PagSeguroLibrary/utils/PagSeguroXmlParser.class.php:27
+Stack trace:
+#0 /home/gloss354/public_html/glossyme/modules/pagseguro/PagSeguroLibrary/parser/PagSeguroTransactionParser.class.php(65): PagSeguroXmlParser->__construct('<?xml version="...')
+#1 /home/gloss354/public_html/glossyme/modules/pagseguro/PagSeguroLibrary/service/PagSeguroNotificationService.class.php(62): PagSeguroTransactionParser::readTransaction('<?xml version="...')
+#2 /home/gloss354/public_html/glossyme/modules/pagseguro/controllers/front/notification.php(109): PagSeguroNotificationService::checkTransaction(Object(PagSeguroAccountCredentials), 'FF7E4D-3FADC0AD...')
+#3 /home/gloss354/public_html/glossyme/modules/pagseguro/controllers/front/notification.php(54): PagSeguroNotificationModuleFrontController->_createTransaction()
+#4 /home/gloss354/public_html/glossyme/classes in /home/gloss354/public_html/glossyme/modules/pagseguro/PagSeguroLibrary/utils/PagSeguroXmlParser.class.php on line 27
+[11-Aug-2013 00:28:00] PHP Fatal error:  Uncaught exception 'Exception' with message 'PagSeguroLibrary XML parsing error: (4) not well-formed (invalid token)' in /home/gloss354/public_html/glossyme/modules/pagseguro/PagSeguroLibrary/utils/PagSeguroXmlParser.class.php:27
+Stack trace:
+#0 /home/gloss354/public_html/glossyme/modules/pagseguro/PagSeguroLibrary/parser/PagSeguroTransactionParser.class.php(65): PagSeguroXmlParser->__construct('<?xml version="...')
+#1 /home/gloss354/public_html/glossyme/modules/pagseguro/PagSeguroLibrary/service/PagSeguroNotificationService.class.php(62): PagSeguroTransactionParser::readTransaction('<?xml version="...')
+#2 /home/gloss354/public_html/glossyme/modules/pagseguro/controllers/front/notification.php(109): PagSeguroNotificationService::checkTransaction(Object(PagSeguroAccountCredentials), 'FF7E4D-3FADC0AD...')
+#3 /home/gloss354/public_html/glossyme/modules/pagseguro/controllers/front/notification.php(54): PagSeguroNotificationModuleFrontController->_createTransaction()
+#4 /home/gloss354/public_html/glossyme/classes in /home/gloss354/public_html/glossyme/modules/pagseguro/PagSeguroLibrary/utils/PagSeguroXmlParser.class.php on line 27

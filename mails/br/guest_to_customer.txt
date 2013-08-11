@@ -1,0 +1,13 @@
+	Ola {firstname} {lastname},
+
+Parabéns, sua conta convidado na {shop_name}, foi promovida para conta cliente.
+
+	Endereço de e-mail: {email}
+	Senha: {passwd}
+
+	Você já pode acessar sua conta através do nosso site: {shop_url}
+
+	Dica: Proteja e não revele a ninguem os dados de sua conta.
+
+Muito obrigado
+{shop_url}

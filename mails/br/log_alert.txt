@@ -1,0 +1,7 @@
+Olá,
+		
+Atenção: Você recebeu um novo "log" de alerta no seu Back Office.
+	
+Você pode verificar em "Ferramentas"> "Logs" do seu Back Office.
+
+{shop_name} - {shop_url}

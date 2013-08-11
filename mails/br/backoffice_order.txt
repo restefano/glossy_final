@@ -1,0 +1,11 @@
+Olá {firstname} {lastname},
+
+Você gerou um novo pedido.
+
+Por favor entre {order_link} para finalizar o pagamento.
+
+{shop_name} - {shop_url}
+
+
+Muito obrigado
+{shop_url}

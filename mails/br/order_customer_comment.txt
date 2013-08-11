@@ -1,0 +1,10 @@
+Olá,
+
+Você recebeu uma nova mensagem de um cliente em relação ao fim do seu pedido {order_name}.
+
+Cliente: {firstname} {lastname} ({email})
+
+Menssagem:
+{message}
+
+{shop_url} powered by PrestaShop&trade;

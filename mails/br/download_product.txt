@@ -1,0 +1,14 @@
+Olá {firstname} {lastname},
+
+Muito obrigado por sua compra na {shop_name}!
+
+Você tem {nbProducts} produto(s) disponivel(is) para fazer o download. Utilize do link abaixo:
+
+{virtualProducts}
+
+Se quiser rever ou visualizar o seu pedido acesse o link  "Histórico de pedidos" na sua conta dentro da loja.
+
+Se sua conta for do tipo convidado, pode acompanhar através do link: {shop_url}?controller=guest-tracking
+
+
+{shop_url}

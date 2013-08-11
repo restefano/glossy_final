@@ -1,0 +1,13 @@
+Olá {firstname} {lastname},
+
+Um voucher foi criado em seu nome, conforme seu pedido. {order_name}.
+
+Código do voucher: {voucher_num}, no valor de {voucher_amount}.
+
+No próximo pedido basta informar o código do pagamento.
+
+Obrigado pela compra
+
+{shop_name} - {shop_url}
+
+{shop_url} 

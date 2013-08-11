@@ -1,0 +1,30 @@
+Olá {firstname} {lastname},
+
+Muito obrigado pelo seu pedido na {shop_name}!
+
+	Pedido: {order_name} realizado {date}
+	Pagamento: {payment}
+
+	Produtos      : {total_products}
+	Descontos     : {total_discounts}
+	Envio         : {total_shipping}
+	Embrulho      : {total_wrapping}
+	Total da conta: {total_paid}
+
+	Transporte: {carrier}
+
+	Endereço de entrega:
+
+	{delivery_block_txt}
+
+	Endereço de cobrança:
+
+	{invoice_block_txt}
+
+Se quiser rever ou fazer o download do seu pedido entre "Histórico de pedidos" dentro da sua conta na loja virtual.
+
+Caso sua conta seja convidado, você pode acompanhar pelo link: {shop_url}?controller=guest-tracking
+
+
+Atenciosamente,
+{shop_url}

@@ -1,0 +1,12 @@
+Olá {firstname} {lastname},
+
+Houve um problema com seu pagamento {shop_name} {order_name}. Por favor entre em contato conosco o mais breve possivel
+
+Enviaremos seu pedido após a confirmação do pagamento.
+
+Entrando em minha conta você poderá rever o seu pedido.
+
+Se você tem conta de convidado, você pode acompanhar seu pedido através deste link: {shop_url}?controller=guest-tracking
+
+{shop_name} - {shop_url}
+

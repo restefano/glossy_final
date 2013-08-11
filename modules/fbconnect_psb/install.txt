@@ -1,0 +1,11 @@
+Edit authentication.tpl tp place the links to login and registration links.
+You can put the links anywhere.
+
+
+<a title="Login with your Facebook Account" class="button_large" href="{$link->getModuleLink('fbconnect_psb', 'login', array(), true)}">Facebook Login</a>
+
+<a title="Registrar with your Facebook Account" class="button" href="{$link->getModuleLink('fbconnect_psb', 'registration', array(), true)}">Facebook Registrar</a>
+
+TODO: 
+-some code clean up
+-edit code to allow translation

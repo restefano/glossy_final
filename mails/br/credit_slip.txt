@@ -1,0 +1,12 @@
+Olá {firstname} {lastname},
+
+Muito obrigado pela sua compra na {shop_name}!
+
+Nós geramos um crédito em sua conta, por sua compra {order_name}.
+
+Para utilizar seus créditos ou visualizar a sua fatura entre "Pesquisar Pedidos" dentro da sua conta na loja.
+
+Atenciosamente
+{shop_name} - {shop_url}
+
+{shop_url} powered by PrestaShop™

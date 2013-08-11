@@ -1,0 +1,17 @@
+Olá,
+
+Sua mensagem foi enviado com sucesso para central de atendimento {shop_name}.
+
+Sua Mensagem:
+
+{message}
+
+Nome do Pedido : {order_name}
+
+Arquivo em anexo : {attached_file}
+
+Nós responderemos o mais rápido possivel.
+
+Cumprimentos,
+
+{shop_url}

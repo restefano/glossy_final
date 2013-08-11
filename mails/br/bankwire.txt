@@ -1,0 +1,29 @@
+Olá {firstname} {lastname},
+
+Muito obrigado pela compra na {shop_name}!
+
+O seu pedido, {order_name} foi aceito com sucesso e sera encaminhando para o envio após o processamento do pagamento.
+
+Você selecionou o modo de pagamento por transferência bancária.
+
+Segue abaixo os detalhes da conta e banco:
+
+Valor: {total_paid}
+
+Titular da conta: {bankwire_owner}
+
+Detalhes da conta:
+{bankwire_details}
+
+Endereço do Banco: {bankwire_address}
+
+Se quiser rever o seu pedido ou visualizar a sua fatura vá em "Histórico de pedidos" link localizado dentro da sua conta na loja.
+
+Se sua conta for tipo convidado, para acompanhar o seu pedido ultilize o link: {shop_url}?controller=guest-tracking
+
+
+Muito obrigado,
+
+{shop_name} - {shop_url}
+
+{shop_url} 

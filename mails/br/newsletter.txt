@@ -1,0 +1,7 @@
+Newsletter da {shop_name}
+
+{message}
+
+
+Muito obrigado,
+{shop_url}

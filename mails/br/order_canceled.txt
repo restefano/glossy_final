@@ -1,0 +1,11 @@
+Olá {firstname} {lastname},
+
+Seu pedido, {order_name} na {shop_name} foi cancelado.
+
+Se quiser rever ou visualizar o seu pedido entre "Histórico de pedidos" dentro da sua conta na loja virtual.
+
+Se caso a sua conta for como convidado, poderá visualizar o pedido pelo link: {shop_url}?controller=guest-tracking
+
+Atenciosamente,
+{shop_name} - {shop_url}
+

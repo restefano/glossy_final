@@ -1,0 +1,25 @@
+Olá {firstname} {lastname},
+
+Muito obrigado por ter comprado na {shop_name}!
+
+Seu pedido, {order_name}, foi aceito com sucesso e sera enviado após recebermos o pagamento.
+
+Sua escolha de pagametno foi por cheque. Por favor incluía no seu cheque:
+
+Valor: {total_paid}
+
+Pagamento do pedido: {cheque_name}
+
+Envie o seu email para:
+
+{cheque_address}
+
+Se quiser rever ou visualizar o seu pedido por favor entre "Histórico de pedidos" dentro da sua conta.
+
+Se a sua conta for convidado, por favor acompanhe o seu pedido pelo link: {shop_url}?controller=guest-tracking
+
+Muito obrigado,
+
+{shop_name} - {shop_url}
+
+{shop_url} powered by PrestaShop™

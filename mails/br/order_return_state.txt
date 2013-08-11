@@ -1,0 +1,8 @@
+Olá {firstname} {lastname},
+
+Atualizamos o processo do seu pedido {id_order_return}, seu novo processo é: "{state_order_return}"
+
+Entrando em minha conta você poderá rever o seu pedido.
+
+{shop_name} - {shop_url}
+
