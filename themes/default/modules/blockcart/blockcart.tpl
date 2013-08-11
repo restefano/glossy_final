@@ -68,11 +68,12 @@ var delete_txt = '{l s='Delete' mod='blockcart' js=1}';
 		<span class="ajax_cart_no_product" {if $cart_qties != 0}style="display:none"{/if}>{l s='(empty)' mod='blockcart'}</span>
 	</div>
 
-		<p><center>
-			<span id="cart_block_mensagem_mais_um" class="price ajax_cart_mensagem_mais_um" style="color:#A000A0">{$mensagem_mais_um}</span>
-		</p></center>
 
-	
+	<center>
+			<span id="cart_block_mensagem_mais_um" class="price ajax_cart_mensagem_mais_um" style="color:#A000A0">{$mensagem_mais_um}</span>
+  
+	</center>
+
 	<!-- block list of products -->
 	<div id="cart_block_list" class="{if isset($colapseExpandStatus) && $colapseExpandStatus eq 'expanded' || !$ajax_allowed || !isset($colapseExpandStatus)}expanded{else}collapsed{/if}">
 	{if $products}
