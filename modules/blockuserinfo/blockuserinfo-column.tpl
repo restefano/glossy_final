@@ -57,7 +57,7 @@
 	<ul id="header_nav">
 		{if !$PS_CATALOG_MODE}
 		<li id="shopping_cart" style="font-size:10px;">
-			<a href="{$link->getPageLink($order_process, true)}" title="{l s='Ver meu carrinho'}" rel="nofollow">{l s='Total:'}
+			<a href="{$link->getPageLink("$order_process", true)}" title="{l s='Ver meu carrinho'}" rel="nofollow">{l s='Total:'}
 			<span class="ajax_cart_quantity{if $cart_qties == 0} hidden{/if}">{$cart_qties}</span>
 			<span class="ajax_cart_product_txt{if $cart_qties != 1} hidden{/if}">{l s='produto' mod='blockuserinfo'}</span>
 			<span class="ajax_cart_product_txt_s{if $cart_qties < 2} hidden{/if}">{l s='produtos' mod='blockuserinfo'}</span>
