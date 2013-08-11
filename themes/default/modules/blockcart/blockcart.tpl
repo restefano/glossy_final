@@ -136,7 +136,6 @@ var delete_txt = '{l s='Delete' mod='blockcart' js=1}';
 		</table>		
 		<p id="cart-prices">
 			<span id="cart_block_shipping_cost" class="price ajax_cart_shipping_cost">{$shipping_cost}</span>
-			<span> {$shipping_cost}</span>
 			<span>{l s='Shipping' mod='blockcart'}</span>
 			<br/>
 			{if $show_wrapping}
@@ -148,11 +147,7 @@ var delete_txt = '{l s='Delete' mod='blockcart' js=1}';
 				{else}
 					{convertPrice price=$cart->getOrderTotal(true, $cart_flag)}
 				{/if}
-
-
-
 				</span>
-
 
 				<span>{l s='Wrapping' mod='blockcart'}</span>
 				<br/>
@@ -183,6 +178,7 @@ var delete_txt = '{l s='Delete' mod='blockcart' js=1}';
 		</p>
 
 
+			<span id="cart_block_mensagem_mais_um" class="price ajax_cart_mensagem_mais_um">TESTE_{$mensagem_mais_um}_TESTE</span>
 
 
 	</div>
