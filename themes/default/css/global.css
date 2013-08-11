@@ -962,12 +962,11 @@ table#cart_summary .gift-icon {
 #create-account_form h3,
 #authentication #login_form h3 {
 	padding:8px;
-	border-bottom:1px solid #ccc;
-	font-weight:bold;
+	/*font-weight:bold;*/
 	font-size:12px;
 	color:#fff;
 	text-transform:uppercase;
-	background:url(../img/bg_form_h3.png) repeat-x 0 0 #989898
+	background:#C000A0
 }
 #create-account_form .title_block  {
 	padding-bottom:22px;
@@ -1326,7 +1325,7 @@ a.iframe {font-weight:bold}
 	font-size:12px;
 	color:#fff;
 	text-transform:uppercase;
-	background:url(../img/bg_form_h3.png) repeat-x 0 0 #989898
+	background:#C000A0
 }
 #center_column #new_account_form p {
 	margin:0;
