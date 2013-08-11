@@ -136,6 +136,7 @@ var delete_txt = '{l s='Delete' mod='blockcart' js=1}';
 		</table>		
 		<p id="cart-prices">
 			<span id="cart_block_shipping_cost" class="price ajax_cart_shipping_cost">{$shipping_cost}</span>
+			<span> {$shipping_cost}</span>
 			<span>{l s='Shipping' mod='blockcart'}</span>
 			<br/>
 			{if $show_wrapping}
@@ -147,6 +148,9 @@ var delete_txt = '{l s='Delete' mod='blockcart' js=1}';
 				{else}
 					{convertPrice price=$cart->getOrderTotal(true, $cart_flag)}
 				{/if}
+
+
+
 				</span>
 
 
@@ -178,11 +182,6 @@ var delete_txt = '{l s='Delete' mod='blockcart' js=1}';
 			<a href="{$link->getPageLink("$order_process", true)}" id="button_order_cart" class="exclusive{if $order_process == 'order-opc'}_large{/if}" title="{l s='Check out' mod='blockcart'}" rel="nofollow"><span></span>{l s='Check out' mod='blockcart'}</a>
 		</p>
 
-		{if $cart_qties = 1}		
-		<p style="color:red;">
-			Adicione mais um produto e você ganha FRETE GRÁTIS !
-		</p>
-		{/if}
 
 
 
