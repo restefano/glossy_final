@@ -36,5 +36,5 @@ form#searchbox input#search_query_block{
     height: 18px;
 	margin-top:10px;
 }
-form#searchbox input#search_button{padding: 1px 4px;}
+form#searchbox input#search_button{}
 
