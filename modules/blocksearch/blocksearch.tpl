@@ -23,7 +23,7 @@
 *  International Registered Trademark & Property of PrestaShop SA
 *}
 
-<!-- Block search module -->
+<!-- Block search module RAIZ -->
 <div id="search_block_left" class="block exclusive">
 	<h4 class="title_block">{l s='Search' mod='blocksearch'}</h4>
 	<form method="get" action="{$link->getPageLink('search', true)}" id="searchbox">

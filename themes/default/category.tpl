@@ -69,7 +69,7 @@
 		</div>
 		{/if}
 		{if isset($subcategories)}
-		<!-- Subcategories -->
+		<!-- Subcategories
 		<div id="subcategories">
 			<h3>{l s='Subcategories'}</h3>
 			<ul class="inline_list">
@@ -91,6 +91,7 @@
 			</ul>
 			<br class="clear"/>
 		</div>
+		-->
 		{/if}
 
 		{if $products}

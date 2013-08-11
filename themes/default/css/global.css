@@ -38,8 +38,9 @@ a {cursor:pointer}
 /* ************************************************************************************************
 		struture
 ************************************************************************************************ */
-#page {}
-	#header {z-index:10}
+#page {
+background: #FFFFFF;
+}	#header {z-index:10}
 	#columns {z-index:1}
 		#left_column {}
 		#center_column {}
@@ -51,9 +52,18 @@ a {cursor:pointer}
 		generic style
 ************************************************************************************************ */
 body{
-	font:normal 11px/14px Arial, Verdana, sans-serif;
+    font-family: 'Muli', sans-serif;
+    font-size: 14px;
 	color:#222;
-	background:#fff
+	background:#FFF;
+background: #ffc0ff; /* Old browsers */
+background: -moz-linear-gradient(left,  #ffc0ff 0%, #fcecfc 15%, #fcfcfc 85%, #ffc0ff 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,#ffc0ff), color-stop(15%,#fcecfc), color-stop(85%,#fcfcfc), color-stop(100%,#ffc0ff)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  #ffc0ff 0%,#fcecfc 15%,#fcfcfc 85%,#ffc0ff 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  #ffc0ff 0%,#fcecfc 15%,#fcfcfc 85%,#ffc0ff 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  #ffc0ff 0%,#fcecfc 15%,#fcfcfc 85%,#ffc0ff 100%); /* IE10+ */
+background: linear-gradient(to right,  #ffc0ff 0%,#fcecfc 15%,#fcfcfc 85%,#ffc0ff 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffc0ff', endColorstr='#ffc0ff',GradientType=1 ); /* IE6-9 */
 }
 body.content_only {
 	background: #FFF;
@@ -82,7 +92,7 @@ h3 {
 }
 .title_block {
 	padding-bottom:20px;
-	font-size:14px
+	font-size:16px
 }
 
 .hide-left-column #left_column {display:none}
@@ -96,9 +106,9 @@ p em {font-style:italic}
 .warning {
 	margin:0 0 10px 0;
 	padding:10px;
-	border:1px solid #e6db55;
+	border:1px solid #FF00A0;
 	font-size:13px;
-	background:#ffffe0
+	background:#F8E0EC
 }
 .success {
 	margin:0 0 10px 0;
@@ -152,15 +162,14 @@ span.button_mini, span.button_small, span.button, span.button_large,
 span.exclusive_mini, span.exclusive_small, span.exclusive, span.exclusive_large, span.exclusive_large_disabled {
 	position:relative;
 	display:inline-block;
-	padding:5px 7px;
-	border:1px solid #cc9900;
+	padding:7px 7px 7px 7px;
 	-moz-border-radius: 3px !important;
 	-webkit-border-radius: 3px !important;
-	border-radius: 3px !important;
-	font-weight:bold;
-	color:#000;
-	background:url(../img/bg_bt.gif) repeat-x 0 0 #f4b61b;
+	border-radius: 8px !important;
+	color:#FFF;
+	background:#39c81f;
 	cursor: pointer;
+	border: none;
 }
 *:first-child+html input.button_mini, *:first-child+html input.button_small, *:first-child+html input.button, *:first-child+html input.button_large,
 *:first-child+html input.button_mini_disabled, *:first-child+html input.button_small_disabled, *:first-child+html input.button_disabled, *:first-child+html input.button_large_disabled,
@@ -235,7 +244,7 @@ input.button_small, input.button_small_disabled, input.exclusive_small, input.ex
 input.button_disabled, input.exclusive_disabled, span.exclusive {
 	border:1px solid #ccc;
 	color:#999;
-	background:url(../img/bg_bt_2.gif) repeat-x 0 0 #CCCCCC;
+	background:#CCCCCC;
 	cursor:default;
 }
 input.button_large, input.button_large_disabled, input.exclusive_large, input.exclusive_large_disabled, a.button_large, a.exclusive_large, span.button_large, span.exclusive_large, span.exclusive_large_disabled {
@@ -291,13 +300,12 @@ table.table_block  td {
 #footer .block {margin-bottom:0}
 	.block .title_block, .block h4 {
 		padding:6px 11px;
-		font-size:12px;
+		font-size:14px;
 		color:#fff;
-		text-shadow:0 1px 0 #000;
-		text-transform:uppercase;
-		background:#383838;
+		background:#C000A0;
 		text-align:left;
-		font-weight: bold;
+		height:17px;
+		font-family:'Muli',sans-serif;
 	}
 		.block .title_block a, .block h4 a {color:#fff}
 	.block ul {list-style-type:none}
@@ -311,7 +319,7 @@ table.table_block  td {
 .products_block {}
 	.products_block li {float:left
 }
-	.products_block li img {border:1px solid #d1d1d1}
+	.products_block li img {}
 
 /* BLOCK customer privacy ******************************************************************* */
 .account_creation label{
@@ -341,7 +349,7 @@ ul.footer_links li .icon {
 	padding:10px;
 	font:normal 11px Arial, Verdana, sans-serif;
 	color:#666;
-	background:#eee;
+	background:#F8E0EC;
 }
 	#center_column .sortPagiBar strong {color:#000;}
 #center_column .sortPagiBar p {padding:0;}
@@ -361,7 +369,7 @@ ul.footer_links li .icon {
 	border:none;
 	color:#fff;
 	text-shadow:0 1px 0 #000;
-	background:url(../img/bg_bt_compare.gif) repeat-x 0 0 #111;
+	background:#111;
 }
 
 .sortPagiBar .nbrItemPage {margin-left:40px;}
@@ -388,12 +396,12 @@ ul.pagination a, ul.pagination span {
 	display:inline-block;
 	height:24px;
 	width:24px;
-	border:1px solid #eee;
+	border:1px solid #F9C2DE;
 	-moz-border-radius:2px;
 	-webkit-border-radius:2px;
 	border-radius:2px;
 	font:11px/24px Arial,Verdana,sans-serif;
-	color:#999
+	color:#666
 }
 ul.pagination a {
 	text-align:center;
@@ -444,8 +452,8 @@ ul.step li {
 ul.step li a, ul.step li.step_current span, ul.step li.step_current_end span {
 	display:inline-block;
 	padding:8px 10px 12px;
-	color:#000;
-	background:url(../img/step_current_span.gif) no-repeat center bottom transparent
+	color:#FFF;
+	background:#FF00A0;
 }
 ul.step li.step_current {
 	font-weight:bold;
@@ -461,7 +469,7 @@ ul.step li.step_todo span {
 	padding:8px 10px 6px;
 	color:#999;
 	text-shadow:0 1px 0 #fff;
-	background:#eee
+	background:#F8E0EC
 }
 ul.step li.step_done {
 	font-weight:bold;
@@ -512,9 +520,9 @@ div.star_hover a, div.star a:hover { background-position: 0 -32px }
 .confirmation {
 	margin: 0 0 10px;
 	padding: 10px;
-	border: 1px solid #e6db55;
+	border: 1px solid #F000A0;
 	font-size: 13px;
-	background: none repeat scroll 0 0 #ffffe0;
+	background: none repeat scroll 0 0 #F8E0EC;
 }
 #page .rte { background: transparent none repeat scroll 0 0 }
 
@@ -546,14 +554,15 @@ div.star_hover a, div.star a:hover { background-position: 0 -32px }
 ************************************************************************************************ */
 #header {position:relative}
 #header_logo {
-	position: absolute;
-	top: 30px;
-	z-index: 1;
+float:left;
+display:block;
+margin-top:30px;
 }
 
 #header_right {
 	position:relative;
-	float: right
+	float: right;
+	height:54px;
 }
 
 
@@ -620,7 +629,8 @@ div.star_hover a, div.star a:hover { background-position: 0 -32px }
 .idTabs {
 	list-style-type: none;
 	margin-top: 20px;
-	border-bottom: 8px solid #f7b900
+	padding: 0 0px;
+	border-bottom: 8px solid #C000A0
 }
 ul.idTabs li {
 	float: left;
@@ -635,8 +645,11 @@ ul.idTabs li {
 	background:#000
 }
 .idTabs .selected {
-	color:#000;
-	background: url(../img/bg_li_idTabs.png) repeat-x 0 0
+	font-family:'Muli', sans-serif;
+	font-weight:normal;
+	font-size:14px;
+	color:#FFFFFF;
+	background: #C000A0;
 }
 
 #more_info_sheets {padding-top:10px}
@@ -698,7 +711,7 @@ ul.idTabs li {
 .cart_navigation .button,
 .cart_navigation .button_large {
 	border-color:#ccc;
-	background-image:url(../img/bg_bt_2.gif)
+	/*background-image:url(../img/bg_bt_2.gif)*/
 }
 
 
@@ -715,7 +728,7 @@ table#cart_summary th {
 	 font-weight:bold;
 	text-transform:uppercase;
 	 text-shadow:0 1px 0 #666;
-	background:url(../img/bg_table_th.png) repeat-x 0 -15px #999
+	background:#A000A0;
 }
 table#cart_summary  th.cart_product {text-align:center}
 table#cart_summary  td {
@@ -881,7 +894,7 @@ table#cart_summary .cart_total_price .total_price_container {
 	font-weight:bold;
 	color:#fff;
 	text-transform:uppercase;
-	background:#333
+	background:#A000A0;
 }
 .cart_total_price .total_price_container span {
 	display:block;
@@ -905,7 +918,7 @@ table#cart_summary .cart_total_price .total_price_container {
 	color:#fff;
 	font-weight:bold;
 	text-transform:uppercase;
-	background:url(../img/bg_table_th.png) repeat-x 0 -10px #999
+	background:#A000A0;
 }
 #order_carrier span {
 	display:block;
@@ -1088,7 +1101,7 @@ margin: 10px 0 0 0;*/
 	color: #fff;
 	text-shadow: 0 1px 0 #000;
 	text-transform: uppercase;
-	background: none repeat scroll 0 0 #383838;
+	background: none repeat scroll 0 0 #A000A0;
 }
 #order .delivery_option_radio, #order-opc .delivery_option_radio {
 	float: left;
@@ -1168,7 +1181,7 @@ margin: 10px 0 0 0;*/
 	line-height:29px;
 	color:#fff;
 	text-transform:uppercase;
-	background:url(../img/bg_table_th.png) repeat-x 0 -10px #999
+	background:#A000A0;
 }
 #carrierTable  td {
 	padding:15px;
@@ -1247,12 +1260,12 @@ a.iframe {font-weight:bold}
 	display:inline-block;
 	padding:5px 7px;
 	color:#fff;
-	background:#333;
+	background:#A000A0;
 }
 
 #order-opc #login_form fieldset {
-	background: none repeat scroll 0 0 #FFFFE0;
-	border: 1px solid #E6DB55;
+	background: none repeat scroll 0 0 #F8E0EC;
+	border: 1px solid #F000A0;
 	font-size: 13px;
 	margin: 0 0 10px;
 	padding: 10px;
@@ -1375,7 +1388,7 @@ a.iframe {font-weight:bold}
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
 	border-radius: 3px;
-	background: #eee
+	background: #F8E0EC;
 }
 #form_forgotpassword  p.text label {
 	display: inline-block;
@@ -1550,7 +1563,7 @@ form#add_address {}
 	padding: 8px 7px;
 	font-size:12px;
 	color: #000;
-	background: none repeat scroll 0 0 #f0f0f0
+	background: none repeat scroll 0 0 #F8E0EC
 }
 
 #manufacturer #product_list {margin-top:15px}
@@ -1622,7 +1635,7 @@ ul#manufacturers_list li .right_side {float:right;}
 	padding: 8px 7px;
 	font-size:12px;
 	color: #000;
-	background: none repeat scroll 0 0 #f0f0f0
+	background: none repeat scroll 0 0 #F8E0EC
 }
 ul#suppliers_list {list-style-type:none}
 ul#suppliers_list li {
@@ -1664,10 +1677,9 @@ ul#suppliers_list li .right_side {float:right;}
 #search h3.nbresult {
 	margin:0 0 10px 0;
 	padding:10px;
-	border:1px solid #e6db55;
+	border:1px solid #F5A9D0;
 	font-size:13px;
-	background:#ffffe0
-}
+	background:#F8E0EC;}
 #search .sortPagiBar {margin-bottom:20px}
 
 
@@ -1847,7 +1859,7 @@ ul#suppliers_list li .right_side {float:right;}
 	font:bold 10px Arial,Verdana,sans-serif;
 	color:#fff;
 	text-shadow: 0 -1px 0 #000;
-	background: url(../img/bg_bt_compare.gif) repeat-x scroll 0 0 #000
+	background:#CCC
 }
 #livezilla_lnk a:hover {text-decoration:none}
 
@@ -1857,7 +1869,7 @@ ul#suppliers_list li .right_side {float:right;}
 form#sendComment  fieldset{
 	padding:10px;
 	border:1px solid #ccc;
-	background:#eee
+	background:#F8E0EC
 }
 form#sendComment h3 {font-size:14px;}
 #new_comment_form p.text {

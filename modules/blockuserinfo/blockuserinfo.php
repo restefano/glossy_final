@@ -75,6 +75,23 @@ class BlockUserInfo extends Module
 	{
 		$this->context->controller->addCSS(($this->_path).'blockuserinfo.css', 'all');
 	}
+
+function hookRightColumn($params)
+{
+
+    global $smarty, $cookie, $cart;
+	$this->context->controller->addCSS(($this->_path).'blockuserinfo.css', 'all');
+    $smarty->assign(array(
+        'cart' => $cart,
+        'cart_qties' => $cart->nbProducts(),
+        'logged' => $this->context->customer->isLogged(),
+        'customerName' => ($cookie->logged ? $cookie->customer_firstname.' '.$cookie->customer_lastname : false),
+        'firstName' => ($cookie->logged ? $cookie->customer_firstname : false),
+        'lastName' => ($cookie->logged ? $cookie->customer_lastname : false)
+    ));
+
+    return $this->display(__FILE__, 'blockuserinfo-column.tpl');
 }
 
+}
 

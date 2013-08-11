@@ -528,11 +528,11 @@ $(document).ready(function()
 	//set jqZoom parameters if needed
 	if (typeof(jqZoomEnabled) != 'undefined' && jqZoomEnabled)
 	{
-		$('#bigpic').attr('rel', $('#bigpic').attr('src').replace('thickbox', 'large'));
+		$('#bigpic').attr('rel', $('#bigpic').attr('src').replace('large', 'thickbox'));
 		$('img.jqzoom').jqueryzoom({
-			xzoom: 200, //zooming div default width(default width value is 200)
-			yzoom: 200, //zooming div default width(default height value is 200)
-			offset: 21 //zooming div default offset(default offset value is 10)
+			xzoom: 260, //zooming div default width(default width value is 200)
+			yzoom: 260, //zooming div default width(default height value is 200)
+			offset: 10 //zooming div default offset(default offset value is 10)
 			//position: "right" //zooming div position(default position value is "right")
 		});
 	}

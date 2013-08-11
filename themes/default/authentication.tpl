@@ -91,7 +91,7 @@ $(document).ready(function() {
 		//send the ajax request to the server
 		$.ajax({
 			type: 'POST',
-			url: baseUri,
+			url: baseUri + 'index.php?controller=authentication',
 			async: true,
 			cache: false,
 			dataType : "json",
@@ -168,8 +168,7 @@ $(document).ready(function() {
 			</div>
 		</fieldset>
 	</form>
-	
-	
+
 	<form action="{$link->getPageLink('authentication', true)}" method="post" id="login_form" class="std">
 		<fieldset>
 			<h3>{l s='Already registered?'}</h3>
@@ -190,11 +189,6 @@ $(document).ready(function() {
 			</div>
 		</fieldset>
 	</form>
-
-	<a title="{l s='Login with your Facebook Account' mod='fbconnect_psb'}" class="button_large" href="{$link->getModuleLink('fbconnect_psb', 'login', array(), true)}">{l s='Facebook Login' mod='fbconnect_psb'}</a>
-
-<a title="{l s='Registrar with your Facebook Account' mod='fbconnect_psb'}" class="button" href="{$link->getModuleLink('fbconnect_psb', 'registration', array(), true)}">{l s='Facebook Register' mod='fbconnect_psb'}</a>
-
 
 	{if isset($inOrderProcess) && $inOrderProcess && $PS_GUEST_CHECKOUT_ENABLED}
 	<form action="{$link->getPageLink('authentication', true, NULL, "back=$back")}" method="post" id="new_account_form" class="std clearfix">

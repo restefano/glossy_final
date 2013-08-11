@@ -33,7 +33,7 @@
 	color:#fff;
 	text-transform:uppercase;
 	text-shadow:0 1px 0 #000;
-	background:url(../img/bg_table_th.png) repeat-x 0 0 #999
+	background:#A000A0;
 }
 #order-list tr.alternate_item {background-color: #f3f3f3}
 #order-list  td {

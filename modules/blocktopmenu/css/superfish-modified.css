@@ -11,12 +11,19 @@
 	margin:			0;
 	padding:		0;
 	list-style:		none;
+
+		font-size:15px;
+		color:#fff;
+		background:#FF00A0;
+                font-family: 'Muli',sans-serif;
+		text-shadow:0 0px 0;
+
 }
 .sf-menu {
 	margin: 10px 0;
 	padding:0;
 	width:980px;/* 980 */
-	background: #383838;
+	background: #FF00A0;
 }
 .sf-menu ul {
 	position:		absolute;
@@ -32,13 +39,12 @@
 .sf-menu li {
 	float:			left;
 	position:		relative;
-	border-right: 1px solid #777;
 }
 .sf-menu a {
 	display:		block;
 	position:		relative;
 	color:#fff;
-	text-shadow:0 1px 0 #333;
+	text-shadow:0 0px 0 #333;
 }
 .sf-menu li:hover ul,
 .sf-menu li.sfHover ul {
@@ -90,11 +96,11 @@ ul.sf-menu li li li.sfHover ul {
 	background:	rgba(113, 113, 113, 0.9);
 }
 .sf-menu a:focus, .sf-menu a:hover, .sf-menu a:active {
-  	background: #4E4E4E;
+  	background: #8A0886;
 }
 .sf-menu ul li:hover, .sf-menu ul li.sfHover,
 .sf-menu ul li a:focus, .sf-menu ul li a:hover, .sf-menu ul li a:active {
-	background:		#4e4e4e;
+	background:		#8A0886;
 	outline:		0;
 }
 /*** arrows **/

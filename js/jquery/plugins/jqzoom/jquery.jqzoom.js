@@ -12,7 +12,7 @@
 (function($) {
 		$.fn.jqueryzoom = function(options) {
 			var settings = {
-				xzoom: 200,			//zoomed width default width
+				xzoom: 250,			//zoomed width default width
 				yzoom: 200,			//zoomed div default width
 				offset: 10,			//zoomed div default offset
 				position: "right"	//zoomed div default position,offset position is to the right of the image

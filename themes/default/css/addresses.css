@@ -29,7 +29,7 @@ ul.address li.address_title {
    line-height:29px;
    color:#fff;
     text-shadow:0 1px 0 #666;
-   background:url(../img/bg_table_th.png) repeat-x 0 -10px #999
+   background:#A000A0;
 }
 ul.address .address_alias {
 	font-weight: normal;
@@ -92,7 +92,7 @@ p.address_delivery, p.addressesAreEquals {
    line-height:29px;
    color:#fff;
     text-shadow:0 1px 0 #666;
-   background:url(../img/bg_table_th.png) repeat-x 0 -10px #999
+   background:#A000A0;
 }
 .addresses ul.address .address_update {margin-top:20px}
 .addresses ul.address .address_update,
