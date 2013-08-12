@@ -28,7 +28,7 @@ $_MODULE['<{bankwire}prestashop>payment_execution_879f6b8877752685a966564d072f49
 $_MODULE['<{bankwire}prestashop>payment_execution_05adcee99142c1a60fb38bb1330bbbc1'] = 'Transferência bancária';
 $_MODULE['<{bankwire}prestashop>payment_execution_afda466128ee0594745d9f8152699b74'] = 'Você escolheu efetuar o pagamento por transferência bancária';
 $_MODULE['<{bankwire}prestashop>payment_execution_c884ed19483d45970c5bf23a681e2dd2'] = 'Verifique um pequeno resumo da sua compra:';
-$_MODULE['<{bankwire}prestashop>payment_execution_e2867a925cba382f1436d1834bb52a1c'] = 'O vaor total da sua compra é';
+$_MODULE['<{bankwire}prestashop>payment_execution_e2867a925cba382f1436d1834bb52a1c'] = 'O valor total da sua compra é';
 $_MODULE['<{bankwire}prestashop>payment_execution_1f87346a16cf80c372065de3c54c86d9'] = '(taxa incl.)';
 $_MODULE['<{bankwire}prestashop>payment_execution_b28be4c423d93e02081f4e79fe2434e8'] = 'Aceitamos todos os tipos de moedas, apens por tranferência bancária';
 $_MODULE['<{bankwire}prestashop>payment_execution_a7a08622ee5c8019b57354b99b7693b2'] = 'Escolha um dos seguintes:';
