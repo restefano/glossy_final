@@ -13,7 +13,7 @@ $_MODULE['<{productcomments}prestashop>productcomments-ajax_f8694a9aae2eb045920f
 $_MODULE['<{productcomments}prestashop>productcomments-ajax_6bf852d9850445291f5e9d4740ac7b50'] = 'Um comentário de texto é requerido.';
 $_MODULE['<{productcomments}prestashop>productcomments-extra_7c3b0e9898b88deee7ea75aafd2e37e2'] = 'Grade média';
 $_MODULE['<{productcomments}prestashop>productcomments-extra_a71a0229e164fecdcde3c4e0f40473fa'] = 'Leia os comentários do usuário';
-$_MODULE['<{productcomments}prestashop>productcomments-extra_7966126831926ad29c528b239d69f855'] = 'Escreva sua opinião';
+$_MODULE['<{productcomments}prestashop>productcomments-extra_7966126831926ad29c528b239d69f855'] = 'Gostou? Clique aqui e comente.';
 $_MODULE['<{productcomments}prestashop>productcomments_b91c4e8b229a399a3bc911d352524a9b'] = 'Comentários do produto';
 $_MODULE['<{productcomments}prestashop>productcomments_9918811c511f3481c085e46c07ab5da8'] = 'Permite aos usuários postar comentários.';
 $_MODULE['<{productcomments}prestashop>productcomments_c888438d14855d7d96a2724ee9c306bd'] = 'Configurações Atualizadas';
