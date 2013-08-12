@@ -118,10 +118,10 @@
 	cursor: pointer;
 	display: inline-block;
 	padding: 4px 7px 3px 7px;
-	border: 1px solid #CC9900;
+	border: 1px solid #39C81F;
 	border-radius: 3px 3px 3px 3px;
 	font-weight: bold;
-	color: #000;
+	color: #FFF;
 	background: #39C81F
 }
 
@@ -208,9 +208,9 @@
 	margin:0 0 0 5px;
 	display: inline-block;
 	padding: 0 2px;
-	border: 1px solid #CC9900;
+	border: 1px solid #39C81F;
 	border-radius: 3px 3px 3px 3px;
-	color: #000;
+	color: #FFF;
 	font-weight: bold;
 	background: #39C81F
 }
