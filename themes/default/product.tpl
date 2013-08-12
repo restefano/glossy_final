@@ -343,10 +343,12 @@ var fieldRequired = '{l s='Please fill in all the required fields before saving 
 			{/if}
 
 			<!-- quantity wanted -->
+			<div style="margin-bottom:7px;">
 			<p id="quantity_wanted_p"{if (!$allow_oosp && $product->quantity <= 0) OR $virtual OR !$product->available_for_order OR $PS_CATALOG_MODE} style="display: none;"{/if}>
 				<label>{l s='Quantity:'}</label>
 				<input type="text" name="qty" id="quantity_wanted" class="text" value="{if isset($quantityBackup)}{$quantityBackup|intval}{else}{if $product->minimal_quantity > 1}{$product->minimal_quantity}{else}1{/if}{/if}" size="2" maxlength="3" {if $product->minimal_quantity > 1}onkeyup="checkMinimalQuantity({$product->minimal_quantity});"{/if} />
 			</p>
+			</div>
 
 			<!-- minimal quantity wanted -->
 			<p id="minimal_quantity_wanted_p"{if $product->minimal_quantity <= 1 OR !$product->available_for_order OR $PS_CATALOG_MODE} style="display: none;"{/if}>
@@ -388,8 +390,12 @@ var fieldRequired = '{l s='Please fill in all the required fields before saving 
 
 				<!-- Promoção ! -->
 				{if $product->on_sale}
+				<div style="margin-bottom:5px">
 					<span class="on_sale" style="color:red; font-weight: bold;">PROMOÇÃO</span>
 				{elseif $product->specificPrice AND $product->specificPrice.reduction AND $productPriceWithoutReduction > $productPrice}
+				</div>
+
+
 					<span class="discount" style="color:red; font-weight: bold;">SUPER DESCONTO</span>
 
 				{/if}
