@@ -502,7 +502,7 @@ ul.step li.step_done {
 	cursor: pointer;
 	background: #FFF;
 }
-.cancel, .cancel a { background: #000; }
+.cancel, .cancel a { background: #FFF; }
 .star, .star a { background: url(../../../modules/productcomments/img/star1.gif) no-repeat 0 0 }
 .cancel a, .star a {
 	display: block;
