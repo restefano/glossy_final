@@ -88,7 +88,7 @@ $(document).ready(function() {
 </script>
 
 <!-- MODULE MailAlerts -->
-<div style="margin-bottom:7px;">
+<div style="margin-bottom:20px;">
 <a href="#" onclick="return addNotification();" id="mailalert_link">{l s='Notify me when available' mod='mailalerts'}</a>
 {if isset($email) AND $email}
 	<input type="text" id="oos_customer_email" name="customer_email" size="20" value="{l s='your@email.com' mod='mailalerts'}" class="mailalerts_oos_email" onclick="clearText();" /><br />
