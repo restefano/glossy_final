@@ -73,7 +73,7 @@
 	width:150px;/* 160 */
 	font-weight:bold
 }
-#new_comment_form .grade_content .cancel {margin-right:5px}
+#new_comment_form .grade_content .cancel {margin-right:5px; background-color:white;}
 
 .new_comment_form_content {
 	padding:15px;
