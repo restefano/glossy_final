@@ -73,7 +73,7 @@
 	width:150px;/* 160 */
 	font-weight:bold
 }
-#new_comment_form .grade_content .cancel {margin-right:5px; background-color:white;}
+#new_comment_form .grade_content .cancel {margin-right:5px; background:white;}
 
 .new_comment_form_content {
 	padding:15px;
@@ -119,7 +119,6 @@
 	padding: 4px 7px 3px 7px;
 	border: 1px solid #39C81F;
 	border-radius: 3px 3px 3px 3px;
-	font-weight: bold;
 	color: #FFF;
 	background: #39C81F
 }
@@ -210,7 +209,6 @@
 	border: 1px solid #39C81F;
 	border-radius: 3px 3px 3px 3px;
 	color: #FFF;
-	font-weight: bold;
 	background: #39C81F
 }
 #product_comments_block_tab button.usefulness_btn:hover {background-position: left -50px}
