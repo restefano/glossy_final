@@ -122,7 +122,7 @@
 	border-radius: 3px 3px 3px 3px;
 	font-weight: bold;
 	color: #000;
-	background: url(img/bg_bt.gif) repeat-x scroll 0 0 #F4B61B
+	background: #39C81F
 }
 
 #new_comment_form #criterions_list {
@@ -212,7 +212,7 @@
 	border-radius: 3px 3px 3px 3px;
 	color: #000;
 	font-weight: bold;
-	background: url("img/bg_bt.gif") repeat-x scroll 0 0 #F4B61B
+	background: #39C81F
 }
 #product_comments_block_tab button.usefulness_btn:hover {background-position: left -50px}
 #product_comments_block_tab button.usefulness_btn:active {background-position: left -100px}
