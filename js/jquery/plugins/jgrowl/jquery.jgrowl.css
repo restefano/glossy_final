@@ -2,6 +2,7 @@
 div.jGrowl {
 	padding: 			10px;
 	z-index: 			9999;
+	color:              #600060;
 }
 
 /** Special IE6 Style Positioning **/
