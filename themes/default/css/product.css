@@ -389,7 +389,7 @@ span.view_scroll_spacer {
 }
 
 .buttons_bottom_block #wishlist_button {
-	font-weight:700;
+	/* font-weight:700; */
 }
 
 /* SEND TO FRIEND (pop-in) ##################################################################### */
