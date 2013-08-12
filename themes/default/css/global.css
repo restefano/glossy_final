@@ -1223,7 +1223,6 @@ a.iframe {font-weight:bold}
 	position:relative;
 	padding-top:20px;
 	border-top:1px dotted #ccc;
-	text-transform:uppercase;
 }
 .payment_module a {display:block;}
 .payment_module img {

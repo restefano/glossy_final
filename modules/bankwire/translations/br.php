@@ -51,4 +51,4 @@ $_MODULE['<{bankwire}prestashop>payment_return_ca7e41a658753c87973936d7ce2429a8'
 $_MODULE['<{bankwire}prestashop>payment_return_dfe239de8c0b2453a8e8f7657a191d5d'] = 'nosso centro de suporte ao cliente';
 $_MODULE['<{bankwire}prestashop>payment_return_d15feee53d81ea16269e54d4784fa123'] = 'Detectamos um problema com a sua compra. Por favor contate o';
 $_MODULE['<{bankwire}prestashop>payment_5e1695822fc5af98f6b749ea3cbc9b4c'] = 'Pagar por transferência bancária/depósito';
-$_MODULE['<{bankwire}prestashop>payment_eb1d50032721fa4c9d3518c417f91b9d'] = 'Pagamento por transferência bancária (esta modalidade de pagamento demora mais do que o normal pelo tal motivo que é necessário uma confirmação de depósito antes do envio)';
+$_MODULE['<{bankwire}prestashop>payment_eb1d50032721fa4c9d3518c417f91b9d'] = 'Pague com TRANSFERÊNCIA BANCÁRIA ou DEPÓSITO EM CONTA. Seu pedido será processado após a confirmação do pagamento.';
