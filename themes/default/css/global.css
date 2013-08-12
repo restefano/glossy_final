@@ -496,12 +496,12 @@ ul.step li.step_done {
 	overflow: hidden;
 	float: left;
 	margin:0 1px 0 0;
-	width: 16px;
-	height: 16px;
+	width: 20px;
+	height: 20px;
 	text-indent: -999em;
 	cursor: pointer
 }
-.cancel, .cancel a { background: url(../../../modules/productcomments/img/delete.gif) no-repeat 0 -16px !important }
+.cancel, .cancel a { background: #000; }
 .star, .star a { background: url(../../../modules/productcomments/img/star1.gif) no-repeat 0 0 }
 .cancel a, .star a {
 	display: block;
@@ -509,8 +509,8 @@ ul.step li.step_done {
 	height: 100%;
 	background-position: 0 0
 }
-div.star_on a { background-position: 0 -16px }
-div.star_hover a, div.star a:hover { background-position: 0 -32px }
+div.star_on a { background-position: 0 -25px }
+div.star_hover a, div.star a:hover { background-position: 0 -20px }
 .pack_content { margin: 10px 0 10px 0 }
 .pack_price {
 	float: right;
@@ -1911,15 +1911,15 @@ form#sendComment h3 {font-size:14px;}
 	position: relative;
 	top:2px;
 	float: left;
-	height: 32px;
-	width: 32px;
+	height: 20px;
+	width: 20px;
 	overflow: hidden;
 	text-indent: -999em;
 	cursor: pointer
 }
 .star, .star a { background: url(../../../modules/productcomments/img/star1.gif) no-repeat 0 0 }
-div.star_on a { background-position: 0 -32px }
-div.star_hover a, div.star a:hover { background-position: 0 -32px }
+div.star_on a { background-position: 0 -20px }
+div.star_hover a, div.star a:hover { background-position: 0 -20px }
 
 
 /* ************************************************************************************************
