@@ -72,7 +72,7 @@ $_MODULE['<{productcomments}prestashop>productcomments_7fa3b767c460b54a2be4d4903
 $_MODULE['<{productcomments}prestashop>productcomments_28b3b1e564a00f572c5d4e21da986d49'] = 'Reportar Abuso';
 $_MODULE['<{productcomments}prestashop>productcomments_fbe2625bf3673be380d043a4bf873f28'] = 'Clique aqui e deixe seu comentário sobre este produto';
 $_MODULE['<{productcomments}prestashop>productcomments_08621d00a3a801b9159a11b8bbd69f89'] = 'Não há comentários de clientes neste momento.';
-$_MODULE['<{productcomments}prestashop>productcomments_7966126831926ad29c528b239d69f855'] = 'Escreva seu comentário';
+$_MODULE['<{productcomments}prestashop>productcomments_7966126831926ad29c528b239d69f855'] = 'Deixe seu comentário';
 $_MODULE['<{productcomments}prestashop>productcomments_b78a3223503896721cca1303f776159b'] = 'Título';
 $_MODULE['<{productcomments}prestashop>productcomments_221e705c06e231636fdbccfdd14f4d5c'] = 'Seu nome:';
 $_MODULE['<{productcomments}prestashop>productcomments_70397c4b252a5168c5ec003931cea215'] = 'Campos Obrigatórios';

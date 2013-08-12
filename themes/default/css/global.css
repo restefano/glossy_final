@@ -499,7 +499,8 @@ ul.step li.step_done {
 	width: 20px;
 	height: 20px;
 	text-indent: -999em;
-	cursor: pointer
+	cursor: pointer;
+	background: #FFF;
 }
 .cancel, .cancel a { background: #000; }
 .star, .star a { background: url(../../../modules/productcomments/img/star1.gif) no-repeat 0 0 }
