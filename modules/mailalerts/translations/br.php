@@ -38,7 +38,7 @@ $_MODULE['<{mailalerts}prestashop>mailalerts_1d744a9ad1dac20645cfc4a36b77323b'] 
 $_MODULE['<{mailalerts}prestashop>mailalerts_9137796c15dd92e5553c3f29574d0968'] = 'Código do vale:';
 $_MODULE['<{mailalerts}prestashop>my-account_4edfd10d0bb5f51e0fd2327df608b5a8'] = 'Meus alertas';
 $_MODULE['<{mailalerts}prestashop>product_67135a14d3ac4f1369633dd006d6efec'] = 'Digite seu e-mail';
-$_MODULE['<{mailalerts}prestashop>product_61172eb93737ebf095d3fa02119ce1df'] = 'Obrigada! Assim que chegar nós avisamos.';
+$_MODULE['<{mailalerts}prestashop>product_61172eb93737ebf095d3fa02119ce1df'] = 'Obrigada! Assim que chegar nós avisaremos.';
 $_MODULE['<{mailalerts}prestashop>product_bb51a155575b81f4a07f7a9bafdc3b01'] = 'Você já tem um aviso sobre este produto';
 $_MODULE['<{mailalerts}prestashop>product_900f8551b29793ecb604a545b2059cc1'] = 'Seu e-mail é inválido';
-$_MODULE['<{mailalerts}prestashop>product_546e02eaa9a986c83cc347e273269f2c'] = 'Avise-me quando disponível';
+$_MODULE['<{mailalerts}prestashop>product_546e02eaa9a986c83cc347e273269f2c'] = 'Avise-me quando chegar';
