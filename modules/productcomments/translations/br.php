@@ -11,7 +11,7 @@ $_MODULE['<{productcomments}prestashop>productcomments-ajax_f88dc17737f7fdd4464b
 $_MODULE['<{productcomments}prestashop>productcomments-ajax_7fa4a3510dafd0eac6435c19861b2bb7'] = 'Comentário postado.';
 $_MODULE['<{productcomments}prestashop>productcomments-ajax_f8694a9aae2eb045920f613cfa7f1235'] = 'Aguardando validação.';
 $_MODULE['<{productcomments}prestashop>productcomments-ajax_6bf852d9850445291f5e9d4740ac7b50'] = 'Um comentário de texto é requerido.';
-$_MODULE['<{productcomments}prestashop>productcomments-extra_7c3b0e9898b88deee7ea75aafd2e37e2'] = 'Avaliação média:';
+$_MODULE['<{productcomments}prestashop>productcomments-extra_7c3b0e9898b88deee7ea75aafd2e37e2'] = 'Avaliação:';
 $_MODULE['<{productcomments}prestashop>productcomments-extra_a71a0229e164fecdcde3c4e0f40473fa'] = 'Leia os comentários do usuário';
 $_MODULE['<{productcomments}prestashop>productcomments-extra_7966126831926ad29c528b239d69f855'] = 'Gostou? Clique aqui e comente.';
 $_MODULE['<{productcomments}prestashop>productcomments_b91c4e8b229a399a3bc911d352524a9b'] = 'Comentários do produto';
