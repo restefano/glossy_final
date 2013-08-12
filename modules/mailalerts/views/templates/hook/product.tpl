@@ -88,9 +88,9 @@ $(document).ready(function() {
 </script>
 
 <!-- MODULE MailAlerts -->
+<a href="#" onclick="return addNotification();" id="mailalert_link">{l s='Notify me when available' mod='mailalerts'}</a>
 {if isset($email) AND $email}
 	<input type="text" id="oos_customer_email" name="customer_email" size="20" value="{l s='your@email.com' mod='mailalerts'}" class="mailalerts_oos_email" onclick="clearText();" /><br />
 {/if}
-<a href="#" onclick="return addNotification();" id="mailalert_link">{l s='Notify me when available' mod='mailalerts'}</a>
 <span id="oos_customer_email_result" style="display:none;"></span>
 <!-- END : MODULE MailAlerts -->
