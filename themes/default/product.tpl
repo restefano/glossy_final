@@ -395,10 +395,10 @@ var fieldRequired = '{l s='Please fill in all the required fields before saving 
 
 				<!-- Promoção ! -->
 				{if $product->on_sale}
-				<div style="margin-bottom:5px">
+				<div style="margin-bottom:7px">
 					<span class="on_sale" style="color:red; font-weight: bold;">PROMOÇÃO</span>
-				{elseif $product->specificPrice AND $product->specificPrice.reduction AND $productPriceWithoutReduction > $productPrice}
 				</div>
+				{elseif $product->specificPrice AND $product->specificPrice.reduction AND $productPriceWithoutReduction > $productPrice}
 
 
 					<span class="discount" style="color:red; font-weight: bold;">SUPER DESCONTO</span>
