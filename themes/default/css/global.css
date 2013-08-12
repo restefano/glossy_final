@@ -502,7 +502,7 @@ ul.step li.step_done {
 	cursor: pointer
 }
 .cancel, .cancel a { background: url(../../../modules/productcomments/img/delete.gif) no-repeat 0 -16px !important }
-.star, .star a { background: url(../../../modules/productcomments/img/star.gif) no-repeat 0 0 }
+.star, .star a { background: url(../../../modules/productcomments/img/star1.gif) no-repeat 0 0 }
 .cancel a, .star a {
 	display: block;
 	width: 100%;
@@ -1911,15 +1911,15 @@ form#sendComment h3 {font-size:14px;}
 	position: relative;
 	top:2px;
 	float: left;
-	height: 12px;
-	width: 12px;
+	height: 32px;
+	width: 32px;
 	overflow: hidden;
 	text-indent: -999em;
 	cursor: pointer
 }
-.star, .star a { background: url(../../../modules/productcomments/img/star.gif) no-repeat 0 0 }
-div.star_on a { background-position: 0 -12px }
-div.star_hover a, div.star a:hover { background-position: 0 -12px }
+.star, .star a { background: url(../../../modules/productcomments/img/star1.gif) no-repeat 0 0 }
+div.star_on a { background-position: 0 -32px }
+div.star_hover a, div.star a:hover { background-position: 0 -32px }
 
 
 /* ************************************************************************************************

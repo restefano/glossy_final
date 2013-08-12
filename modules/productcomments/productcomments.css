@@ -20,9 +20,9 @@
 #product_comments_block_extra .star_content {float:left}
 #product_comments_block_extra .star_content {margin-top:2px}
 
-#product_comments_block_extra div.star {background: url(img/star.gif) no-repeat scroll 0 0 transparent}
+#product_comments_block_extra div.star {background: url(img/star1.gif) no-repeat scroll 0 0 transparent}
 
-#product_comments_block_extra div.star_on {background: url(img/star.gif) no-repeat scroll 0 -12px transparent}
+#product_comments_block_extra div.star_on {background: url(img/star1.gif) no-repeat scroll 0 -32px transparent}
 
 #product_comments_block_extra .comments_advices {clear:both;}
 
