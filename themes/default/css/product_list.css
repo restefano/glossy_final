@@ -57,7 +57,7 @@ ul#product_list {
 			-moz-transform: rotate(45deg);
 			-webkit-transform: rotate(45deg);
 			-o-transform:rotate(45deg);
-			background-color: #A000A0;
+			background-color: #F000A0;
 			transform: rotate(45deg); 
 			-ms-transform: rotate(45deg);			/* Newer browsers */
 		}
