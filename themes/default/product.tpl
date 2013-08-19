@@ -376,9 +376,6 @@ var fieldRequired = '{l s='Please fill in all the required fields before saving 
 				{$HOOK_PRODUCT_OOS}
 			</div>
 
-			<p> Quantidade disponível: {$product->quantity} </p>
-			<p> Permite OOSP: {$allow_oosp} </p>
-
 			{if 
 			(($product->quantity==0 AND !$allow_oosp) 
 			OR ($product->quantity > $last_qties) 
