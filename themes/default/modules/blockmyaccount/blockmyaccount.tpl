@@ -25,7 +25,8 @@
 
 <!-- Block myaccount module -->
 <div class="block myaccount">
-	<p class="title_block"><a href="{$link->getPageLink('my-account', true)}" title="{l s='My account' mod='blockmyaccount'}">{l s='My account' mod='blockmyaccount'}</a></p>
+<span style="color:#F000F0">A GlossyMe é toda sua:</span>
+<br>
 	<div class="block_content">
 		<ul class="bullet" style="margin-left:10px; margin-top:5px;">
 			<li><a href="{$link->getPageLink('history', true)}" title="{l s='My orders' mod='blockmyaccount'}">{l s='My orders' mod='blockmyaccount'}</a></li>
