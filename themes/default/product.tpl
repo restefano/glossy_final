@@ -377,14 +377,14 @@ var fieldRequired = '{l s='Please fill in all the required fields before saving 
 			</div>
 
 			<p> Quantidade disponível: {$product->quantity} </p>
-			<p> Permite OOSP: {$allow_oosp->value} </p>
-			<p> Resultado: (
-			($product->quantity==0 AND $allow_oosp->value==0) 
+			<p> Permite OOSP: {$allow_oosp} </p>
+			<p> Resultado: {(
+			($product->quantity==0 AND !$allow_oosp) 
 			OR ($product->quantity > $last_qties) 
 			OR $allow_oosp 
 			OR !$product->available_for_order 
 			OR $PS_CATALOG_MODE
-			) </p>
+			)} </p>
 
 			<p class="warning_inline" id="last_quantities"
 			{if (
