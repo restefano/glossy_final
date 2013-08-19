@@ -7,6 +7,14 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "themes/default/product.tpl",
+			"settings":
+			{
+				"buffer_size": 35155,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -35,6 +43,12 @@
 	},
 	"file_history":
 	[
+		"/D/_RICARDO/Desktop 2/glossy_final/modules/blocklayered/translations/br.php",
+		"/D/_RICARDO/Desktop 2/glossy_final/themes/default/modules/homefeatured/homefeatured.tpl",
+		"/D/_RICARDO/Desktop 2/glossy_final/modules/loyalty/translations/br.php",
+		"/D/_RICARDO/Desktop 2/glossy_final/themes/default/lang/br.php",
+		"/D/_RICARDO/Desktop 2/glossy_final/themes/default/product.tpl",
+		"/D/product.tpl",
 		"/D/_RICARDO/Downloads/Win7Vista_64_151719/Readme.txt",
 		"/D/_RICARDO/Downloads/Win7Vista_64_151719/Installation_Readme.txt",
 		"/c/utils/cdglossy",
@@ -156,13 +170,7 @@
 		"/D/_RICARDO/Desktop 2/glossyme/glossy/themes/glossy/modules/homefeatured/homefeatured.tpl",
 		"/D/_RICARDO/Desktop 2/glossyme/glossy/modules/homefeatured/homefeatured.css",
 		"/D/_RICARDO/Desktop 2/glossyme/glossy/admin-1372720502/autoupgrade/latest/prestashop/themes/default/product.tpl",
-		"/D/_RICARDO/Desktop 2/glossyme/glossy/modules/blocktopmenu/css/superfish-modified.css",
-		"/D/_RICARDO/Desktop 2/glossyme/glossy/modules/blocklayered/blocklayered.js",
-		"/D/_RICARDO/Desktop 2/glossyme/glossy/themes/PADRAO/product.tpl",
-		"/D/_RICARDO/Desktop 2/glossyme/glossy/modules/homefeatured/homefeatured.tpl",
-		"/D/_RICARDO/Desktop 2/glossy/.picasa.ini",
-		"/D/windows 8.txt",
-		"/D/Downloads/en_windows_8_x64_dvd_915440/Activation/2) Activation.txt"
+		"/D/_RICARDO/Desktop 2/glossyme/glossy/modules/blocktopmenu/css/superfish-modified.css"
 	],
 	"find":
 	{
@@ -191,6 +199,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"last",
+			"indisponível",
+			"Item indispon",
 			"attribute_label",
 			"present",
 			"lista de presentes",
@@ -315,10 +326,7 @@
 			"input.button_mini, input.button_small, input.button, input.button_large, input.button_mini_disabled, input.button_small_disabled, input.button_disabled, input.button_large_disabled, input.exclusive_mini, input.exclusive_small, input.exclusive, input.exclusive_large, input.exclusive_mini_disabled, input.exclusive_small_disabled, input.exclusive_disabled, input.exclusive_large_disabled, a.button_mini, a.button_small, a.button, a.button_large, a.exclusive_mini, a.exclusive_small, a.exclusive, a.exclusive_large, span.button_mini, span.button_small, span.button, span.button_large, span.exclusive_mini, span.exclusive_small, span.exclusive, span.exclusive_large, span.exclusive_large_disabled",
 			"exclusive",
 			"jqzoom",
-			"zoomdiv",
-			"bigimage",
-			"zoomdiv",
-			"other-views"
+			"zoomdiv"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -337,8 +345,37 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "themes/default/product.tpl",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 35155,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								20860,
+								20860
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 10813.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
