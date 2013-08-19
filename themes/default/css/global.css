@@ -639,10 +639,9 @@ ul.idTabs li {
 .idTabs a {
 	display:block;
 	padding:10px 10px 7px 10px;
-	font-weight:bold;
 	text-decoration:none;
 	color:#fff;
-	background:#000
+	background:#800080
 }
 .idTabs .selected {
 	font-family:'Muli', sans-serif;
@@ -650,6 +649,7 @@ ul.idTabs li {
 	font-size:14px;
 	color:#FFFFFF;
 	background: #C000A0;
+	font-weight:bold;
 }
 
 #more_info_sheets {padding-top:10px}

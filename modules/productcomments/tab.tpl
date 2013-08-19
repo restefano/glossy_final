@@ -23,4 +23,4 @@
 *  International Registered Trademark & Property of PrestaShop SA
 *}
 
-<li><a href="#idTab5" class="idTabHrefShort" style="background:#F000A0">{l s='Comments' mod='productcomments'}</a></li>
+<li><a href="#idTab5" class="idTabHrefShort">{l s='Comments' mod='productcomments'}</a></li>
