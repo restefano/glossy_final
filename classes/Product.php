@@ -1027,7 +1027,6 @@ class ProductCore extends ObjectModel
 					($only_active ? ' AND product_shop.`active` = 1' : '').'
 				ORDER BY '.(isset($order_by_prefix) ? pSQL($order_by_prefix).'.' : '').'`'.pSQL($order_by).'` '.pSQL($order_way).
 				($limit > 0 ? ' LIMIT '.(int)$start.','.(int)$limit : '');
-		$sql='';
 
 		$rq = Db::getInstance(_PS_USE_SQL_SLAVE_)->executeS($sql);
 		if ($order_by == 'price')
