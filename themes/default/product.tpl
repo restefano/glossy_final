@@ -376,7 +376,7 @@ var fieldRequired = '{l s='Please fill in all the required fields before saving 
 				{$HOOK_PRODUCT_OOS}
 			</div>
 
-			<p class="warning_inline" id="last_quantities"{if ($product->quantity > $last_qties OR $product->quantity <= 0) OR $allow_oosp OR !$product->available_for_order OR $PS_CATALOG_MODE} style="display: none"{/if} style="color:red;">{l s='Warning: Last items in stock!'}</p>
+			<p class="warning_inline" id="last_quantities"{if ($product->quantity > $last_qties) OR $allow_oosp OR !$product->available_for_order OR $PS_CATALOG_MODE} style="display: none"{/if} style="color:red;">{l s='Warning: Last items in stock!'}</p>
 
 			</center>
 
