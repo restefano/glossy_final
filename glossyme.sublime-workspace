@@ -1,0 +1,418 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/_RICARDO/Downloads/Win7Vista_64_151719/Readme.txt",
+		"/D/_RICARDO/Downloads/Win7Vista_64_151719/Installation_Readme.txt",
+		"/c/utils/cdglossy",
+		"/C/UTILS/cdglossy.bat",
+		"/C/Users/Ricardo/AppData/Roaming/.minecraft/crash-reports/crash-2013-08-18_03.02.54-client.txt",
+		"/D/_RICARDO/Desktop/REF CAZONATTI RJ.txt",
+		"/D/C2M/PENDENCIAS.TXT",
+		"/D/_RICARDO/Desktop/F47012.TXT",
+		"/C/ARQ/S_F47012.txt",
+		"/C/ARQ/ARQUIVO2.txt",
+		"/C/ARQ/F47002.TXT",
+		"/D/_RICARDO/Desktop/ricardo.ovpn",
+		"/D/_RICARDO/Desktop/F47002.TXT",
+		"/D/_RICARDO/Desktop/F47002 (1).TXT",
+		"/C/dba/dbascript_157628256077104154.log",
+		"/C/Program Files (x86)/OpenVPN/config/README.txt",
+		"/C/Program Files (x86)/OpenVPN/config/ricardo.ovpn",
+		"/D/_RICARDO/Desktop 2/glossyme/glossy_final/modules/blockwishlist/views/templates/front/mywishlist.tpl",
+		"/D/_RICARDO/Desktop 2/glossyme/glossy_final/modules/blockwishlist/my-account.tpl",
+		"/D/_RICARDO/Desktop 2/glossyme/glossy_final/modules/producttooltip/translations/br.php",
+		"/D/_RICARDO/Desktop 2/glossyme/glossy_final/js/jquery/plugins/jgrowl/jquery.jgrowl.css",
+		"/D/_RICARDO/Desktop 2/glossyme/glossy_final/js/jquery/plugins/jgrowl/jquery.jgrowl.js",
+		"/D/_RICARDO/Desktop 2/glossyme/glossy_final/themes/default/css/product.css",
+		"/D/_RICARDO/Desktop 2/glossyme/glossy_final/modules/blockwishlist/translations/br.php",
+		"/D/_RICARDO/Desktop 2/glossyme/glossy_final/modules/bankwire/translations/br.php",
+		"/D/_RICARDO/Desktop 2/glossyme/glossy_final/modules/blockbestsellers/blockbestsellers.css",
+		"/D/_RICARDO/Desktop 2/glossyme/glossy_final/themes/default/css/comparator.css",
+		"/D/_RICARDO/Desktop 2/glossyme/glossy_final/themes/default/css/global.css",
+		"/D/_RICARDO/Desktop 2/glossyme/glossy_final/themes/default/css/product_list.css",
+		"/D/_RICARDO/Desktop 2/glossyme/glossy_final/themes/default/css/scenes.css",
+		"/D/_RICARDO/Desktop 2/glossyme/glossy_final/themes/default/css/order-opc.css",
+		"/D/_RICARDO/Desktop 2/glossyme/glossy_final/modules/mailalerts/views/templates/front/mailalerts-account.tpl",
+		"/D/_RICARDO/Desktop 2/glossyme/glossy_final/themes/default/product.tpl",
+		"/D/_RICARDO/Desktop 2/glossyme/glossy_final/modules/mailalerts/views/templates/hook/product.tpl",
+		"/D/_RICARDO/Desktop 2/glossyme/glossy_final/modules/mailalerts/translations/br.php",
+		"/D/_RICARDO/Desktop 2/glossyme/glossy_final/modules/mailalerts/img/icon-alert.png",
+		"/D/_RICARDO/Desktop 2/glossyme/glossy_final/modules/blocksearch/blocksearch.css",
+		"/D/_RICARDO/Desktop 2/glossyme/glossy/modules/blocksearch/blocksearch.tpl",
+		"/D/_RICARDO/Desktop 2/glossyme/glossy/themes/glossy/css/product_list.css",
+		"/D/_RICARDO/Desktop 2/glossyme/glossy_final/themes/default/header.tpl",
+		"/D/_RICARDO/Desktop 2/glossyme/glossy_final/modules/homeslider/homeslider.tpl",
+		"/D/_RICARDO/Desktop 2/glossyme/final/rsa.pub",
+		"/C/Users/Ricardo/.ssh/id_rsa.pub",
+		"/D/_RICARDO/Desktop 2/glossyme/glossy/config/defines.inc.php",
+		"/D/_RICARDO/Desktop 2/glossyme/glossyfinal/commit.bat",
+		"/D/_RICARDO/Desktop 2/glossyme/glossy/themes/glossy/order-opc.tpl",
+		"/D/_RICARDO/Desktop 2/glossyme/glossy/.gitignore",
+		"/D/_RICARDO/Desktop 2/dif/themes/PADRAO/css/addresses.css",
+		"/D/_RICARDO/Downloads/product_2013-08-10_184936.csv",
+		"/D/_RICARDO/Desktop 2/glossyme/glossy/themes/glossy/order-opc-new-account.tpl",
+		"/D/_RICARDO/Desktop 2/glossyme/glossy/themes/glossy/shopping-cart.tpl",
+		"/D/_RICARDO/Desktop 2/glossyme/glossy/themes/glossy/order-carrierx.tpl",
+		"/D/_RICARDO/Desktop 2/glossyme/glossy/themes/glossy/order-payment.tpl",
+		"/D/_RICARDO/Desktop 2/glossyme/glossy/config/config.inc.php",
+		"/D/_RICARDO/Desktop 2/glossyme/glossy/themes/glossy/layout.tpl",
+		"/D/_RICARDO/Desktop 2/glossyme/glossy/themes/glossy/order-detail.tpl",
+		"/D/_RICARDO/Desktop 2/glossyme/glossy/themes/glossy/header.tpl",
+		"/D/_RICARDO/Desktop 2/glossyme/glossy/controllers/front/OrderOpcController.php",
+		"/D/_RICARDO/Desktop 2/glossyme/glossy/themes/glossy/js/order-opc.js",
+		"/D/_RICARDO/Desktop 2/glossyme/glossy/themes/PADRAO/order-opc.tpl",
+		"/D/_RICARDO/Desktop 2/glossyme/glossy/themes/PADRAO/order-opc-new-account.tpl",
+		"/D/_RICARDO/Desktop 2/glossyme/glossy/modules/homeslider/js/jquery.bxSlider.min.js",
+		"/D/_RICARDO/Desktop 2/glossyme/glossy/modules/homeslider/bx_styles.css",
+		"/D/_RICARDO/Desktop 2/glossyme/glossy/search.php",
+		"/D/_RICARDO/Desktop 2/glossyme/glossy/controllers/front/CartController.php",
+		"/D/_RICARDO/Desktop 2/glossyme/glossy/classes/controller/FrontController.php",
+		"/D/_RICARDO/Desktop 2/glossyme/glossy/admin-1372720502/autoupgrade/latest/prestashop/install/langs/br/data/gender.xml",
+		"/D/_RICARDO/Desktop 2/glossyme/glossy/themes/glossy/product.tpl",
+		"/D/_RICARDO/Desktop 2/glossyme/glossy/themes/glossy/product-list.tpl",
+		"/D/_RICARDO/Desktop 2/glossyme/glossy/themes/glossy/css/global.css",
+		"/D/_RICARDO/Desktop 2/glossyme/glossy/themes/glossy/search.tpl",
+		"/D/_RICARDO/Desktop 2/glossyme/glossy/themes/glossy/footer.tpl",
+		"/D/_RICARDO/Desktop 2/glossyme/glossy/themes/glossy/category.tpl",
+		"/D/_RICARDO/Desktop 2/glossyme/glossy/modules/blockbestsellers/blockbestsellers.css",
+		"/D/_RICARDO/Desktop 2/glossyme/glossy/themes/glossy/modules/blocksearch/blocksearch.tpl",
+		"/D/_RICARDO/Desktop 2/glossyme/glossy/themes/glossy/lang/br.php",
+		"/D/_RICARDO/Desktop 2/glossyme/glossy/modules/blocksearch/blocksearch.php",
+		"/D/_RICARDO/Desktop 2/glossyme/glossy/themes/glossy/modules/blocksearch/blocksearch-instantsearch.tpl",
+		"/D/_RICARDO/Desktop 2/glossyme/glossy/themes/glossy/mobile/css/global.css",
+		"/D/_RICARDO/Desktop 2/glossyme/glossy/themes/glossy/css/addresses.css",
+		"/D/_RICARDO/Desktop 2/glossyme/glossy/themes/PADRAO/css/addresses.css",
+		"/D/_RICARDO/Desktop 2/glossyme/glossy/tools/tcpdf/htmlcolors.php",
+		"/D/_RICARDO/Desktop 2/glossyme/glossy/themes/glossy/css/history.css",
+		"/D/_RICARDO/Desktop 2/glossyme/glossy/modules/pagseguro/pagseguro.php",
+		"/D/_RICARDO/Desktop 2/glossyme/glossy/modules/blockuserinfo/blockuserinfo.php",
+		"/D/_RICARDO/Desktop 2/glossyme/glossy/modules/statssales/statssales.php",
+		"/D/_RICARDO/Desktop 2/glossyme/glossy/admin-1372720502/autoupgrade/latest/prestashop/modules/blockuserinfo/blockuserinfo.php",
+		"/D/_RICARDO/Desktop 2/glossyme/glossy/mails/br/lang.php",
+		"/D/_RICARDO/Desktop 2/glossyme/glossy/modules/bankwire/translations/br.php",
+		"/D/_RICARDO/Desktop 2/glossyme/glossy/modules/statsregistrations/translations/br.php",
+		"/D/_RICARDO/Desktop 2/glossyme/glossy/translations/br/admin.php",
+		"/D/_RICARDO/Desktop 2/glossyme/glossy/modules/statspersonalinfos/translations/br.php",
+		"/D/_RICARDO/Desktop 2/glossyme/glossy/modules/blocknewsletter/blocknewsletter.css",
+		"/D/_RICARDO/Desktop 2/glossyme/glossy/cores.txt",
+		"/D/_RICARDO/Desktop/ATUAIS/traffic-analyzer-clis/script/x.txt",
+		"/C/ARQ/SCRIPT.txt",
+		"/D/_RICARDO/Desktop/semana que vem.txt",
+		"/C/Users/Ricardo/AppData/Local/Temp/Temp1_mms.zip/text_0.txt",
+		"/G/01082012.TXT",
+		"/G/10082012.TXT",
+		"/G/31102012.TXT",
+		"/D/_RICARDO/Desktop 2/glossyme/glossy/themes/glossy/css/product.css",
+		"/D/_RICARDO/Desktop 2/glossyme/glossy/themes/glossy/modules/blockmyaccount/blockmyaccount.tpl",
+		"/D/_RICARDO/Desktop 2/glossyme/glossy/modules/blockmyaccount/translations/br.php",
+		"/D/_RICARDO/Desktop 2/glossyme/glossy/themes/PADRAO/lang/br.php",
+		"/D/_RICARDO/Desktop 2/glossyme/glossy/modules/blocksearch/blocksearch.css",
+		"/C/dba/x.txt",
+		"/G/19082012.TXT",
+		"/G/26082012.TXT",
+		"/D/_RICARDO/Desktop/ZZZ.txt",
+		"/D/_RICARDO/Desktop 2/glossyme/glossy/modules/blockcart/blockcart.css",
+		"/D/_RICARDO/Desktop 2/glossyme/glossy/themes/glossy/css/category.css",
+		"/D/_RICARDO/Desktop 2/glossyme/glossy/modules/blockcart/blockcart.tpl",
+		"/D/_RICARDO/Desktop 2/glossyme/glossy/modules/blockcart/translations/br.php",
+		"/D/_RICARDO/Desktop 2/glossyme/glossy/themes/glossy/js/product.js",
+		"/D/_RICARDO/Desktop 2/glossyme/glossy/modules/blocksearch/translations/br.php",
+		"/D/_RICARDO/Desktop 2/glossyme/glossy/product.php",
+		"/D/_RICARDO/Desktop 2/glossyme/glossy/js/jquery/plugins/jqzoom/jquery.jqzoom.js",
+		"/D/_RICARDO/Desktop 2/glossyme/glossy/themes/glossy/modules/homefeatured/homefeatured.tpl",
+		"/D/_RICARDO/Desktop 2/glossyme/glossy/modules/homefeatured/homefeatured.css",
+		"/D/_RICARDO/Desktop 2/glossyme/glossy/admin-1372720502/autoupgrade/latest/prestashop/themes/default/product.tpl",
+		"/D/_RICARDO/Desktop 2/glossyme/glossy/modules/blocktopmenu/css/superfish-modified.css",
+		"/D/_RICARDO/Desktop 2/glossyme/glossy/modules/blocklayered/blocklayered.js",
+		"/D/_RICARDO/Desktop 2/glossyme/glossy/themes/PADRAO/product.tpl",
+		"/D/_RICARDO/Desktop 2/glossyme/glossy/modules/homefeatured/homefeatured.tpl",
+		"/D/_RICARDO/Desktop 2/glossy/.picasa.ini",
+		"/D/windows 8.txt",
+		"/D/Downloads/en_windows_8_x64_dvd_915440/Activation/2) Activation.txt"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"",
+			"*.tpl",
+			"",
+			"pagseguro.php",
+			"",
+			"blockuserinfo.php",
+			"",
+			"*.css",
+			"",
+			"*.js",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"attribute_label",
+			"present",
+			"lista de presentes",
+			".buttons_bottom_block #wishlist_button",
+			"#",
+			"color",
+			"HOOK_BLOCK_MY_ACCOUNT",
+			"Vaor",
+			"#new_account_form h3",
+			"#990000",
+			"#best-sellers_block_right li .price",
+			"alerta cadastrado",
+			"autenticação",
+			"autentificação",
+			"já está registrado",
+			"2",
+			"table_block",
+			"class",
+			"order_carrier_content",
+			"div",
+			"HOOK",
+			"hook",
+			"breadcrumb",
+			"function vat_number_invoice()",
+			"$(document).ready(function() {",
+			"right",
+			"back_order_page",
+			"var",
+			"car",
+			"hook",
+			"carrier_area",
+			"DEV",
+			"'HOOK_TOP_PAYMENT'",
+			"hook",
+			"setTemplate",
+			"order-opc.tpl",
+			"order-opc-new-account",
+			"order-opc",
+			"cart_title",
+			"cart-title",
+			"opc-main-block",
+			"HOOK_SHOPPING_CART",
+			"hook",
+			"hoook",
+			"order-opc",
+			"Senhorita",
+			"please use the following url instead",
+			"controller=search",
+			".bx-pager",
+			"pager-link",
+			"ul.pagination a, ul.pagination span",
+			"PROMOÇÃO",
+			"unit_price_display",
+			"our_price_display",
+			"#best-sellers_block_right li a.content_img",
+			"width",
+			"ajax_block_product",
+			"ajax_block_product first_item",
+			"ajax_block_product first_item item clearfix",
+			"button ajax_add_to_cart_button exclusive",
+			"<!-- Subcategories -->",
+			"span class=\"on_sale\"",
+			"arrow_right_1",
+			"/img/",
+			"bt_",
+			"ric/",
+			"barrapagamento",
+			"Colocar no <br> Meu Carrinho",
+			"Colocar no &#10;&#13; Meu Carrinho",
+			"mEU cARRINHO",
+			"#best-sellers_block_right li a.content_img",
+			"bg_table_th.png",
+			"table#cart_summary th",
+			"e6db55",
+			"lightyellow",
+			"ffffe0",
+			"#order-list",
+			"#order-list th",
+			"#order .delivery_options_address h3, #order-opc .delivery_options_address h3",
+			"#order-opc h2 span",
+			".addresses ul.address .address_title",
+			"table#cart_summary th",
+			"bg_bt",
+			".cart_navigation",
+			"pagsegurocurrencies",
+			"Awaiting bank wire",
+			"awaiting bank",
+			"islogged",
+			"Benvindo",
+			"O seu pedido será enviada",
+			"vaor",
+			"registo",
+			"REGISTADO",
+			"display",
+			"eee",
+			"#eee;",
+			"#eee",
+			"Encontrar na loja",
+			"Enter a product name or description.",
+			"Vales de créditos",
+			"block myaccount module",
+			"font",
+			"wei",
+			"'Buda'",
+			"Adicionar ao Meu Carrinho",
+			"'Ver'",
+			"Ver",
+			"Pôr no carrinho",
+			"f0f0f0",
+			"product_list li ",
+			"20px",
+			"border",
+			"padding",
+			"O que você procura?",
+			"Este produto não está mais em estoque",
+			"border",
+			"thumb",
+			"Finalizar",
+			"padding",
+			"pict_add_cart.png",
+			"pict_add_cart.jpg",
+			"input.button_mini, input.button_small, input.button, input.button_large, input.button_mini_disabled, input.button_small_disabled, input.button_disabled, input.button_large_disabled, input.exclusive_mini, input.exclusive_small, input.exclusive, input.exclusive_large, input.exclusive_mini_disabled, input.exclusive_small_disabled, input.exclusive_disabled, input.exclusive_large_disabled, a.button_mini, a.button_small, a.button, a.button_large, a.exclusive_mini, a.exclusive_small, a.exclusive, a.exclusive_large, span.button_mini, span.button_small, span.button, span.button_large, span.exclusive_mini, span.exclusive_small, span.exclusive, span.exclusive_large, span.exclusive_large_disabled",
+			"exclusive",
+			"jqzoom",
+			"zoomdiv",
+			"bigimage",
+			"zoomdiv",
+			"other-views"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"Colocar no Meu Carrinho"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"project": "glossyme.sublime-project",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 254.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

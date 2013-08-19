@@ -249,7 +249,7 @@ var fieldRequired = '{l s='Please fill in all the required fields before saving 
 			{/if}
 		</div>
 			<!-- availability -->
-			<p id="availability_status">
+			<p id="availability_statut">
 				<span id="availability_label">{l s='Availability:'}</span><br>
 				<span id="availability_value" style="margin-left:20px"{if ($allow_oosp)}>{$product->available_now}{else}{$allow_oosp}xxx{if ($product->quantity<=0)} class="warning_inline">{l s='This product is no longer in stock'}{else}>{$product->available_now}{/if}{/if}</span>				
 			</p>
