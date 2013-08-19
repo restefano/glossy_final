@@ -38,7 +38,7 @@
 	border-top-left-radius: 3px;
 	border-bottom-left-radius: 3px;
 	font-size:10px;
-	color:#999;
+	color:#444;
 	margin-right:5px;
 }
 *:first-child+html #newsletter_block_left input.inputNew {position:static;}/* hack ie 7 */
