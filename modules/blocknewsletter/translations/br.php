@@ -31,4 +31,4 @@ $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_ffb7e666a70151215b4c55c62
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_198584454b0ce1101ff5b50323325aa8'] = 'Digite aqui seu E-Mail';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_b26917587d98330d93f87808fc9d7267'] = 'Adicionar';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_4182c8f19d40c7ca236a5f4f83faeb6b'] = 'cancelar';
-$_MODULE['<{blocknewsletter}prestashop>blocknewsletter_416f61a2ce16586f8289d41117a2554e'] = 'seu e-mail';
+$_MODULE['<{blocknewsletter}prestashop>blocknewsletter_416f61a2ce16586f8289d41117a2554e'] = 'Digite aqui seu E-Mail';
