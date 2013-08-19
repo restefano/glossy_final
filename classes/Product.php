@@ -1025,7 +1025,7 @@ class ProductCore extends ObjectModel
 					($id_category ? ' AND c.`id_category` = '.(int)$id_category : '').
 					($front ? ' AND product_shop.`visibility` IN ("both", "catalog")' : '').
 					($only_active ? ' AND product_shop.`active` = 1' : '').'
-				ORDER BY '.(isset($order_by_prefix) ? pSQL($order_by_prefix).'.' : '').'`'.pSQL($order_by).'` '.pSQL($order_way).'`,c.position` DESC'.
+				ORDER BY '.(isset($order_by_prefix) ? pSQL($order_by_prefix).'.' : '').'`'.pSQL($order_by).'` '.pSQL($order_way).',`c.position` DESC'.
 				($limit > 0 ? ' LIMIT '.(int)$start.','.(int)$limit : '');
 		$rq = Db::getInstance(_PS_USE_SQL_SLAVE_)->executeS($sql);
 		if ($order_by == 'price')
