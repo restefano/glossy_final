@@ -52,8 +52,6 @@
 		{/if}
 
 <br>
-<br>
-<br>
 
 <!--
 	<ul id="header_nav">
