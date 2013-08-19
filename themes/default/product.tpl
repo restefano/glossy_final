@@ -379,18 +379,17 @@ var fieldRequired = '{l s='Please fill in all the required fields before saving 
 			<p> Quantidade disponível: {$product->quantity} </p>
 			<p> Permite OOSP: {$allow_oosp} </p>
 
-			<p class="warning_inline" id="last_quantities"
 			{if 
-			(
-			($product->quantity==0 AND !$allow_oosp) 
+			(($product->quantity==0 AND !$allow_oosp) 
 			OR ($product->quantity > $last_qties) 
 			OR $allow_oosp 
 			OR !$product->available_for_order 
-			OR $PS_CATALOG_MODE
-			)
-			} style="display: none"
+			OR $PS_CATALOG_MODE)} 
+			<p class="warning_inline" id="last_quantities" style="display: none">OK</p>
+			{else}
+			<p class="warning_inline" id="last_quantities" style="color:red;">{l s='Warning: Last items in stock!'}</p>
 			{/if} 
-			style="color:red;">{l s='Warning: Last items in stock!'}</p>
+			
 
 			</center>
 
