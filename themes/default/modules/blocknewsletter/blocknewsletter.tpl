@@ -29,7 +29,7 @@
 	<div class="block_content">	
 	{if isset($msg) && $msg}
 		<p class="{if $nw_error}warning_inline{else}success_inline{/if}">{$msg}</p>
-	{/if}
+	{else}
 		<form action="{$link->getPageLink('index')}" method="post">
 			<p>
 				{* @todo use jquery (focusin, focusout) instead of onblur and onfocus *}
@@ -42,6 +42,7 @@
 				<input type="hidden" name="action" value="0" />
 			</p>
 		</form>
+	{/if}
 	</div>
 </div>
 <!-- /Block Newsletter module-->
