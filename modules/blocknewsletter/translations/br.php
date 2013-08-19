@@ -27,7 +27,7 @@ $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_ebc069b1b9a2c48edfa39e344
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_77c576a354d5d6f5e2c1ba50167addf8'] = 'Inscrição efetuada com sucesso';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_99c8b8e5e51bf8f00f1d66820684be9a'] = 'E-mail já cadastrado ou inválido';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_4e1c51e233f1ed368c58db9ef09010ba'] = 'Obrigado por assinar a nossa newsletter.';
-$_MODULE['<{blocknewsletter}prestashop>blocknewsletter_ffb7e666a70151215b4c55c6268d7d72'] = 'Newsletter';
+$_MODULE['<{blocknewsletter}prestashop>blocknewsletter_ffb7e666a70151215b4c55c6268d7d72'] = 'Receba Promoções EXCLUSIVAS por E-Mail';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_198584454b0ce1101ff5b50323325aa8'] = 'seu e-mail';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_b26917587d98330d93f87808fc9d7267'] = 'Adicionar';
 $_MODULE['<{blocknewsletter}prestashop>blocknewsletter_4182c8f19d40c7ca236a5f4f83faeb6b'] = 'cancelar';
