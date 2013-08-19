@@ -196,7 +196,7 @@
 
 #product_comments_block_tab a {
 	text-decoration: none;
-	font-weight: bold
+	font-weight: normal
 }
 
 #product_comments_block_tab a:hover {text-decoration: underline}
