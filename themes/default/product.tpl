@@ -249,9 +249,9 @@ var fieldRequired = '{l s='Please fill in all the required fields before saving 
 			{/if}
 		</div>
 			<!-- availability -->
-			<p id="availability_statut"{if ($product->quantity <= 0 && !$product->available_later && $allow_oosp) OR ($product->quantity > 0 && !$product->available_now) OR !$product->available_for_order OR $PS_CATALOG_MODE} style="display: none;"{/if}>
+			<p id="availability_statut">
 				<span id="availability_label">{l s='Availability:'}</span><br>
-				<span id="availability_value" style="margin-left:20px" {if $product->quantity <= 0} class="warning_inline"{/if}>{if $product->quantity <= 0}{if $allow_oosp}{$product->available_later}{else}{l s='This product is no longer in stock'}{/if}{else}{$product->available_now}{/if}</span>				
+				<span id="availability_value" style="margin-left:20px"{if ($allow_oosp)}>{$product->available_now}{else}{$allow_oosp}xxx{if ($product->quantity<=0)} class="warning_inline">{l s='This product is no longer in stock'}{else}>{$product->available_now}{/if}{/if}</span>				
 			</p>
 			<p id="availability_date"{if ($product->quantity > 0) OR !$product->available_for_order OR $PS_CATALOG_MODE OR !isset($product->available_date) OR $product->available_date < $smarty.now|date_format:'%Y-%m-%d'} style="display: none;"{/if}>
 				<span id="availability_date_label">{l s='Availability date:'}</span>
@@ -299,7 +299,7 @@ var fieldRequired = '{l s='Please fill in all the required fields before saving 
 				{foreach from=$groups key=id_attribute_group item=group}
 					{if $group.attributes|@count}
 						<fieldset class="attribute_fieldset">
-							<label class="attribute_label" for="group_{$id_attribute_group|intval}">{$group.name|escape:'htmlall':'UTF-8'} :&nbsp;</label>
+							<label class="attribute_label" style="text-align:left" for="group_{$id_attribute_group|intval}">{$group.name|escape:'htmlall':'UTF-8'} :&nbsp;</label>
 							{assign var="groupName" value="group_$id_attribute_group"}
 							<div class="attribute_list">
 							{if ($group.group_type == 'select')}
@@ -376,7 +376,17 @@ var fieldRequired = '{l s='Please fill in all the required fields before saving 
 				{$HOOK_PRODUCT_OOS}
 			</div>
 
-			<p class="warning_inline" id="last_quantities"{if ($product->quantity > $last_qties OR $product->quantity <= 0) OR $allow_oosp OR !$product->available_for_order OR $PS_CATALOG_MODE} style="display: none"{/if} style="color:red;">{l s='Warning: Last items in stock!'}</p>
+			{if 
+			(($product->quantity==0 AND !$allow_oosp) 
+			OR ($product->quantity > $last_qties) 
+			OR $allow_oosp 
+			OR !$product->available_for_order 
+			OR $PS_CATALOG_MODE)} 
+			<p class="warning_inline" id="last_quantities" style="display: none">OK</p>
+			{else}
+			<p class="warning_inline" id="last_quantities" style="color:red;">{l s='Warning: Last items in stock!'}</p>
+			{/if} 
+			
 
 			</center>
 

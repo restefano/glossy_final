@@ -103,7 +103,7 @@ $_MODULE['<{blocklayered}prestashop>blocklayered_03c2e7e41ffc181a4e84080b4710e81
 $_MODULE['<{blocklayered}prestashop>blocklayered_019d1ca7d50cc54b995f60d456435e87'] = 'Usado';
 $_MODULE['<{blocklayered}prestashop>blocklayered_6da03a74721a0554b7143254225cc08a'] = 'Recondicionado';
 $_MODULE['<{blocklayered}prestashop>blocklayered_9e2941b3c81256fac10392aaca4ccfde'] = 'Condição';
-$_MODULE['<{blocklayered}prestashop>blocklayered_2d25c72c1b18e562f6654fff8e11711e'] = 'Indisponível';
+$_MODULE['<{blocklayered}prestashop>blocklayered_2d25c72c1b18e562f6654fff8e11711e'] = 'Esgotado';
 $_MODULE['<{blocklayered}prestashop>blocklayered_fcebe56087b9373f15514831184fa572'] = 'Em estoque';
 $_MODULE['<{blocklayered}prestashop>blocklayered_faeaec9eda6bc4c8cb6e1a9156a858be'] = 'Disponibilidade:';
 $_MODULE['<{blocklayered}prestashop>blocklayered_c0bd7654d5b278e65f21cf4e9153fdb4'] = 'Fabricante';

@@ -1,1 +1,2 @@
 *ERROR* 	2013/08/12 - 00:14:38: Property ProductSupplier->product_supplier_reference length (38) must be between 0 and 32 at line 837 in file classes/ObjectModel.php
+*ERROR* 	2013/08/12 - 00:42:15: Property Image->id_product is empty at line 837 in file classes/ObjectModel.php

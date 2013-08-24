@@ -12,3 +12,27 @@ Stack trace:
 #2 /home/gloss354/public_html/glossyme/modules/pagseguro/controllers/front/notification.php(109): PagSeguroNotificationService::checkTransaction(Object(PagSeguroAccountCredentials), 'FF7E4D-3FADC0AD...')
 #3 /home/gloss354/public_html/glossyme/modules/pagseguro/controllers/front/notification.php(54): PagSeguroNotificationModuleFrontController->_createTransaction()
 #4 /home/gloss354/public_html/glossyme/classes in /home/gloss354/public_html/glossyme/modules/pagseguro/PagSeguroLibrary/utils/PagSeguroXmlParser.class.php on line 27
+[18-Aug-2013 02:36:36] PHP Fatal error:  Uncaught exception 'SmartyException' with message 'Unable to load template file '/home/gloss354/public_html/glossyme/themes/default/product.tpl'' in /home/gloss354/public_html/glossyme/tools/smarty/sysplugins/smarty_internal_templatebase.php:127
+Stack trace:
+#0 /home/gloss354/public_html/glossyme/classes/controller/FrontController.php(538): Smarty_Internal_TemplateBase->fetch('/home/gloss354/...')
+#1 /home/gloss354/public_html/glossyme/classes/controller/Controller.php(185): FrontControllerCore->display()
+#2 /home/gloss354/public_html/glossyme/classes/Dispatcher.php(349): ControllerCore->run()
+#3 /home/gloss354/public_html/glossyme/index.php(28): DispatcherCore->dispatch()
+#4 {main}
+  thrown in /home/gloss354/public_html/glossyme/tools/smarty/sysplugins/smarty_internal_templatebase.php on line 127
+[18-Aug-2013 02:37:03] PHP Fatal error:  Uncaught exception 'SmartyException' with message 'Unable to load template file '/home/gloss354/public_html/glossyme/themes/default/product.tpl'' in /home/gloss354/public_html/glossyme/tools/smarty/sysplugins/smarty_internal_templatebase.php:127
+Stack trace:
+#0 /home/gloss354/public_html/glossyme/classes/controller/FrontController.php(538): Smarty_Internal_TemplateBase->fetch('/home/gloss354/...')
+#1 /home/gloss354/public_html/glossyme/classes/controller/Controller.php(185): FrontControllerCore->display()
+#2 /home/gloss354/public_html/glossyme/classes/Dispatcher.php(349): ControllerCore->run()
+#3 /home/gloss354/public_html/glossyme/index.php(28): DispatcherCore->dispatch()
+#4 {main}
+  thrown in /home/gloss354/public_html/glossyme/tools/smarty/sysplugins/smarty_internal_templatebase.php on line 127
+[18-Aug-2013 02:37:16] PHP Fatal error:  Uncaught exception 'SmartyException' with message 'Unable to load template file '/home/gloss354/public_html/glossyme/themes/default/product.tpl'' in /home/gloss354/public_html/glossyme/tools/smarty/sysplugins/smarty_internal_templatebase.php:127
+Stack trace:
+#0 /home/gloss354/public_html/glossyme/classes/controller/FrontController.php(538): Smarty_Internal_TemplateBase->fetch('/home/gloss354/...')
+#1 /home/gloss354/public_html/glossyme/classes/controller/Controller.php(185): FrontControllerCore->display()
+#2 /home/gloss354/public_html/glossyme/classes/Dispatcher.php(349): ControllerCore->run()
+#3 /home/gloss354/public_html/glossyme/index.php(28): DispatcherCore->dispatch()
+#4 {main}
+  thrown in /home/gloss354/public_html/glossyme/tools/smarty/sysplugins/smarty_internal_templatebase.php on line 127

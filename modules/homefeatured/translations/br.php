@@ -12,8 +12,8 @@ $_MODULE['<{homefeatured}prestashop>homefeatured_4cad5369b27bff0ba256a479a575eb6
 $_MODULE['<{homefeatured}prestashop>homefeatured_87ae431d2f8285c91660bd00d330a257'] = 'Defina o número de produtos a serem exibidos.';
 $_MODULE['<{homefeatured}prestashop>homefeatured_b263d5a770ca788195f4038d1a0ea6fc'] = 'Defina o número de produtos que você gostaria que fossem exibidos na homepage (padrão: 8).';
 $_MODULE['<{homefeatured}prestashop>homefeatured_c9cc8cce247e49bae79f15173ce97354'] = 'Salvar';
-$_MODULE['<{homefeatured}prestashop>homefeatured_ca7d973c26c57b69e0857e7a0332d545'] = 'Produtos em destaque';
-$_MODULE['<{homefeatured}prestashop>homefeatured_03c2e7e41ffc181a4e84080b4710e81e'] = 'Novo';
+$_MODULE['<{homefeatured}prestashop>homefeatured_ca7d973c26c57b69e0857e7a0332d545'] = 'Novidades que você vai amar...';
+$_MODULE['<{homefeatured}prestashop>homefeatured_03c2e7e41ffc181a4e84080b4710e81e'] = 'Novidade';
 $_MODULE['<{homefeatured}prestashop>homefeatured_d3da97e2d9aee5c8fbe03156ad051c99'] = 'Mais';
 $_MODULE['<{homefeatured}prestashop>homefeatured_4351cfebe4b61d8aa5efa1d020710005'] = 'Exibir';
 $_MODULE['<{homefeatured}prestashop>homefeatured_2d0f6b8300be19cf35e89e66f0677f95'] = 'Adicionar';
