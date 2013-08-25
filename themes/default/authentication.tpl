@@ -165,7 +165,7 @@ $(document).ready(function() {
 					<input type="submit" id="SubmitCreate" name="SubmitCreate" class="button_large" value="{l s='Create an account'}" />
 					<input type="hidden" class="hidden" name="SubmitCreate" value="{l s='Create an account'}" />
 
-					<a title="{l s='Registrar with your Facebook Account' mod='fbconnect_psb'}" class="button" href="{$link->getModuleLink('fbconnect_psb', 'registration', array(), true)}">{l s='Facebook Register' mod='fbconnect_psb'}</a>
+					<a title="{l s='Registrar with your Facebook Account' mod='fbconnect_psb'}" class="button" style="background-color:#3B5998" href="{$link->getModuleLink('fbconnect_psb', 'registration', array(), true)}">Registrar-se com o Facebook</a>
 				</p>
 			</div>
 		</fieldset>
@@ -187,7 +187,7 @@ $(document).ready(function() {
 					{if isset($back)}<input type="hidden" class="hidden" name="back" value="{$back|escape:'htmlall':'UTF-8'}" />{/if}
 					<input type="submit" id="SubmitLogin" name="SubmitLogin" class="button" value="{l s='Log in'}" />
 
-					<a title="{l s='Login with your Facebook Account' mod='fbconnect_psb'}" class="button_large" href="{$link->getModuleLink('fbconnect_psb', 'login', array(), true)}">{l s='Facebook Login' mod='fbconnect_psb'}</a>
+					<a title="{l s='Login with your Facebook Account' mod='fbconnect_psb'}" class="button_large"  style="background-color:#3B5998"  href="{$link->getModuleLink('fbconnect_psb', 'login', array(), true)}">Entrar com o Facebook</a>
 
 				</p>
 				<p class="lost_password"><a href="{$link->getPageLink('password')}">{l s='Forgot your password?'}</a></p>
