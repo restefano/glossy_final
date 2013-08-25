@@ -46,7 +46,7 @@
     	<tbody>
         <tr>
             <td style="width: 960px; padding-left: 0px; text-align: center;"><a href="http://glossyme.com.br/content/6-garantias-e-seguranca">
-            		<img src="{$smarty.const._PS_IMG_}rodape.png" style="float:center" width="850" height="165" alt="" />
+            		<img src="{$smarty.const._PS_IMG_}rodape.png" style="float:center" width="810" height="157" alt="" />
             </a></td>
         </tr>
     	</tbody>
