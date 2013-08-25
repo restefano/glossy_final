@@ -18,14 +18,14 @@ ul.address {
 
 ul.address li {
 	padding:0 15px;
-	font-weight:bold;
+	font-weight:normal;
 	line-height:18px;
 	text-transform:uppercase
 }
 
 ul.address li.address_title {
    height: 29px;
-   font-weight: bold;
+   font-weight: normal;
    line-height:29px;
    color:#fff;
     text-shadow:0 1px 0 #666;
