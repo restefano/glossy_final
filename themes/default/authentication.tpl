@@ -153,7 +153,7 @@ $(document).ready(function() {
 	<form action="{$link->getPageLink('authentication', true)}" method="post" id="create-account_form" class="std">
 		<fieldset>
 			<h3>{l s='Create an account'}</h3>
-			<div class="form_content clearfix" style="height:150px">
+			<div class="form_content clearfix" style="height:170px">
 				<p class="title_block" style="font-size:14px;">{l s='Please enter your email address to create an account.'}.</p>
 				<div class="error" id="create_account_error" style="display:none"></div>
 				<p class="text">
@@ -174,7 +174,7 @@ $(document).ready(function() {
 	<form action="{$link->getPageLink('authentication', true)}" method="post" id="login_form" class="std">
 		<fieldset>
 			<h3>{l s='Already registered?'}</h3>
-			<div class="form_content clearfix" style="height:150px">
+			<div class="form_content clearfix" style="height:170px">
 				<p class="text">
 					<label for="email">{l s='Email address'}</label>
 					<span><input type="text" id="email" name="email" value="{if isset($smarty.post.email)}{$smarty.post.email|stripslashes}{/if}" class="account_input" /></span>
@@ -185,7 +185,7 @@ $(document).ready(function() {
 				</p>
 				<p class="submit">
 					{if isset($back)}<input type="hidden" class="hidden" name="back" value="{$back|escape:'htmlall':'UTF-8'}" />{/if}
-					<input type="submit" id="SubmitLogin" name="SubmitLogin" class="button" value="{l s='Log in'}" />
+					<input type="submit" id="SubmitLogin" name="SubmitLogin" class="button" value="Entrar na Conta" />
 
 					<a title="{l s='Login with your Facebook Account' mod='fbconnect_psb'}" class="button_large"  style="background-color:#3B5998"  href="{$link->getModuleLink('fbconnect_psb', 'login', array(), true)}">Entrar com o Facebook</a>
 
