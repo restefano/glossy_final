@@ -10,7 +10,7 @@
 			font-size:14px;
 			color:#fff;
 			text-transform:uppercase;
-			background:url(../img/bg_form_h3.png) repeat-x 0 0 #989898
+			background:#A000A0;
 		}
 		#contact #center_column p {margin:0; padding:0 0 10px 0;}
 		#contact #center_column p.desc_contact { text-align: center; padding-left: 10px; padding-right: 10px; }

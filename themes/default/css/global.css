@@ -1445,7 +1445,7 @@ form#add_address {}
 	font-size:14px;
 	color:#fff;
 	text-transform:uppercase;
-	background:url(../img/bg_form_h3.png) repeat-x 0 0 #989898
+	background:#A000A0;
 }
 #center_column #add_address p {margin:0; padding:0 0 10px 0}
 #add_address p.required {color:#222}
