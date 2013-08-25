@@ -5,7 +5,7 @@ $_MODULE = array();
 
 $_MODULE['<{blockmyaccount}prestashop>blockmyaccount_ecf3e4f8f34a293099620cc25d5b4d93'] = 'Bloco minha conta';
 $_MODULE['<{blockmyaccount}prestashop>blockmyaccount_ecf2ffd31994b3edea4b916011b08bfa'] = 'Exibe um bloco com links para a conta do usuário.';
-$_MODULE['<{blockmyaccount}prestashop>blockmyaccount_d95cf4ab2cbf1dfb63f066b50558b07d'] = 'Minha conta';
+$_MODULE['<{blockmyaccount}prestashop>blockmyaccount_d95cf4ab2cbf1dfb63f066b50558b07d'] = 'Minha GlossyMe';
 $_MODULE['<{blockmyaccount}prestashop>blockmyaccount_74ecd9234b2a42ca13e775193f391833'] = 'Minhas Compras';
 $_MODULE['<{blockmyaccount}prestashop>blockmyaccount_89080f0eedbd5491a93157930f1e45fc'] = 'Retorno de produtos';
 $_MODULE['<{blockmyaccount}prestashop>blockmyaccount_9132bc7bac91dd4e1c453d4e96edf219'] = 'Meus Cupons de Desconto';

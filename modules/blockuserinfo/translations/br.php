@@ -11,7 +11,7 @@ $_MODULE['<{blockuserinfo}prestashop>blockuserinfo_deb10517653c255364175796ace35
 $_MODULE['<{blockuserinfo}prestashop>blockuserinfo_068f80c7519d0528fb08e82137a72131'] = 'produtos';
 $_MODULE['<{blockuserinfo}prestashop>blockuserinfo_9e65b51e82f2a9b9f72ebe3e083582bb'] = '(vazio)';
 $_MODULE['<{blockuserinfo}prestashop>blockuserinfo_2cbfb6731610056e1d0aaacde07096c1'] = 'Ver minha conta de usuário';
-$_MODULE['<{blockuserinfo}prestashop>blockuserinfo_a0623b78a5f2cfe415d9dbbd4428ea40'] = 'Minha Conta';
+$_MODULE['<{blockuserinfo}prestashop>blockuserinfo_a0623b78a5f2cfe415d9dbbd4428ea40'] = 'Minha GlossyMe';
 $_MODULE['<{blockuserinfo}prestashop>blockuserinfo_83218ac34c1834c26781fe4bde918ee4'] = 'Seja bem-vindo(a)';
 $_MODULE['<{blockuserinfo}prestashop>blockuserinfo_4b877ba8588b19f1b278510bf2b57ebb'] = 'Deslogue-me';
 $_MODULE['<{blockuserinfo}prestashop>blockuserinfo_4394c8d8e63c470de62ced3ae85de5ae'] = 'Sair';

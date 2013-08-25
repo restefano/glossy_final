@@ -269,20 +269,20 @@ table.std,
 table.table_block {
 	margin-bottom:20px;
 	width:100%;
-	border:1px solid #999;
 	border-bottom:none;
 	background:white;
-	border-collapse:inherit
+	border-collapse:inherit;
+	font-weight:normal;
 }
 table.std th,
 table.table_block th {
 	padding:14px 12px;
 	font-size:12px;
 	color:#fff;
-	 font-weight:bold;
+	 font-weight:normal;
 	text-transform:uppercase;
 	text-shadow:0 1px 0 #000;
-	background:url(../img/bg_table_th.png) repeat-x 0 0 #999
+	background:#A000A0
 }
 table.std tr.alternate_item,
 table.table_block tr.alternate_item {background-color: #f3f3f3}
@@ -456,12 +456,12 @@ ul.step li a, ul.step li.step_current span, ul.step li.step_current_end span {
 	background:#FF00A0;
 }
 ul.step li.step_current {
-	font-weight:bold;
+	font-weight:normal;
 	background:url(../img/step_current.gif) no-repeat center bottom transparent
 }
 
 ul.step li.step_current_end {
-	font-weight:bold;
+	font-weight:normal;
 	background:url(../img/step_end_current.gif) no-repeat center bottom transparent
 }
 ul.step li.step_todo span {
@@ -472,7 +472,7 @@ ul.step li.step_todo span {
 	background:#F8E0EC
 }
 ul.step li.step_done {
-	font-weight:bold;
+	font-weight:normal;
 	background:url(../img/step_done.gif) no-repeat center bottom transparent
 }
 /*ul.step li#step_end {background:url(../img/step_end.gif) no-repeat center bottom transparent}*/
@@ -537,7 +537,7 @@ div.star_hover a, div.star a:hover { background-position: 0 -20px }
 }
 .listcomment .titlecomment {
 	display:block;
-	font-weight:bold;
+	font-weight:normal;
 	font-size:12px;
 	color:#333
 }
@@ -724,7 +724,7 @@ ul.idTabs li {
 table#cart_summary th {
 	padding:14px 12px;
 	color:#fff;
-	 font-weight:bold;
+	 font-weight:normal;
 	text-transform:uppercase;
 	 text-shadow:0 1px 0 #666;
 	background:#A000A0;
@@ -734,7 +734,7 @@ table#cart_summary  td {
 	padding:12px;
 	border-right:1px solid #e9e9e9;
 	border-bottom:1px solid #e9e9e9;
-	font-weight:bold;
+	font-weight:normal;
 	font-size:12px;
 	vertical-align:top
 }
@@ -850,7 +850,7 @@ table#cart_summary #total_price_container {
 	margin-bottom:5px
 }
 .cart_voucher #display_cart_vouchers span {
-	font-weight:bold;
+	font-weight:normal;
 	cursor:pointer;
 }
 .cart_voucher input.discount_name {
@@ -884,8 +884,8 @@ table#cart_summary #total_price_container {
 
 table#cart_summary .cart_total_price .total_price_container {
 	padding:0;
-	border-bottom:1px solid #999;
-	border-right:1px solid #999;
+	border-bottom:1px solid #A000A0;
+	border-right:1px solid #A000A0;
 }
 .cart_total_price .total_price_container p {
 	display:block;

@@ -4,7 +4,7 @@
 #history #center_column .title_block {
 	margin:20px 0;
 	padding:15px 20px;
-	background:#ccc
+	background:#A000A0;
 }
 #history #center_column .title_block  input {
 	position: relative;
@@ -40,7 +40,7 @@
 	padding:12px;
 	border-right:1px solid #e9e9e9;
 	border-bottom:1px solid #e9e9e9;
-	font-weight:bold;
+	font-weight:normal;
 	font-size:12px;
 	vertical-align:top
 }
