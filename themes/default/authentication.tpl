@@ -185,7 +185,7 @@ $(document).ready(function() {
 				</p>
 				<p class="submit">
 					{if isset($back)}<input type="hidden" class="hidden" name="back" value="{$back|escape:'htmlall':'UTF-8'}" />{/if}
-					<input type="submit" id="SubmitLogin" name="SubmitLogin" class="button" value="Entrar na Conta" />
+					<input type="submit" id="SubmitLogin" name="SubmitLogin" class="button" value="Entrar com sua conta" />
 
 					<a title="{l s='Login with your Facebook Account' mod='fbconnect_psb'}" class="button_large"  style="background-color:#3B5998"  href="{$link->getModuleLink('fbconnect_psb', 'login', array(), true)}">Entrar com o Facebook</a>
 
