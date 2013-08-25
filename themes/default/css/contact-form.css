@@ -11,6 +11,7 @@
 			color:#fff;
 			text-transform:uppercase;
 			background:#A000A0;
+			font-weight: normal;
 		}
 		#contact #center_column p {margin:0; padding:0 0 10px 0;}
 		#contact #center_column p.desc_contact { text-align: center; padding-left: 10px; padding-right: 10px; }
