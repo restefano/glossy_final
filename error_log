@@ -70,3 +70,49 @@ Stack trace:
 [26-Aug-2013 00:46:30] PHP Warning:  htmlentities() [<a href='function.htmlentities'>function.htmlentities</a>]: Invalid multibyte sequence in argument in /home/gloss354/public_html/classes/Tools.php on line 647
 [26-Aug-2013 22:18:54] PHP Warning:  htmlentities() [<a href='function.htmlentities'>function.htmlentities</a>]: Invalid multibyte sequence in argument in /home/gloss354/public_html/classes/Tools.php on line 647
 [26-Aug-2013 22:18:54] PHP Warning:  htmlentities() [<a href='function.htmlentities'>function.htmlentities</a>]: Invalid multibyte sequence in argument in /home/gloss354/public_html/classes/Tools.php on line 647
+[27-Aug-2013 00:18:58] PHP Warning:  htmlentities() [<a href='function.htmlentities'>function.htmlentities</a>]: Invalid multibyte sequence in argument in /home/gloss354/public_html/classes/Tools.php on line 647
+[27-Aug-2013 00:18:58] PHP Warning:  htmlentities() [<a href='function.htmlentities'>function.htmlentities</a>]: Invalid multibyte sequence in argument in /home/gloss354/public_html/classes/Tools.php on line 647
+[27-Aug-2013 02:18:59] PHP Warning:  htmlentities() [<a href='function.htmlentities'>function.htmlentities</a>]: Invalid multibyte sequence in argument in /home/gloss354/public_html/classes/Tools.php on line 647
+[27-Aug-2013 02:18:59] PHP Warning:  htmlentities() [<a href='function.htmlentities'>function.htmlentities</a>]: Invalid multibyte sequence in argument in /home/gloss354/public_html/classes/Tools.php on line 647
+[27-Aug-2013 04:19:00] PHP Warning:  htmlentities() [<a href='function.htmlentities'>function.htmlentities</a>]: Invalid multibyte sequence in argument in /home/gloss354/public_html/classes/Tools.php on line 647
+[27-Aug-2013 04:19:00] PHP Warning:  htmlentities() [<a href='function.htmlentities'>function.htmlentities</a>]: Invalid multibyte sequence in argument in /home/gloss354/public_html/classes/Tools.php on line 647
+[27-Aug-2013 06:19:02] PHP Warning:  htmlentities() [<a href='function.htmlentities'>function.htmlentities</a>]: Invalid multibyte sequence in argument in /home/gloss354/public_html/classes/Tools.php on line 647
+[27-Aug-2013 06:19:02] PHP Warning:  htmlentities() [<a href='function.htmlentities'>function.htmlentities</a>]: Invalid multibyte sequence in argument in /home/gloss354/public_html/classes/Tools.php on line 647
+[27-Aug-2013 09:40:17] PHP Warning:  htmlentities() [<a href='function.htmlentities'>function.htmlentities</a>]: Invalid multibyte sequence in argument in /home/gloss354/public_html/classes/Tools.php on line 647
+[27-Aug-2013 09:40:17] PHP Warning:  htmlentities() [<a href='function.htmlentities'>function.htmlentities</a>]: Invalid multibyte sequence in argument in /home/gloss354/public_html/classes/Tools.php on line 647
+[27-Aug-2013 09:40:28] PHP Fatal error:  Uncaught exception 'Exception' with message 'PagSeguroLibrary XML parsing error: (4) not well-formed (invalid token)' in /home/gloss354/public_html/modules/pagseguro/PagSeguroLibrary/utils/PagSeguroXmlParser.class.php:27
+Stack trace:
+#0 /home/gloss354/public_html/modules/pagseguro/PagSeguroLibrary/parser/PagSeguroTransactionParser.class.php(65): PagSeguroXmlParser->__construct('<?xml version="...')
+#1 /home/gloss354/public_html/modules/pagseguro/PagSeguroLibrary/service/PagSeguroNotificationService.class.php(62): PagSeguroTransactionParser::readTransaction('<?xml version="...')
+#2 /home/gloss354/public_html/modules/pagseguro/controllers/front/notification.php(109): PagSeguroNotificationService::checkTransaction(Object(PagSeguroAccountCredentials), 'D6E7A5-CFD9CFD9...')
+#3 /home/gloss354/public_html/modules/pagseguro/controllers/front/notification.php(54): PagSeguroNotificationModuleFrontController->_createTransaction()
+#4 /home/gloss354/public_html/classes/controller/Controller.php(158): PagSeguroNotification in /home/gloss354/public_html/modules/pagseguro/PagSeguroLibrary/utils/PagSeguroXmlParser.class.php on line 27
+[27-Aug-2013 10:32:15] PHP Fatal error:  Uncaught exception 'Exception' with message 'PagSeguroLibrary XML parsing error: (4) not well-formed (invalid token)' in /home/gloss354/public_html/modules/pagseguro/PagSeguroLibrary/utils/PagSeguroXmlParser.class.php:27
+Stack trace:
+#0 /home/gloss354/public_html/modules/pagseguro/PagSeguroLibrary/parser/PagSeguroTransactionParser.class.php(65): PagSeguroXmlParser->__construct('<?xml version="...')
+#1 /home/gloss354/public_html/modules/pagseguro/PagSeguroLibrary/service/PagSeguroNotificationService.class.php(62): PagSeguroTransactionParser::readTransaction('<?xml version="...')
+#2 /home/gloss354/public_html/modules/pagseguro/controllers/front/notification.php(109): PagSeguroNotificationService::checkTransaction(Object(PagSeguroAccountCredentials), 'D6E7A5-CFD9CFD9...')
+#3 /home/gloss354/public_html/modules/pagseguro/controllers/front/notification.php(54): PagSeguroNotificationModuleFrontController->_createTransaction()
+#4 /home/gloss354/public_html/classes/controller/Controller.php(158): PagSeguroNotification in /home/gloss354/public_html/modules/pagseguro/PagSeguroLibrary/utils/PagSeguroXmlParser.class.php on line 27
+[27-Aug-2013 11:40:18] PHP Warning:  htmlentities() [<a href='function.htmlentities'>function.htmlentities</a>]: Invalid multibyte sequence in argument in /home/gloss354/public_html/classes/Tools.php on line 647
+[27-Aug-2013 11:40:18] PHP Warning:  htmlentities() [<a href='function.htmlentities'>function.htmlentities</a>]: Invalid multibyte sequence in argument in /home/gloss354/public_html/classes/Tools.php on line 647
+[27-Aug-2013 12:31:02] PHP Fatal error:  Uncaught exception 'Exception' with message 'PagSeguroLibrary XML parsing error: (4) not well-formed (invalid token)' in /home/gloss354/public_html/modules/pagseguro/PagSeguroLibrary/utils/PagSeguroXmlParser.class.php:27
+Stack trace:
+#0 /home/gloss354/public_html/modules/pagseguro/PagSeguroLibrary/parser/PagSeguroTransactionParser.class.php(65): PagSeguroXmlParser->__construct('<?xml version="...')
+#1 /home/gloss354/public_html/modules/pagseguro/PagSeguroLibrary/service/PagSeguroNotificationService.class.php(62): PagSeguroTransactionParser::readTransaction('<?xml version="...')
+#2 /home/gloss354/public_html/modules/pagseguro/controllers/front/notification.php(109): PagSeguroNotificationService::checkTransaction(Object(PagSeguroAccountCredentials), 'D6E7A5-CFD9CFD9...')
+#3 /home/gloss354/public_html/modules/pagseguro/controllers/front/notification.php(54): PagSeguroNotificationModuleFrontController->_createTransaction()
+#4 /home/gloss354/public_html/classes/controller/Controller.php(158): PagSeguroNotification in /home/gloss354/public_html/modules/pagseguro/PagSeguroLibrary/utils/PagSeguroXmlParser.class.php on line 27
+[27-Aug-2013 13:40:20] PHP Warning:  htmlentities() [<a href='function.htmlentities'>function.htmlentities</a>]: Invalid multibyte sequence in argument in /home/gloss354/public_html/classes/Tools.php on line 647
+[27-Aug-2013 13:40:20] PHP Warning:  htmlentities() [<a href='function.htmlentities'>function.htmlentities</a>]: Invalid multibyte sequence in argument in /home/gloss354/public_html/classes/Tools.php on line 647
+[27-Aug-2013 14:34:16] PHP Fatal error:  Uncaught exception 'Exception' with message 'PagSeguroLibrary XML parsing error: (4) not well-formed (invalid token)' in /home/gloss354/public_html/modules/pagseguro/PagSeguroLibrary/utils/PagSeguroXmlParser.class.php:27
+Stack trace:
+#0 /home/gloss354/public_html/modules/pagseguro/PagSeguroLibrary/parser/PagSeguroTransactionParser.class.php(65): PagSeguroXmlParser->__construct('<?xml version="...')
+#1 /home/gloss354/public_html/modules/pagseguro/PagSeguroLibrary/service/PagSeguroNotificationService.class.php(62): PagSeguroTransactionParser::readTransaction('<?xml version="...')
+#2 /home/gloss354/public_html/modules/pagseguro/controllers/front/notification.php(109): PagSeguroNotificationService::checkTransaction(Object(PagSeguroAccountCredentials), 'D6E7A5-CFD9CFD9...')
+#3 /home/gloss354/public_html/modules/pagseguro/controllers/front/notification.php(54): PagSeguroNotificationModuleFrontController->_createTransaction()
+#4 /home/gloss354/public_html/classes/controller/Controller.php(158): PagSeguroNotification in /home/gloss354/public_html/modules/pagseguro/PagSeguroLibrary/utils/PagSeguroXmlParser.class.php on line 27
+[27-Aug-2013 15:40:24] PHP Warning:  htmlentities() [<a href='function.htmlentities'>function.htmlentities</a>]: Invalid multibyte sequence in argument in /home/gloss354/public_html/classes/Tools.php on line 647
+[27-Aug-2013 15:40:24] PHP Warning:  htmlentities() [<a href='function.htmlentities'>function.htmlentities</a>]: Invalid multibyte sequence in argument in /home/gloss354/public_html/classes/Tools.php on line 647
+[27-Aug-2013 17:40:26] PHP Warning:  htmlentities() [<a href='function.htmlentities'>function.htmlentities</a>]: Invalid multibyte sequence in argument in /home/gloss354/public_html/classes/Tools.php on line 647
+[27-Aug-2013 17:40:26] PHP Warning:  htmlentities() [<a href='function.htmlentities'>function.htmlentities</a>]: Invalid multibyte sequence in argument in /home/gloss354/public_html/classes/Tools.php on line 647
