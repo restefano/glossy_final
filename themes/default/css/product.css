@@ -306,10 +306,10 @@ span.view_scroll_spacer {
 
 .our_price_display {
 	padding-bottom:10px;
-	font-weight:700;
+	font-weight:normal;
 	font-size:30px;
 	line-height:30px;
-	color:#A050A0;
+	color:#FF00FF;
 }
 
 #reduction_percent,#reduction_amount {
