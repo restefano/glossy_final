@@ -68,7 +68,7 @@
 #wishlist_block .lnk {padding:0}
 #wishlist_block .lnk a {
 	display:block;
-	font-weight:bold;
+	font-weight:normal;
 	text-align:right
 }
 

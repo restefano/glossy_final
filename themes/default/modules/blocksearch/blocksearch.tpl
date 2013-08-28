@@ -25,9 +25,8 @@
 
 <!-- Block search module ATUALIZADO -->
 <div id="search_block_left" class="block exclusive" style="margin-bottom:0px;">
-	<p class="title_block">{l s='Search' mod='blocksearch'}</p>
 	<form method="get" action="{$link->getPageLink('search', true)}" id="searchbox">
-		<p class="block_content" style="margin-top: 10px; padding-bottom: 0px;">
+		<p class="block_content" style="margin-top: 5px; padding-bottom: 0px;">
 			<label for="search_query_block" style="margin-left:10px;">{l s='Enter a product name' mod='blocksearch'}</label>
 			<input type="hidden" name="orderby" value="position" />
 			<input type="hidden" name="controller" value="search" />
