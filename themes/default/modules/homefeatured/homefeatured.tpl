@@ -60,7 +60,7 @@
 						<!-- Adicionar ao Carrinho -->
 						{if ($product.id_product_attribute == 0 OR (isset($add_prod_display) AND ($add_prod_display == 1))) AND $product.available_for_order AND !isset($restricted_country_mode) AND $product.minimal_quantity == 1 AND $product.customizable != 2 AND !$PS_CATALOG_MODE}
 							{if ($product.quantity > 0 OR $product.allow_oosp)}
-							<a class="ajax_add_to_cart_button" rel="ajax_id_product_{$product.id_product}" href="{$link->getPageLink('cart')}?qty=1&amp;id_product={$product.id_product}&amp;token={$static_token}&amp;add" title="{l s='Add to cart' mod='homefeatured'}" style="font-size:10px; font-weight:bold; color:#38c81f">Colocar no Meu Carrinho</a>
+							<a class="ajax_add_to_cart_button" rel="ajax_id_product_{$product.id_product}" href="{$link->getPageLink('cart')}?qty=1&amp;id_product={$product.id_product}&amp;token={$static_token}&amp;add" title="{l s='Add to cart' mod='homefeatured'}" style="font-size:10px; font-weight:bold; color:#509050">Colocar no Meu Carrinho</a>
 							{else}
 							<span style="font-size:10px; font-weight:bold; color:#BB0000">ESGOTADO</span><br>
 							{/if}
