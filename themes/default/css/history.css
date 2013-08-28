@@ -4,7 +4,7 @@
 #history #center_column .title_block {
 	margin:20px 0;
 	padding:15px 20px;
-	background:#A000A0;
+	background:#A060A0;
 }
 #history #center_column .title_block  input {
 	position: relative;
@@ -33,7 +33,7 @@
 	color:#fff;
 	text-transform:uppercase;
 	text-shadow:0 1px 0 #000;
-	background:#A000A0;
+	background:#A060A0;
 }
 #order-list tr.alternate_item {background-color: #f3f3f3}
 #order-list  td {

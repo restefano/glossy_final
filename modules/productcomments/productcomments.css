@@ -43,7 +43,7 @@
 	font-size: 13px;
 	color: #fff;
 	text-transform: uppercase;
-	background: #A000A0
+	background: #A060A0
 }
 #new_comment_form ul.grade_content {list-style-type:none}
 #new_comment_form .grade_content li {width:50%}
@@ -117,10 +117,10 @@
 	cursor: pointer;
 	display: inline-block;
 	padding: 4px 7px 3px 7px;
-	border: 1px solid #39C81F;
+	border: 1px solid #509050;
 	border-radius: 3px 3px 3px 3px;
 	color: #FFF;
-	background: #39C81F
+	background: #509050
 }
 
 #new_comment_form #criterions_list {
@@ -206,10 +206,10 @@
 	margin:0 0 0 5px;
 	display: inline-block;
 	padding: 0 2px;
-	border: 1px solid #39C81F;
+	border: 1px solid #509050;
 	border-radius: 3px 3px 3px 3px;
 	color: #FFF;
-	background: #39C81F
+	background: #509050
 }
 #product_comments_block_tab button.usefulness_btn:hover {background-position: left -50px}
 #product_comments_block_tab button.usefulness_btn:active {background-position: left -100px}

@@ -32,7 +32,7 @@
 	-webkit-transform: rotate(45deg);
 	-o-transform:rotate(45deg);
 	-ms-transform: rotate(45deg);
-	background-color: #FF00A0;
+	background-color: #A050A0;
 	transform: rotate(45deg);  /* Newer browsers */
 }
 
@@ -56,5 +56,5 @@
 #featured-products_block_center .price {
 	font-weight:bold;
 	font-size:20px;
-	color:#FF00A0;
+	color:#A050A0;
 }

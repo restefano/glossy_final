@@ -8,7 +8,7 @@
 html{color:#000;background:#FFF;}
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{margin:0;padding:0}
 table{border-collapse:collapse;border-spacing:0}
-fieldset,img{border:0}
+fieldset,img{border:0}''
 address,caption,cite,code,dfn,em,th,var,optgroup{font-style:inherit;font-weight:inherit}
 del,ins{text-decoration:none}
 caption,th{text-align:left}
@@ -84,7 +84,8 @@ h3 {
 }
 .title_block {
 	padding-bottom:20px;
-	font-size:16px
+	font-size:16px;
+	border-radius:7px;
 }
 
 .hide-left-column #left_column {display:none}
@@ -98,7 +99,7 @@ p em {font-style:italic}
 .warning {
 	margin:0 0 10px 0;
 	padding:10px;
-	border:1px solid #FF00A0;
+	border:1px solid #A050A0;
 	font-size:13px;
 	background:#F8E0EC
 }
@@ -159,7 +160,7 @@ span.exclusive_mini, span.exclusive_small, span.exclusive, span.exclusive_large,
 	-webkit-border-radius: 3px !important;
 	border-radius: 8px !important;
 	color:#FFF;
-	background:#39c81f;
+	background:#509050;
 	cursor: pointer;
 	border: none;
 }
@@ -270,11 +271,11 @@ table.std th,
 table.table_block th {
 	padding:14px 12px;
 	font-size:12px;
-	color:#fff;
+	color:#333;
 	 font-weight:normal;
 	text-transform:uppercase;
 	text-shadow:0 1px 0 #000;
-	background:#A000A0
+	background:#A060A0
 }
 table.std tr.alternate_item,
 table.table_block tr.alternate_item {background-color: #f3f3f3}
@@ -293,11 +294,12 @@ table.table_block  td {
 	.block .title_block, .block h4 {
 		padding:6px 11px;
 		font-size:14px;
-		color:#fff;
-		background:#C000A0;
+		color:#333;
+		background:#F0B0F0;
 		text-align:left;
 		height:17px;
 		font-family:'Muli',sans-serif;
+		border-radius:7px;
 	}
 		.block .title_block a, .block h4 a {color:#fff}
 	.block ul {list-style-type:none}
@@ -445,7 +447,7 @@ ul.step li a, ul.step li.step_current span, ul.step li.step_current_end span {
 	display:inline-block;
 	padding:8px 10px 12px;
 	color:#FFF;
-	background:#FF00A0;
+	background:#A050A0;
 }
 ul.step li.step_current {
 	font-weight:normal;
@@ -622,7 +624,7 @@ margin-top:30px;
 	list-style-type: none;
 	margin-top: 20px;
 	padding: 0 0px;
-	border-bottom: 8px solid #C000A0
+	border-bottom: 8px solid #F0B0F0
 }
 ul.idTabs li {
 	float: left;
@@ -640,7 +642,7 @@ ul.idTabs li {
 	font-weight:normal;
 	font-size:14px;
 	color:#FFFFFF;
-	background: #C000A0;
+	background: #F0B0F0;
 }
 
 #more_info_sheets {padding-top:10px}
@@ -719,7 +721,7 @@ table#cart_summary th {
 	 font-weight:normal;
 	text-transform:uppercase;
 	 text-shadow:0 1px 0 #666;
-	background:#A000A0;
+	background:#A060A0;
 }
 table#cart_summary  th.cart_product {text-align:center}
 table#cart_summary  td {
@@ -876,8 +878,8 @@ table#cart_summary #total_price_container {
 
 table#cart_summary .cart_total_price .total_price_container {
 	padding:0;
-	border-bottom:1px solid #A000A0;
-	border-right:1px solid #A000A0;
+	border-bottom:1px solid #A060A0;
+	border-right:1px solid #A060A0;
 }
 .cart_total_price .total_price_container p {
 	display:block;
@@ -885,7 +887,7 @@ table#cart_summary .cart_total_price .total_price_container {
 	font-weight:bold;
 	color:#fff;
 	text-transform:uppercase;
-	background:#A000A0;
+	background:#A060A0;
 }
 .cart_total_price .total_price_container span {
 	display:block;
@@ -909,7 +911,7 @@ table#cart_summary .cart_total_price .total_price_container {
 	color:#fff;
 	font-weight:bold;
 	text-transform:uppercase;
-	background:#A000A0;
+	background:#A060A0;
 }
 #order_carrier span {
 	display:block;
@@ -957,7 +959,7 @@ table#cart_summary .gift-icon {
 	font-size:12px;
 	color:#fff;
 	text-transform:uppercase;
-	background:#C000A0
+	background:#F0B0F0
 }
 #create-account_form .title_block  {
 	padding-bottom:22px;
@@ -1091,7 +1093,7 @@ margin: 10px 0 0 0;*/
 	color: #fff;
 	text-shadow: 0 1px 0 #000;
 	text-transform: uppercase;
-	background: none repeat scroll 0 0 #A000A0;
+	background: none repeat scroll 0 0 #A060A0;
 }
 #order .delivery_option_radio, #order-opc .delivery_option_radio {
 	float: left;
@@ -1171,7 +1173,7 @@ margin: 10px 0 0 0;*/
 	line-height:29px;
 	color:#fff;
 	text-transform:uppercase;
-	background:#A000A0;
+	background:#A060A0;
 }
 #carrierTable  td {
 	padding:15px;
@@ -1249,7 +1251,7 @@ a.iframe {font-weight:bold}
 	display:inline-block;
 	padding:5px 7px;
 	color:#fff;
-	background:#A000A0;
+	background:#A060A0;
 }
 
 #order-opc #login_form fieldset {
@@ -1315,7 +1317,7 @@ a.iframe {font-weight:bold}
 	font-size:12px;
 	color:#fff;
 	text-transform:uppercase;
-	background:#A000A0
+	background:#A060A0
 }
 #center_column #new_account_form p {
 	margin:0;
@@ -1437,7 +1439,7 @@ form#add_address {}
 	font-size:14px;
 	color:#fff;
 	text-transform:uppercase;
-	background:#A000A0;
+	background:#A060A0;
 }
 #center_column #add_address p {margin:0; padding:0 0 10px 0}
 #add_address p.required {color:#222}
