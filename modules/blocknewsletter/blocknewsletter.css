@@ -1,22 +1,23 @@
 /* Block newsletter */
 #newsletter_block_left {
 	padding:7px;
-	background:#F000A0;
+	background:#F0B0F0;
+	border-radius:7px;
 }
 #newsletter_block_left .title_block, #newsletter_block_left h4  {
 	padding:0 0 12px 28px;
-	color:#FFF;
+	color:#333;
 	background:url(img/icon/newsletter.png) no-repeat 0 0 transparent;
 }
 #newsletter_block_left p {padding:0;}
 
 #newsletter_block_left p.success_inline {
-	color: #FFF;
+	color: #333;
 	text-align: center;
 	font-weight: bold;
 }
 #newsletter_block_left p.warning_inline {
-	color: #FFF;
+	color: #333;
 	text-align: center;
 	font-weight: bold;
 }
