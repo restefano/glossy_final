@@ -268,7 +268,7 @@ span.view_scroll_spacer {
 }
 
 #availability_statut #availability_value {
-		background-color:green;
+		background-color:#509050;
 		color:#ffffff;
 		text-shadow:none;
 		padding:0 10px;
@@ -279,7 +279,7 @@ span.view_scroll_spacer {
 }
 
 #availability_statut #availability_value.warning_inline {
-	background-color:#9B0000;
+	background-color:#F090F0;
 }
 
 /* prices */
