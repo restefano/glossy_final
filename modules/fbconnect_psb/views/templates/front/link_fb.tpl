@@ -29,11 +29,11 @@
 	</div>
 {else if $fbconnect_psb_status == 'login'}
 	<div class="error">
-		<p>{$fbconnect_psb_massage}<br/><a href="{$fbconnect_psb_loginURL}">Log in to Facebook</a></p>
+		<p>{$fbconnect_psb_massage}<br/><a href="{$fbconnect_psb_loginURL}">Entrar com o Facebook</a></p>
 	</div>
 {else}
 	<div class="error">
-		<p>Sorry, there was error with Facebook Profile Connect.</p>
+		<p>Falha ao conectar-se com o Facebook. Tente novamente.</p>
 	</div>
 {/if}
 <br/>
