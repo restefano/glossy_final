@@ -301,7 +301,7 @@ table.table_block  td {
 		font-family:'Muli',sans-serif;
 		border-radius:7px;
 	}
-		.block .title_block a, .block h4 a {color:#fff}
+		.block .title_block a, .block h4 a {color:#333}
 	.block ul {list-style-type:none}
 		.block li.last {	border:none}
 			.block li a {
