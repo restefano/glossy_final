@@ -75,8 +75,8 @@ class FBConnect_PSBLinkModuleFrontController extends ModuleFrontController
 			if ($customer_id != $this->context->customer->id)
 			{
 				$this->context->smarty->assign(array(
-					'fbconnect_psb_status' => 'error',
-					'fbconnect_psb_massage' => 'The Facebook account is already linked to another account.',
+					'fbconnect_psb_status' => 'Erro',
+					'fbconnect_psb_massage' => 'Esta conta do facebook já está conectada a outra conta na GlossyMe.',
 					'fbconnect_psb_fb_picture' => 'https://graph.facebook.com/'.$fb_user_profile['username'].'/picture',
 					'fbconnect_psb_fb_name' => $fb_user_profile['name']
 				));
@@ -84,8 +84,8 @@ class FBConnect_PSBLinkModuleFrontController extends ModuleFrontController
 			else if ($customer_id == $this->context->customer->id)
 			{
 				$this->context->smarty->assign(array(
-					'fbconnect_psb_status' => 'linked',
-					'fbconnect_psb_massage' => 'The Facebook account is already linked to your account.',
+					'fbconnect_psb_status' => 'Conectado',
+					'fbconnect_psb_massage' => 'Sua conta já está conectada ao Facebook.',
 					'fbconnect_psb_fb_picture' => 'https://graph.facebook.com/'.$fb_user_profile['username'].'/picture',
 					'fbconnect_psb_fb_name' => $fb_user_profile['name']
 				));
@@ -95,8 +95,8 @@ class FBConnect_PSBLinkModuleFrontController extends ModuleFrontController
 				if(Db::getInstance()->insert('customer_profile_connect',array( 'id_customer' => (int)$this->context->customer->id, 'facebook_id' => (int)$fb_user_profile['id'])))
 				{
 					$this->context->smarty->assign(array(
-						'fbconnect_psb_status' => 'conform',
-						'fbconnect_psb_massage' => 'Your Facebook account has been linked to account.',
+						'fbconnect_psb_status' => 'OK',
+						'fbconnect_psb_massage' => 'Sua conta na GlossyMe foi conectada à sua conta no Facebook.',
 						'fbconnect_psb_fb_picture' => 'https://graph.facebook.com/'.$fb_user_profile['username'].'/picture',
 						'fbconnect_psb_fb_name' => $fb_user_profile['name']
 					));
@@ -105,16 +105,16 @@ class FBConnect_PSBLinkModuleFrontController extends ModuleFrontController
 			else if($fb_user_profile['email'] != $this->context->customer->email)
 			{
 				$this->context->smarty->assign(array(
-					'fbconnect_psb_status' => 'error',
-					'fbconnect_psb_massage' => 'Your email address on files is not the same as Facebook.'.$customer_id,
+					'fbconnect_psb_status' => 'Erro',
+					'fbconnect_psb_massage' => 'Seu endereço de e-mail não é o mesmo cadastrado no Facebook.'.$customer_id,
 				));
 			}
 		}
 		else
 		{
 			$this->context->smarty->assign(array(
-				'fbconnect_psb_status' => 'login',
-				'fbconnect_psb_massage' => 'You must login to your Facebook account.',
+				'fbconnect_psb_status' => 'Entrar',
+				'fbconnect_psb_massage' => 'Você precisa entrar com sua conta do Facebook.',
 				'fbconnect_psb_loginURL' => $facebook->getLoginUrl(),
 			));
 		}

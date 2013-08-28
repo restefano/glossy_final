@@ -18,8 +18,8 @@
 
 <!-- MODULE FBConnect_psb hook -->
 <li>
-	<a href="{$fbconnect_psb_link}" title="{l s='Facebook Login Manager' mod='fbconnect_psb'}">
-		<img {if isset($mobile_hook)} src="{$module_template_dir}img/facebook_logo.png" class="ui-li-icon ui-li-thumb" {else} src="{$module_template_dir}img/facebook_logo.gif" class="icon"{/if}  alt="{l s='Facebook Login Manager' mod='fbconnect_psb'}" /> {l s='Facebook Login Manager' mod='fbconnect_psb'}
+	<a href="{$fbconnect_psb_link}" title="Gerenciar Conexão com Facebook">
+		<img {if isset($mobile_hook)} src="{$module_template_dir}img/facebook_logo.png" class="ui-li-icon ui-li-thumb" {else} src="{$module_template_dir}img/facebook_logo.gif" class="icon"{/if}  alt="Gerenciar Conexão com Facebook" /> {l s='Facebook Login Manager' mod='fbconnect_psb'}
 	</a>
 </li>
 <!-- END : MODULE FBConnect_psb hook -->
