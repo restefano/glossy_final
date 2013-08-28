@@ -41,7 +41,7 @@ var homeslider_pause = {$homeslider.pause};
 </script>
 {/if}
 {if isset($homeslider_slides)}
-<div id="ric_slider" class="block" style="width:535px; height:270px; position:relative;">
+<div id="ric_slider" class="block" style="width:535px; height:235px; position:relative;">
 <ul id="homeslider">
 {foreach from=$homeslider_slides item=slide}
 	{if $slide.active}
