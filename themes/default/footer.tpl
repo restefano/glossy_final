@@ -40,7 +40,6 @@
 <div title="rodape" class="grid_9 alpha omega clearfix" style="background-color:#FFF;">
 
 	<div style="width: 980px; background-color:#FFF; padding-top:20px; border-top:solid #A050A0 8px;"><span style="font-size: 12px;">&nbsp;&nbsp;</span></div>
-	</div>
 
 	<table cellspacing="0" cellpadding="0" border="0" style="width:960px; margin: 0 auto; background-color=#FFF;">
     	<tbody>
@@ -51,6 +50,7 @@
         </tr>
     	</tbody>
 	</table>
+	</div>
 
 <br>
 <br>
