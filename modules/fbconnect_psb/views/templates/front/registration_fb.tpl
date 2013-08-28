@@ -36,6 +36,6 @@
 </div>
 {else}
 	<div class="error">
-		<p>You must login to your Facebook account.<br/><a href="{$fbconnect_psb_loginURL}">Log in to Facebook</a></p>
+		<p>Você precisa entrar com sua conta do Facebook.<br/><br/><a href="{$fbconnect_psb_loginURL}">Clique aqui para entrar no Facebook</a></p>
 	</div>
 {/if}
