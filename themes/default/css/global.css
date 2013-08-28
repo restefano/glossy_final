@@ -634,14 +634,14 @@ ul.idTabs li {
 	display:block;
 	padding:10px 10px 7px 10px;
 	text-decoration:none;
-	color:#fff;
-	background:#800080
+	color:#333;
+	background:#A080A0;
 }
 .idTabs .selected {
 	font-family:'Muli', sans-serif;
 	font-weight:normal;
 	font-size:14px;
-	color:#FFFFFF;
+	color:#333;
 	background: #F0B0F0;
 }
 
