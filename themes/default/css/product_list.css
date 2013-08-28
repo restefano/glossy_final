@@ -117,9 +117,9 @@ ul#product_list {
 	#product_list li .price {
 		display: block;
 		margin-bottom: 15px;
-		font-weight:bold;
+		font-weight:normal;
 		font-size: 20px;
-		color:#A050A0
+		color:#FF00FF
 	}
 	#product_list li span.availability {
 			color: #488C40
@@ -141,7 +141,7 @@ ul#product_list {
 		margin-top:15px;
 		padding:0 10px;
 		border:none;
-		font-weight:bold;
+		font-weight:normal;
 		font-size: 12px;
 		color:#0088CC;
 		background:url(../img/arrow_right_1.png) no-repeat 100% 4px transparent
