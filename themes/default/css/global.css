@@ -270,11 +270,9 @@ table.table_block {
 table.std th,
 table.table_block th {
 	padding:14px 12px;
-	font-size:12px;
-	color:#333;
+	font-size:14px;
+	color:#FFF;
 	 font-weight:normal;
-	text-transform:uppercase;
-	text-shadow:0 1px 0 #000;
 	background:#A060A0
 }
 table.std tr.alternate_item,
