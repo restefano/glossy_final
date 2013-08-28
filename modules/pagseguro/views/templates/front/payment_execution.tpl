@@ -37,7 +37,7 @@
 	</p>
 	<p class="cart_navigation">
 		<input type="submit" name="submit" value="{l s='Confirmo minha compra' mod='pagseguro'}" class="exclusive_large" />
-		<a href="{$link->getPageLink('order', true, NULL, "step=3")}" class="button_large">{l s='Outros formas de pagamento' mod='pagseguro'}</a>
+		<a href="{$link->getPageLink('order', true, NULL, "step=3")}" class="button_large">{l s='Outras formas de pagamento' mod='pagseguro'}</a>
 	</p>
 </form>
 {/if}
