@@ -4,7 +4,7 @@ You can put the links anywhere.
 
 <a title="Login with your Facebook Account" class="button_large" href="{$link->getModuleLink('fbconnect_psb', 'login', array(), true)}">Facebook Login</a>
 
-<a title="Registrar with your Facebook Account" class="button" href="{$link->getModuleLink('fbconnect_psb', 'registration', array(), true)}">Facebook Registrar</a>
+<a title="Conectar-se com sua conta no Facebook" class="button" href="{$link->getModuleLink('fbconnect_psb', 'registration', array(), true)}">Facebook Registrar</a>
 
 TODO: 
 -some code clean up

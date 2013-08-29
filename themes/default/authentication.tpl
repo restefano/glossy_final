@@ -165,7 +165,7 @@ $(document).ready(function() {
 					<input type="submit" id="SubmitCreate" name="SubmitCreate" class="button_large" value="{l s='Create an account'}" />
 					<input type="hidden" class="hidden" name="SubmitCreate" value="{l s='Create an account'}" />
 
-					<a title="{l s='Registrar with your Facebook Account' mod='fbconnect_psb'}" class="button" style="background-color:#3B5998" href="{$link->getModuleLink('fbconnect_psb', 'registration', array(), true)}">Registrar-se com o Facebook</a>
+					<a title="Conectar-se usando sua conta no Facebook" class="button" style="background-color:#3B5998" href="{$link->getModuleLink('fbconnect_psb', 'registration', array(), true)}">Registrar-se com o Facebook</a>
 				</p>
 			</div>
 		</fieldset>
