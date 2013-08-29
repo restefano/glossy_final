@@ -2,7 +2,8 @@
 	margin-right:10px;
 	padding:10px 0;
 	width:168px;
-	height:280px
+	height:215px;
+	/* 280px */
 }
 #featured-products_block_center li.last_item_of_line  {margin-right:0;}
 #featured-products_block_center .s_title_block,  #featured-products_block_center h5 {
