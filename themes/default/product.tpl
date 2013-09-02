@@ -280,8 +280,8 @@ var fieldRequired = '{l s='Please fill in all the required fields before saving 
 		{/if}*}
 
 		{if ($product->show_price AND !isset($restricted_country_mode)) OR isset($groups) OR $product->reference OR (isset($HOOK_PRODUCT_ACTIONS) && $HOOK_PRODUCT_ACTIONS)}
-		<!-- add to cart form-->
-		<form id="buy_block" {if $PS_CATALOG_MODE AND !isset($groups) AND $product->quantity > 0}class="hidden"{/if} action="{$link->getPageLink('cart')}" method="post">
+			<!-- add to cart form-->
+			<form id="buy_block" {if $PS_CATALOG_MODE AND !isset($groups) AND $product->quantity > 0}class="hidden"{/if} action="{$link->getPageLink('cart')}" method="post">
 
 			<!-- hidden datas -->
 			<p class="hidden">
@@ -459,7 +459,6 @@ var fieldRequired = '{l s='Please fill in all the required fields before saving 
 			{/if}
 
 			{*close if for show price*}
-			{/if}
 
 
 				<!-- Preço -->
@@ -470,18 +469,19 @@ var fieldRequired = '{l s='Please fill in all the required fields before saving 
 						{if $priceDisplay == 1}{l s='tax excl.'}{else}{l s='tax incl.'}{/if}
 					{/if}-->
 					<p style="margin-bottom:5px">cada</p>
-					{else}
-					<p>Cadastre-se para ver nossos preços</p>
 				{/if}
 				</p>
-
-
-
 
 				{if $priceDisplay == 2}
 					<br />
 					<span id="pretaxe_price"><span id="pretaxe_price_display">{convertPrice price=$product->getPrice(false, $smarty.const.NULL)}</span>&nbsp;{l s='tax excl.'}</span>
 				{/if}
+
+
+
+			{else}
+				<p>Cadastre-se para visualizar nossos preços</p>
+			{/if}
 
 			</div>
 
@@ -504,7 +504,8 @@ var fieldRequired = '{l s='Please fill in all the required fields before saving 
 			<div class="clear"></div>
 		</div>
 		</form>
-		{/if}
+	{/if}
+
 		{if isset($HOOK_EXTRA_RIGHT) && $HOOK_EXTRA_RIGHT}{$HOOK_EXTRA_RIGHT}{/if}
 	</div>
 </div>
