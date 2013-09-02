@@ -478,7 +478,7 @@ var fieldRequired = '{l s='Please fill in all the required fields before saving 
 				</div>
 				{else}
 					<div class="price">
-						<p><a class="login" href="http://glossyme.com.br/minha-glossyme" rel="nofollow" title="Identifique-se" style="color:blue">Clique aqui</a>
+						<p><a class="login" href="{$base_dir}authentication.php?back={smarty.server.REQUEST_URI|escape:'htmlall':'utf-8'}"rel="nofollow" title="Identifique-se" style="color:blue">Clique aqui</a>
 						e registre-se para<br> visualizar os nossos preços</p><br>
 						ou
 						<br>
