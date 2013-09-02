@@ -473,7 +473,8 @@ var fieldRequired = '{l s='Please fill in all the required fields before saving 
 				</div>
 				{else}
 					<div class="price">
-						<p>Cadastre-se para visualizar nossos preços</p>
+						<p><a class="login" href="http://glossyme.com.br/minha-glossyme" rel="nofollow" title="Identifique-se" style="color:blue">Clique aqui</a>
+						e entre para<br> visualizar os nossos preços</p><br><br>
 					</div>
 				{/if}
 
