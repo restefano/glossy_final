@@ -464,7 +464,7 @@ var fieldRequired = '{l s='Please fill in all the required fields before saving 
 
 				<!-- Preço -->
 				<p class="our_price_display">
-				{if $priceDisplay > 0 && $priceDisplay <= 2}
+				{if $priceDisplay >= 0 && $priceDisplay <= 2}
 					<span id="our_price_display">{convertPrice price=$productPrice}</span>
 					<!--{if $tax_enabled  && ((isset($display_tax_label) && $display_tax_label == 1) OR !isset($display_tax_label))}
 						{if $priceDisplay == 1}{l s='tax excl.'}{else}{l s='tax incl.'}{/if}
