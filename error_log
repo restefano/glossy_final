@@ -439,3 +439,4 @@ Stack trace:
 #4 /home/gloss354/public_html/classes/controller/Controller.php(158): PagSeguroNotification in /home/gloss354/public_html/modules/pagseguro/PagSeguroLibrary/utils/PagSeguroXmlParser.class.php on line 27
 [01-Sep-2013 13:57:49] PHP Warning:  htmlentities() [<a href='function.htmlentities'>function.htmlentities</a>]: Invalid multibyte sequence in argument in /home/gloss354/public_html/classes/Tools.php on line 647
 [01-Sep-2013 19:58:26] PHP Warning:  htmlentities() [<a href='function.htmlentities'>function.htmlentities</a>]: Invalid multibyte sequence in argument in /home/gloss354/public_html/classes/Tools.php on line 647
+[01-Sep-2013 21:58:28] PHP Warning:  htmlentities() [<a href='function.htmlentities'>function.htmlentities</a>]: Invalid multibyte sequence in argument in /home/gloss354/public_html/classes/Tools.php on line 647
