@@ -480,6 +480,13 @@ var fieldRequired = '{l s='Please fill in all the required fields before saving 
 					<div class="price">
 						<p><a class="login" href="http://glossyme.com.br/minha-glossyme" rel="nofollow" title="Identifique-se" style="color:blue">Clique aqui</a>
 						e entre para<br> visualizar os nossos preços</p><br><br>
+						ou
+						<br><br>
+						<a title="Conectar-se usando sua conta no Facebook" class="button" style="background-color:#3B5998" href="{$link->getModuleLink('fbconnect_psb', 'registration', array(), true)}">Registrar-se com o Facebook</a>
+						<br><br>
+						Já é cliente ?<br><br>
+						<a title="{l s='Login with your Facebook Account' mod='fbconnect_psb'}" class="button_large"  style="background-color:#3B5998"  href="{$link->getModuleLink('fbconnect_psb', 'login', array(), true)}">Entrar com o Facebook</a>
+						<br><br>
 					</div>
 				{/if}
 
