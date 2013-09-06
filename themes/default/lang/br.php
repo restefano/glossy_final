@@ -116,7 +116,7 @@ $_LANG['authentication_1c76cbfe21c6f44c1d1e59d54f3e4420'] = 'Empresa';
 $_LANG['authentication_20db0bfeecd8fe60533206a2b5e9891a'] = 'Nome';
 $_LANG['authentication_261ed9f602d575774ae05f2d9f3003da'] = 'Apartamento, suíte, unidade, torre, andar, etc.';
 $_LANG['authentication_2698159b00f03b84076380200ad852ec'] = 'Conectar-se ao Facebook';
-$_LANG['authentication_2fdfd506efea08144c0794c32ca8250a'] = 'Crie sua conta! É rápido e fácil!';
+$_LANG['authentication_2fdfd506efea08144c0794c32ca8250a'] = 'Crie sua conta!';
 $_LANG['authentication_3613cd526b4edba6471b8548a52424c3'] = 'Entre com sua conta do Facebook\' mod=\'fbconnect_psd';
 $_LANG['authentication_3fcf026bbfffb63fb24b8de9d0446949'] = 'Abril';
 $_LANG['authentication_41ba70891fb6f39327d8ccb9b1dafb84'] = 'Agosto';
