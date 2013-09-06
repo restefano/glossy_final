@@ -293,7 +293,7 @@ table.table_block  td {
 		padding:6px 11px;
 		font-size:14px;
 		color:#333;
-		background:#F0B0F0;
+		background:#FFD0FF;
 		text-align:left;
 		height:17px;
 		font-family:'Muli',sans-serif;
@@ -622,7 +622,7 @@ margin-top:30px;
 	list-style-type: none;
 	margin-top: 20px;
 	padding: 0 0px;
-	border-bottom: 8px solid #F0B0F0
+	border-bottom: 8px solid #FFD0FF
 }
 ul.idTabs li {
 	float: left;
@@ -640,7 +640,7 @@ ul.idTabs li {
 	font-weight:normal;
 	font-size:14px;
 	color:#333;
-	background: #F0B0F0;
+	background: #FFD0FF;
 }
 
 #more_info_sheets {padding-top:10px}
