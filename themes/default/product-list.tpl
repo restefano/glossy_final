@@ -58,9 +58,9 @@
 				{if ($product.id_product_attribute == 0 || (isset($add_prod_display) && ($add_prod_display == 1))) && $product.available_for_order && !isset($restricted_country_mode) && $product.minimal_quantity <= 1 && $product.customizable != 2 && !$PS_CATALOG_MODE}
 					{if ($product.allow_oosp || $product.quantity > 0)}
 						{if isset($static_token)}
-							<a class="button ajax_add_to_cart_button exclusive" rel="ajax_id_product_{$product.id_product|intval}" href="{$link->getPageLink('cart',false, NULL, "add=1&amp;id_product={$product.id_product|intval}&amp;token={$static_token}", false)}" title="{l s='Add to cart'}"><span></span><center style="color:#fff; width:103px">{l s='Add to cart'}</center></a>
+							<a class="button ajax_add_to_cart_button exclusive" rel="ajax_id_product_{$product.id_product|intval}" href="{$link->getPageLink('cart',false, NULL, "add=1&amp;id_product={$product.id_product|intval}&amp;token={$static_token}", false)}" title="{l s='Add to cart'}"  onclick="window.open('http://glossyme.com.br/autenticacao?back=my-account','_self')"><span></span><center style="color:#fff; width:103px">{l s='Add to cart'}</center></a>
 						{else}
-							<a class="button ajax_add_to_cart_button exclusive" rel="ajax_id_product_{$product.id_product|intval}" href="{$link->getPageLink('cart',false, NULL, "add=1&amp;id_product={$product.id_product|intval}", false)}" title="{l s='Add to cart'}"><span></span><center style="color:#fff; width:103px">{l s='Add to cart'}</center></a>
+							<a class="button ajax_add_to_cart_button exclusive" rel="ajax_id_product_{$product.id_product|intval}" href="{$link->getPageLink('cart',false, NULL, "add=1&amp;id_product={$product.id_product|intval}", false)}" title="{l s='Add to cart'}" onclick="window.open('http://glossyme.com.br/autenticacao?back=my-account','_self')"><span></span><center style="color:#fff; width:103px">{l s='Add to cart'}</center></a>
 						{/if}						
 					{else}
 						<span class="exclusive"><span></span><center style="color:#fff; width:103px">{l s='Add to cart'}</center></span>
