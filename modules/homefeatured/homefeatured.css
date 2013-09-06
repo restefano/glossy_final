@@ -33,7 +33,7 @@
 	-webkit-transform: rotate(45deg);
 	-o-transform:rotate(45deg);
 	-ms-transform: rotate(45deg);
-	background-color: #F040F0;
+	background-color: #FF40FF;
 	transform: rotate(45deg);  /* Newer browsers */
 }
 
