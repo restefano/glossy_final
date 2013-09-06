@@ -47,7 +47,7 @@
 		{else}
 			<p id="header_user_info">
 				Olá !
-			<a href="{$link->getPageLink('my-account', true)}" title="{l s='Quem é você ?' }" class="login" rel="nofollow">{l s='Entrar/Fazer Cadastro' }</a>
+			<a href="{$link->getPageLink('my-account', true)}" title="{l s='Quem é você ?' }" class="login" rel="nofollow">{l s='Entrar/Registrar-se' }</a>
 			</p>
 		{/if}
 
