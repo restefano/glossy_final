@@ -1,5 +1,3 @@
-<h2>Todos os produtos</h2>
-
 {if isset($products)}
     <!-- Products list -->
     <ul id="product_list" class="clear">
