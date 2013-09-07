@@ -36,6 +36,10 @@
 			{/if}
 		{/foreach}
 		</ul>
+
+		<span>Ver Todos<br></span>
+
+
 		{* Javascript moved here to fix bug #PSCFI-151 *}
 		<script type="text/javascript">
 		// <![CDATA[
