@@ -12,7 +12,7 @@ class ShowAllProducts extends Module
     	$this->version = '1.0';
     	$this->author = 'Ricardo Estefano Rosa';
     	$this->need_instance = 0;
-    	$this->ps_versions_compliancy = array('min' => '1.5', 'max' => '1.5'); 
+    	$this->ps_versions_compliancy = array('min' => '1.5', 'max' => '1.5.9'); 
     	$this->dependencies = array('blockcart');
  
     	parent::__construct();
@@ -33,6 +33,7 @@ class ShowAllProducts extends Module
  
   		return 	parent::install() &&
 			    $this->registerHook('header') &&
+			    $this->registerHook('displayHome') &&
     			Configuration::updateValue('RANDOM', 'true');
   	}	
 
@@ -41,7 +42,16 @@ class ShowAllProducts extends Module
   		return parent::uninstall() && Configuration::deleteByName('RANDOM');
 	}
 
-	
+	public function hookDisplayHeader()
+	{
+  		$this->context->controller->addCSS($this->_path.'css/showallproducst.css', 'all');
+	} 
+
+	public function hookHome($params)
+	{
+  		return $this->display(__FILE__, 'showallproducts.tpl');
+	}
+
 
 }
 ?>
