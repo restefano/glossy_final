@@ -1,4 +1,8 @@
-Class testmoduleAllproductsModuleFrontController extends ModuleFrontController
+<?php
+
+class testmoduleAllproductsModuleFrontController extends ModuleFrontController
 {
  
 }
+
+?>
