@@ -1,1 +1,1 @@
-<h2>{l s='Todos os Produtos' mod='testmodule'}</h2>
+<h2>Todos os produtos</h2>
