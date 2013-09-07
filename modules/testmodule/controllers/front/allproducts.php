@@ -20,7 +20,7 @@ class testmoduleAllproductsModuleFrontController extends ModuleFrontController
         'homeSize' => Image::getSize('home_default')
     	));
 
-    	$this->setTemplate('allproducts.tpl');
+
 	}   	
 
  
