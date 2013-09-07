@@ -37,7 +37,7 @@
 		{/foreach}
 		</ul>
 
-		<span>Ver Todos<br></span>
+		<span><br>Ver Todos os Produtos<br></span>
 
 
 		{* Javascript moved here to fix bug #PSCFI-151 *}
