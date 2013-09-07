@@ -1,0 +1,4 @@
+Class testmoduleAllproductsModuleFrontController extends ModuleFrontController
+{
+ 
+}
