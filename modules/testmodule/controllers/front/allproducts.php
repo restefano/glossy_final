@@ -12,7 +12,7 @@ class testmoduleAllproductsModuleFrontController extends ModuleFrontController
 	public function initContent()
 	{
     	parent::initContent();
-    	
+    	$this->setTemplate('allproducts.tpl');
 
     	$products_partial = Product::getProducts($this->context->language->id, 0, 30, 'name', 'asc');
     	$products = Product::getProductsProperties($this->context->language->id, $products_partial);
@@ -23,7 +23,7 @@ class testmoduleAllproductsModuleFrontController extends ModuleFrontController
         'homeSize' => Image::getSize('home_default')
     	));
 
-
+    	
 
 	}   	
 
