@@ -12,7 +12,7 @@ class testmoduleAllproductsModuleFrontController extends ModuleFrontController
 	public function initContent()
 	{
     	parent::initContent();
-	    echo'LELE';
+    	$this->setTemplate('allproducts.tpl');
 	}   	
 
  
