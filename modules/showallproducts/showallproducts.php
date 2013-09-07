@@ -33,10 +33,15 @@ class ShowAllProducts extends Module
  
   		return 	parent::install() &&
 			    $this->registerHook('header') &&
-    			Configuration::updateValue('MYMODULE_NAME', 'my friend');
-  }	}
+    			Configuration::updateValue('RANDOM', 'true');
+  	}	
 
+  	public function uninstall()
+	{
+  		return parent::uninstall() && Configuration::deleteByName('RANDOM');
+	}
 
+	
 
 }
 ?>
