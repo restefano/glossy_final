@@ -26,7 +26,7 @@
 
 class ListAllControllerCore extends FrontController
 {
-	public $php_self = 'best-sales';
+	public $php_self = 'list-all';
 
 	public function initContent()
 	{
