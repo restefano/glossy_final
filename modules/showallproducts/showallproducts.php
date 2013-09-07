@@ -33,6 +33,7 @@ class ShowAllProducts extends Module
  
   		return 	parent::install() &&
 			    $this->registerHook('header') &&
+			    $this->registerHook('displayHome') &&
     			Configuration::updateValue('RANDOM', 'true');
   	}	
 
@@ -41,7 +42,16 @@ class ShowAllProducts extends Module
   		return parent::uninstall() && Configuration::deleteByName('RANDOM');
 	}
 
-	
+	public function hookDisplayHeader()
+	{
+  		$this->context->controller->addCSS($this->_path.'css/showallproducst.css', 'all');
+	} 
+
+	public function hookHome($params)
+	{
+  		return $this->display(__FILE__, 'showallproducts.tpl');
+	}
+
 
 }
 ?>
