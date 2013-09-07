@@ -47,7 +47,7 @@ class ShowAllProducts extends Module
   		$this->context->controller->addCSS($this->_path.'css/showallproducst.css', 'all');
 	} 
 
-	public function hookHome($params)
+	public function hookDisplayHome($params)
 	{
   		return $this->display(__FILE__, 'showallproducts.tpl');
 	}
