@@ -525,3 +525,144 @@ Stack trace:
 [05-Sep-2013 12:49:37] PHP Warning:  htmlentities() [<a href='function.htmlentities'>function.htmlentities</a>]: Invalid multibyte sequence in argument in /home/gloss354/public_html/classes/Tools.php on line 647
 [05-Sep-2013 14:49:39] PHP Warning:  htmlentities() [<a href='function.htmlentities'>function.htmlentities</a>]: Invalid multibyte sequence in argument in /home/gloss354/public_html/classes/Tools.php on line 647
 [05-Sep-2013 16:49:41] PHP Warning:  htmlentities() [<a href='function.htmlentities'>function.htmlentities</a>]: Invalid multibyte sequence in argument in /home/gloss354/public_html/classes/Tools.php on line 647
+[06-Sep-2013 04:25:32] PHP Fatal error:  Uncaught exception 'Exception' with message 'PagSeguroLibrary XML parsing error: (4) not well-formed (invalid token)' in /home/gloss354/public_html/modules/pagseguro/PagSeguroLibrary/utils/PagSeguroXmlParser.class.php:27
+Stack trace:
+#0 /home/gloss354/public_html/modules/pagseguro/PagSeguroLibrary/parser/PagSeguroTransactionParser.class.php(65): PagSeguroXmlParser->__construct('<?xml version="...')
+#1 /home/gloss354/public_html/modules/pagseguro/PagSeguroLibrary/service/PagSeguroNotificationService.class.php(62): PagSeguroTransactionParser::readTransaction('<?xml version="...')
+#2 /home/gloss354/public_html/modules/pagseguro/controllers/front/notification.php(109): PagSeguroNotificationService::checkTransaction(Object(PagSeguroAccountCredentials), '17931C-3F5BF65B...')
+#3 /home/gloss354/public_html/modules/pagseguro/controllers/front/notification.php(54): PagSeguroNotificationModuleFrontController->_createTransaction()
+#4 /home/gloss354/public_html/classes/controller/Controller.php(158): PagSeguroNotification in /home/gloss354/public_html/modules/pagseguro/PagSeguroLibrary/utils/PagSeguroXmlParser.class.php on line 27
+[06-Sep-2013 04:29:15] PHP Warning:  htmlentities() [<a href='function.htmlentities'>function.htmlentities</a>]: Invalid multibyte sequence in argument in /home/gloss354/public_html/classes/Tools.php on line 647
+[06-Sep-2013 06:23:21] PHP Fatal error:  Uncaught exception 'Exception' with message 'PagSeguroLibrary XML parsing error: (4) not well-formed (invalid token)' in /home/gloss354/public_html/modules/pagseguro/PagSeguroLibrary/utils/PagSeguroXmlParser.class.php:27
+Stack trace:
+#0 /home/gloss354/public_html/modules/pagseguro/PagSeguroLibrary/parser/PagSeguroTransactionParser.class.php(65): PagSeguroXmlParser->__construct('<?xml version="...')
+#1 /home/gloss354/public_html/modules/pagseguro/PagSeguroLibrary/service/PagSeguroNotificationService.class.php(62): PagSeguroTransactionParser::readTransaction('<?xml version="...')
+#2 /home/gloss354/public_html/modules/pagseguro/controllers/front/notification.php(109): PagSeguroNotificationService::checkTransaction(Object(PagSeguroAccountCredentials), '17931C-3F5BF65B...')
+#3 /home/gloss354/public_html/modules/pagseguro/controllers/front/notification.php(54): PagSeguroNotificationModuleFrontController->_createTransaction()
+#4 /home/gloss354/public_html/classes/controller/Controller.php(158): PagSeguroNotification in /home/gloss354/public_html/modules/pagseguro/PagSeguroLibrary/utils/PagSeguroXmlParser.class.php on line 27
+[06-Sep-2013 06:29:16] PHP Warning:  htmlentities() [<a href='function.htmlentities'>function.htmlentities</a>]: Invalid multibyte sequence in argument in /home/gloss354/public_html/classes/Tools.php on line 647
+[06-Sep-2013 08:19:46] PHP Fatal error:  Uncaught exception 'Exception' with message 'PagSeguroLibrary XML parsing error: (4) not well-formed (invalid token)' in /home/gloss354/public_html/modules/pagseguro/PagSeguroLibrary/utils/PagSeguroXmlParser.class.php:27
+Stack trace:
+#0 /home/gloss354/public_html/modules/pagseguro/PagSeguroLibrary/parser/PagSeguroTransactionParser.class.php(65): PagSeguroXmlParser->__construct('<?xml version="...')
+#1 /home/gloss354/public_html/modules/pagseguro/PagSeguroLibrary/service/PagSeguroNotificationService.class.php(62): PagSeguroTransactionParser::readTransaction('<?xml version="...')
+#2 /home/gloss354/public_html/modules/pagseguro/controllers/front/notification.php(109): PagSeguroNotificationService::checkTransaction(Object(PagSeguroAccountCredentials), '17931C-3F5BF65B...')
+#3 /home/gloss354/public_html/modules/pagseguro/controllers/front/notification.php(54): PagSeguroNotificationModuleFrontController->_createTransaction()
+#4 /home/gloss354/public_html/classes/controller/Controller.php(158): PagSeguroNotification in /home/gloss354/public_html/modules/pagseguro/PagSeguroLibrary/utils/PagSeguroXmlParser.class.php on line 27
+[06-Sep-2013 08:29:16] PHP Warning:  htmlentities() [<a href='function.htmlentities'>function.htmlentities</a>]: Invalid multibyte sequence in argument in /home/gloss354/public_html/classes/Tools.php on line 647
+[06-Sep-2013 10:18:15] PHP Fatal error:  Uncaught exception 'Exception' with message 'PagSeguroLibrary XML parsing error: (4) not well-formed (invalid token)' in /home/gloss354/public_html/modules/pagseguro/PagSeguroLibrary/utils/PagSeguroXmlParser.class.php:27
+Stack trace:
+#0 /home/gloss354/public_html/modules/pagseguro/PagSeguroLibrary/parser/PagSeguroTransactionParser.class.php(65): PagSeguroXmlParser->__construct('<?xml version="...')
+#1 /home/gloss354/public_html/modules/pagseguro/PagSeguroLibrary/service/PagSeguroNotificationService.class.php(62): PagSeguroTransactionParser::readTransaction('<?xml version="...')
+#2 /home/gloss354/public_html/modules/pagseguro/controllers/front/notification.php(109): PagSeguroNotificationService::checkTransaction(Object(PagSeguroAccountCredentials), '17931C-3F5BF65B...')
+#3 /home/gloss354/public_html/modules/pagseguro/controllers/front/notification.php(54): PagSeguroNotificationModuleFrontController->_createTransaction()
+#4 /home/gloss354/public_html/classes/controller/Controller.php(158): PagSeguroNotification in /home/gloss354/public_html/modules/pagseguro/PagSeguroLibrary/utils/PagSeguroXmlParser.class.php on line 27
+[06-Sep-2013 10:29:19] PHP Warning:  htmlentities() [<a href='function.htmlentities'>function.htmlentities</a>]: Invalid multibyte sequence in argument in /home/gloss354/public_html/classes/Tools.php on line 647
+[06-Sep-2013 12:29:20] PHP Warning:  htmlentities() [<a href='function.htmlentities'>function.htmlentities</a>]: Invalid multibyte sequence in argument in /home/gloss354/public_html/classes/Tools.php on line 647
+[06-Sep-2013 12:31:40] PHP Fatal error:  Uncaught exception 'Exception' with message 'PagSeguroLibrary XML parsing error: (4) not well-formed (invalid token)' in /home/gloss354/public_html/modules/pagseguro/PagSeguroLibrary/utils/PagSeguroXmlParser.class.php:27
+Stack trace:
+#0 /home/gloss354/public_html/modules/pagseguro/PagSeguroLibrary/parser/PagSeguroTransactionParser.class.php(65): PagSeguroXmlParser->__construct('<?xml version="...')
+#1 /home/gloss354/public_html/modules/pagseguro/PagSeguroLibrary/service/PagSeguroNotificationService.class.php(62): PagSeguroTransactionParser::readTransaction('<?xml version="...')
+#2 /home/gloss354/public_html/modules/pagseguro/controllers/front/notification.php(109): PagSeguroNotificationService::checkTransaction(Object(PagSeguroAccountCredentials), '17931C-3F5BF65B...')
+#3 /home/gloss354/public_html/modules/pagseguro/controllers/front/notification.php(54): PagSeguroNotificationModuleFrontController->_createTransaction()
+#4 /home/gloss354/public_html/classes/controller/Controller.php(158): PagSeguroNotification in /home/gloss354/public_html/modules/pagseguro/PagSeguroLibrary/utils/PagSeguroXmlParser.class.php on line 27
+[06-Sep-2013 12:56:05] PHP Warning:  htmlentities() [<a href='function.htmlentities'>function.htmlentities</a>]: Invalid multibyte sequence in argument in /home/gloss354/public_html/classes/Tools.php on line 647
+[06-Sep-2013 12:56:05] PHP Warning:  htmlentities() [<a href='function.htmlentities'>function.htmlentities</a>]: Invalid multibyte sequence in argument in /home/gloss354/public_html/classes/Tools.php on line 647
+[06-Sep-2013 12:56:16] PHP Fatal error:  Uncaught exception 'Exception' with message 'PagSeguroLibrary XML parsing error: (4) not well-formed (invalid token)' in /home/gloss354/public_html/modules/pagseguro/PagSeguroLibrary/utils/PagSeguroXmlParser.class.php:27
+Stack trace:
+#0 /home/gloss354/public_html/modules/pagseguro/PagSeguroLibrary/parser/PagSeguroTransactionParser.class.php(65): PagSeguroXmlParser->__construct('<?xml version="...')
+#1 /home/gloss354/public_html/modules/pagseguro/PagSeguroLibrary/service/PagSeguroNotificationService.class.php(62): PagSeguroTransactionParser::readTransaction('<?xml version="...')
+#2 /home/gloss354/public_html/modules/pagseguro/controllers/front/notification.php(109): PagSeguroNotificationService::checkTransaction(Object(PagSeguroAccountCredentials), 'B3C15A-77594659...')
+#3 /home/gloss354/public_html/modules/pagseguro/controllers/front/notification.php(54): PagSeguroNotificationModuleFrontController->_createTransaction()
+#4 /home/gloss354/public_html/classes/controller/Controller.php(158): PagSeguroNotification in /home/gloss354/public_html/modules/pagseguro/PagSeguroLibrary/utils/PagSeguroXmlParser.class.php on line 27
+[06-Sep-2013 13:22:47] PHP Warning:  htmlentities() [<a href='function.htmlentities'>function.htmlentities</a>]: Invalid multibyte sequence in argument in /home/gloss354/public_html/classes/Tools.php on line 647
+[06-Sep-2013 13:22:58] PHP Fatal error:  Uncaught exception 'Exception' with message 'PagSeguroLibrary XML parsing error: (4) not well-formed (invalid token)' in /home/gloss354/public_html/modules/pagseguro/PagSeguroLibrary/utils/PagSeguroXmlParser.class.php:27
+Stack trace:
+#0 /home/gloss354/public_html/modules/pagseguro/PagSeguroLibrary/parser/PagSeguroTransactionParser.class.php(65): PagSeguroXmlParser->__construct('<?xml version="...')
+#1 /home/gloss354/public_html/modules/pagseguro/PagSeguroLibrary/service/PagSeguroNotificationService.class.php(62): PagSeguroTransactionParser::readTransaction('<?xml version="...')
+#2 /home/gloss354/public_html/modules/pagseguro/controllers/front/notification.php(109): PagSeguroNotificationService::checkTransaction(Object(PagSeguroAccountCredentials), '223503-58E1ABE1...')
+#3 /home/gloss354/public_html/modules/pagseguro/controllers/front/notification.php(54): PagSeguroNotificationModuleFrontController->_createTransaction()
+#4 /home/gloss354/public_html/classes/controller/Controller.php(158): PagSeguroNotification in /home/gloss354/public_html/modules/pagseguro/PagSeguroLibrary/utils/PagSeguroXmlParser.class.php on line 27
+[06-Sep-2013 13:24:37] PHP Warning:  htmlentities() [<a href='function.htmlentities'>function.htmlentities</a>]: Invalid multibyte sequence in argument in /home/gloss354/public_html/classes/Tools.php on line 647
+[06-Sep-2013 13:24:48] PHP Fatal error:  Uncaught exception 'Exception' with message 'PagSeguroLibrary XML parsing error: (4) not well-formed (invalid token)' in /home/gloss354/public_html/modules/pagseguro/PagSeguroLibrary/utils/PagSeguroXmlParser.class.php:27
+Stack trace:
+#0 /home/gloss354/public_html/modules/pagseguro/PagSeguroLibrary/parser/PagSeguroTransactionParser.class.php(65): PagSeguroXmlParser->__construct('<?xml version="...')
+#1 /home/gloss354/public_html/modules/pagseguro/PagSeguroLibrary/service/PagSeguroNotificationService.class.php(62): PagSeguroTransactionParser::readTransaction('<?xml version="...')
+#2 /home/gloss354/public_html/modules/pagseguro/controllers/front/notification.php(109): PagSeguroNotificationService::checkTransaction(Object(PagSeguroAccountCredentials), 'D4C072-FAE924E9...')
+#3 /home/gloss354/public_html/modules/pagseguro/controllers/front/notification.php(54): PagSeguroNotificationModuleFrontController->_createTransaction()
+#4 /home/gloss354/public_html/classes/controller/Controller.php(158): PagSeguroNotification in /home/gloss354/public_html/modules/pagseguro/PagSeguroLibrary/utils/PagSeguroXmlParser.class.php on line 27
+[06-Sep-2013 14:21:24] PHP Fatal error:  Uncaught exception 'Exception' with message 'PagSeguroLibrary XML parsing error: (4) not well-formed (invalid token)' in /home/gloss354/public_html/modules/pagseguro/PagSeguroLibrary/utils/PagSeguroXmlParser.class.php:27
+Stack trace:
+#0 /home/gloss354/public_html/modules/pagseguro/PagSeguroLibrary/parser/PagSeguroTransactionParser.class.php(65): PagSeguroXmlParser->__construct('<?xml version="...')
+#1 /home/gloss354/public_html/modules/pagseguro/PagSeguroLibrary/service/PagSeguroNotificationService.class.php(62): PagSeguroTransactionParser::readTransaction('<?xml version="...')
+#2 /home/gloss354/public_html/modules/pagseguro/controllers/front/notification.php(109): PagSeguroNotificationService::checkTransaction(Object(PagSeguroAccountCredentials), 'D4C072-FAE924E9...')
+#3 /home/gloss354/public_html/modules/pagseguro/controllers/front/notification.php(54): PagSeguroNotificationModuleFrontController->_createTransaction()
+#4 /home/gloss354/public_html/classes/controller/Controller.php(158): PagSeguroNotification in /home/gloss354/public_html/modules/pagseguro/PagSeguroLibrary/utils/PagSeguroXmlParser.class.php on line 27
+[06-Sep-2013 14:21:40] PHP Fatal error:  Uncaught exception 'Exception' with message 'PagSeguroLibrary XML parsing error: (4) not well-formed (invalid token)' in /home/gloss354/public_html/modules/pagseguro/PagSeguroLibrary/utils/PagSeguroXmlParser.class.php:27
+Stack trace:
+#0 /home/gloss354/public_html/modules/pagseguro/PagSeguroLibrary/parser/PagSeguroTransactionParser.class.php(65): PagSeguroXmlParser->__construct('<?xml version="...')
+#1 /home/gloss354/public_html/modules/pagseguro/PagSeguroLibrary/service/PagSeguroNotificationService.class.php(62): PagSeguroTransactionParser::readTransaction('<?xml version="...')
+#2 /home/gloss354/public_html/modules/pagseguro/controllers/front/notification.php(109): PagSeguroNotificationService::checkTransaction(Object(PagSeguroAccountCredentials), 'B3C15A-77594659...')
+#3 /home/gloss354/public_html/modules/pagseguro/controllers/front/notification.php(54): PagSeguroNotificationModuleFrontController->_createTransaction()
+#4 /home/gloss354/public_html/classes/controller/Controller.php(158): PagSeguroNotification in /home/gloss354/public_html/modules/pagseguro/PagSeguroLibrary/utils/PagSeguroXmlParser.class.php on line 27
+[06-Sep-2013 14:56:06] PHP Warning:  htmlentities() [<a href='function.htmlentities'>function.htmlentities</a>]: Invalid multibyte sequence in argument in /home/gloss354/public_html/classes/Tools.php on line 647
+[06-Sep-2013 14:56:06] PHP Warning:  htmlentities() [<a href='function.htmlentities'>function.htmlentities</a>]: Invalid multibyte sequence in argument in /home/gloss354/public_html/classes/Tools.php on line 647
+[06-Sep-2013 15:24:39] PHP Warning:  htmlentities() [<a href='function.htmlentities'>function.htmlentities</a>]: Invalid multibyte sequence in argument in /home/gloss354/public_html/classes/Tools.php on line 647
+[06-Sep-2013 16:25:59] PHP Fatal error:  Uncaught exception 'Exception' with message 'PagSeguroLibrary XML parsing error: (4) not well-formed (invalid token)' in /home/gloss354/public_html/modules/pagseguro/PagSeguroLibrary/utils/PagSeguroXmlParser.class.php:27
+Stack trace:
+#0 /home/gloss354/public_html/modules/pagseguro/PagSeguroLibrary/parser/PagSeguroTransactionParser.class.php(65): PagSeguroXmlParser->__construct('<?xml version="...')
+#1 /home/gloss354/public_html/modules/pagseguro/PagSeguroLibrary/service/PagSeguroNotificationService.class.php(62): PagSeguroTransactionParser::readTransaction('<?xml version="...')
+#2 /home/gloss354/public_html/modules/pagseguro/controllers/front/notification.php(109): PagSeguroNotificationService::checkTransaction(Object(PagSeguroAccountCredentials), 'D4C072-FAE924E9...')
+#3 /home/gloss354/public_html/modules/pagseguro/controllers/front/notification.php(54): PagSeguroNotificationModuleFrontController->_createTransaction()
+#4 /home/gloss354/public_html/classes/controller/Controller.php(158): PagSeguroNotification in /home/gloss354/public_html/modules/pagseguro/PagSeguroLibrary/utils/PagSeguroXmlParser.class.php on line 27
+[06-Sep-2013 16:26:12] PHP Fatal error:  Uncaught exception 'Exception' with message 'PagSeguroLibrary XML parsing error: (4) not well-formed (invalid token)' in /home/gloss354/public_html/modules/pagseguro/PagSeguroLibrary/utils/PagSeguroXmlParser.class.php:27
+Stack trace:
+#0 /home/gloss354/public_html/modules/pagseguro/PagSeguroLibrary/parser/PagSeguroTransactionParser.class.php(65): PagSeguroXmlParser->__construct('<?xml version="...')
+#1 /home/gloss354/public_html/modules/pagseguro/PagSeguroLibrary/service/PagSeguroNotificationService.class.php(62): PagSeguroTransactionParser::readTransaction('<?xml version="...')
+#2 /home/gloss354/public_html/modules/pagseguro/controllers/front/notification.php(109): PagSeguroNotificationService::checkTransaction(Object(PagSeguroAccountCredentials), 'B3C15A-77594659...')
+#3 /home/gloss354/public_html/modules/pagseguro/controllers/front/notification.php(54): PagSeguroNotificationModuleFrontController->_createTransaction()
+#4 /home/gloss354/public_html/classes/controller/Controller.php(158): PagSeguroNotification in /home/gloss354/public_html/modules/pagseguro/PagSeguroLibrary/utils/PagSeguroXmlParser.class.php on line 27
+[06-Sep-2013 16:56:07] PHP Warning:  htmlentities() [<a href='function.htmlentities'>function.htmlentities</a>]: Invalid multibyte sequence in argument in /home/gloss354/public_html/classes/Tools.php on line 647
+[06-Sep-2013 16:56:07] PHP Warning:  htmlentities() [<a href='function.htmlentities'>function.htmlentities</a>]: Invalid multibyte sequence in argument in /home/gloss354/public_html/classes/Tools.php on line 647
+[06-Sep-2013 17:24:40] PHP Warning:  htmlentities() [<a href='function.htmlentities'>function.htmlentities</a>]: Invalid multibyte sequence in argument in /home/gloss354/public_html/classes/Tools.php on line 647
+[06-Sep-2013 18:29:52] PHP Fatal error:  Uncaught exception 'Exception' with message 'PagSeguroLibrary XML parsing error: (4) not well-formed (invalid token)' in /home/gloss354/public_html/modules/pagseguro/PagSeguroLibrary/utils/PagSeguroXmlParser.class.php:27
+Stack trace:
+#0 /home/gloss354/public_html/modules/pagseguro/PagSeguroLibrary/parser/PagSeguroTransactionParser.class.php(65): PagSeguroXmlParser->__construct('<?xml version="...')
+#1 /home/gloss354/public_html/modules/pagseguro/PagSeguroLibrary/service/PagSeguroNotificationService.class.php(62): PagSeguroTransactionParser::readTransaction('<?xml version="...')
+#2 /home/gloss354/public_html/modules/pagseguro/controllers/front/notification.php(109): PagSeguroNotificationService::checkTransaction(Object(PagSeguroAccountCredentials), 'D4C072-FAE924E9...')
+#3 /home/gloss354/public_html/modules/pagseguro/controllers/front/notification.php(54): PagSeguroNotificationModuleFrontController->_createTransaction()
+#4 /home/gloss354/public_html/classes/controller/Controller.php(158): PagSeguroNotification in /home/gloss354/public_html/modules/pagseguro/PagSeguroLibrary/utils/PagSeguroXmlParser.class.php on line 27
+[06-Sep-2013 18:30:04] PHP Fatal error:  Uncaught exception 'Exception' with message 'PagSeguroLibrary XML parsing error: (4) not well-formed (invalid token)' in /home/gloss354/public_html/modules/pagseguro/PagSeguroLibrary/utils/PagSeguroXmlParser.class.php:27
+Stack trace:
+#0 /home/gloss354/public_html/modules/pagseguro/PagSeguroLibrary/parser/PagSeguroTransactionParser.class.php(65): PagSeguroXmlParser->__construct('<?xml version="...')
+#1 /home/gloss354/public_html/modules/pagseguro/PagSeguroLibrary/service/PagSeguroNotificationService.class.php(62): PagSeguroTransactionParser::readTransaction('<?xml version="...')
+#2 /home/gloss354/public_html/modules/pagseguro/controllers/front/notification.php(109): PagSeguroNotificationService::checkTransaction(Object(PagSeguroAccountCredentials), 'B3C15A-77594659...')
+#3 /home/gloss354/public_html/modules/pagseguro/controllers/front/notification.php(54): PagSeguroNotificationModuleFrontController->_createTransaction()
+#4 /home/gloss354/public_html/classes/controller/Controller.php(158): PagSeguroNotification in /home/gloss354/public_html/modules/pagseguro/PagSeguroLibrary/utils/PagSeguroXmlParser.class.php on line 27
+[06-Sep-2013 18:56:08] PHP Warning:  htmlentities() [<a href='function.htmlentities'>function.htmlentities</a>]: Invalid multibyte sequence in argument in /home/gloss354/public_html/classes/Tools.php on line 647
+[06-Sep-2013 18:56:08] PHP Warning:  htmlentities() [<a href='function.htmlentities'>function.htmlentities</a>]: Invalid multibyte sequence in argument in /home/gloss354/public_html/classes/Tools.php on line 647
+[06-Sep-2013 19:24:41] PHP Warning:  htmlentities() [<a href='function.htmlentities'>function.htmlentities</a>]: Invalid multibyte sequence in argument in /home/gloss354/public_html/classes/Tools.php on line 647
+[06-Sep-2013 20:33:21] PHP Fatal error:  Uncaught exception 'Exception' with message 'PagSeguroLibrary XML parsing error: (4) not well-formed (invalid token)' in /home/gloss354/public_html/modules/pagseguro/PagSeguroLibrary/utils/PagSeguroXmlParser.class.php:27
+Stack trace:
+#0 /home/gloss354/public_html/modules/pagseguro/PagSeguroLibrary/parser/PagSeguroTransactionParser.class.php(65): PagSeguroXmlParser->__construct('<?xml version="...')
+#1 /home/gloss354/public_html/modules/pagseguro/PagSeguroLibrary/service/PagSeguroNotificationService.class.php(62): PagSeguroTransactionParser::readTransaction('<?xml version="...')
+#2 /home/gloss354/public_html/modules/pagseguro/controllers/front/notification.php(109): PagSeguroNotificationService::checkTransaction(Object(PagSeguroAccountCredentials), 'D4C072-FAE924E9...')
+#3 /home/gloss354/public_html/modules/pagseguro/controllers/front/notification.php(54): PagSeguroNotificationModuleFrontController->_createTransaction()
+#4 /home/gloss354/public_html/classes/controller/Controller.php(158): PagSeguroNotification in /home/gloss354/public_html/modules/pagseguro/PagSeguroLibrary/utils/PagSeguroXmlParser.class.php on line 27
+[06-Sep-2013 20:33:32] PHP Fatal error:  Uncaught exception 'Exception' with message 'PagSeguroLibrary XML parsing error: (4) not well-formed (invalid token)' in /home/gloss354/public_html/modules/pagseguro/PagSeguroLibrary/utils/PagSeguroXmlParser.class.php:27
+Stack trace:
+#0 /home/gloss354/public_html/modules/pagseguro/PagSeguroLibrary/parser/PagSeguroTransactionParser.class.php(65): PagSeguroXmlParser->__construct('<?xml version="...')
+#1 /home/gloss354/public_html/modules/pagseguro/PagSeguroLibrary/service/PagSeguroNotificationService.class.php(62): PagSeguroTransactionParser::readTransaction('<?xml version="...')
+#2 /home/gloss354/public_html/modules/pagseguro/controllers/front/notification.php(109): PagSeguroNotificationService::checkTransaction(Object(PagSeguroAccountCredentials), 'B3C15A-77594659...')
+#3 /home/gloss354/public_html/modules/pagseguro/controllers/front/notification.php(54): PagSeguroNotificationModuleFrontController->_createTransaction()
+#4 /home/gloss354/public_html/classes/controller/Controller.php(158): PagSeguroNotification in /home/gloss354/public_html/modules/pagseguro/PagSeguroLibrary/utils/PagSeguroXmlParser.class.php on line 27
+[06-Sep-2013 20:56:09] PHP Warning:  htmlentities() [<a href='function.htmlentities'>function.htmlentities</a>]: Invalid multibyte sequence in argument in /home/gloss354/public_html/classes/Tools.php on line 647
+[06-Sep-2013 20:56:09] PHP Warning:  htmlentities() [<a href='function.htmlentities'>function.htmlentities</a>]: Invalid multibyte sequence in argument in /home/gloss354/public_html/classes/Tools.php on line 647
+[06-Sep-2013 21:24:42] PHP Warning:  htmlentities() [<a href='function.htmlentities'>function.htmlentities</a>]: Invalid multibyte sequence in argument in /home/gloss354/public_html/classes/Tools.php on line 647
+[07-Sep-2013 13:57:31] PHP Warning:  htmlentities() [<a href='function.htmlentities'>function.htmlentities</a>]: Invalid multibyte sequence in argument in /home/gloss354/public_html/classes/Tools.php on line 647
+[07-Sep-2013 13:57:43] PHP Fatal error:  Uncaught exception 'Exception' with message 'PagSeguroLibrary XML parsing error: (4) not well-formed (invalid token)' in /home/gloss354/public_html/modules/pagseguro/PagSeguroLibrary/utils/PagSeguroXmlParser.class.php:27
+Stack trace:
+#0 /home/gloss354/public_html/modules/pagseguro/PagSeguroLibrary/parser/PagSeguroTransactionParser.class.php(65): PagSeguroXmlParser->__construct('<?xml version="...')
+#1 /home/gloss354/public_html/modules/pagseguro/PagSeguroLibrary/service/PagSeguroNotificationService.class.php(62): PagSeguroTransactionParser::readTransaction('<?xml version="...')
+#2 /home/gloss354/public_html/modules/pagseguro/controllers/front/notification.php(109): PagSeguroNotificationService::checkTransaction(Object(PagSeguroAccountCredentials), '50B4D6-ACB009B0...')
+#3 /home/gloss354/public_html/modules/pagseguro/controllers/front/notification.php(54): PagSeguroNotificationModuleFrontController->_createTransaction()
+#4 /home/gloss354/public_html/classes/controller/Controller.php(158): PagSeguroNotification in /home/gloss354/public_html/modules/pagseguro/PagSeguroLibrary/utils/PagSeguroXmlParser.class.php on line 27
