@@ -254,9 +254,6 @@ var fieldRequired = '{l s='Please fill in all the required fields before saving 
 				<span class="editable">{$product->reference|escape:'htmlall':'UTF-8'}</span>
 			</p>
 
-		{if $product->show_price AND !isset($restricted_country_mode) AND !$PS_CATALOG_MODE}
-
-
 			<!-- availability -->
 			<p id="availability_statut">
 				<span id="availability_label">{l s='Availability:'}</span><br>
@@ -266,7 +263,6 @@ var fieldRequired = '{l s='Please fill in all the required fields before saving 
 				<span id="availability_date_label">{l s='Availability date:'}</span>
 				<span id="availability_date_value">{dateFormat date=$product->available_date full=false}</span>
 			</p>
-		{/if}
 
 		{/if}
 
