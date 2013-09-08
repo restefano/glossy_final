@@ -37,11 +37,13 @@ class ListAllControllerCore extends FrontController
 		$this->pagination($nbProducts);
 
 		$this->context->smarty->assign(array(
-			'products' => Product::getProducts($this->context->language->id, $this->p - 1, $this->n, $this->orderBy, $this->orderWay),
+			//'products' => Product::getProducts($this->context->language->id, (int)$this->p - 1, (int)$this->n, false, $this->orderBy, $this->orderWay),
+			'products' => Product::getNewProducts($this->context->language->id, (int)($this->p) - 1, (int)($this->n), false, $this->orderBy, $this->orderWay),
 			'add_prod_display' => Configuration::get('PS_ATTRIBUTE_CATEGORY_DISPLAY'),
-			'nbProducts' => $nbProducts,
+			'nbProducts' => (int)($nbProducts),
 			'homeSize' => Image::getSize(ImageType::getFormatedName('home')),
 			'comparator_max_item' => Configuration::get('PS_COMPARATOR_MAX_ITEM')
+
 		));
 
 		$this->setTemplate(_PS_THEME_DIR_.'list-all.tpl');
