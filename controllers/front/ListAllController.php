@@ -33,7 +33,7 @@ class ListAllControllerCore extends FrontController
 		parent::initContent();
 
 		$this->productSort();
-		$nbProducts = (int)ProductSale::getNbSales();
+		$nbProducts = Product::getAllProducts($this->context->language->id, 0, 0, true, $this->orderBy, $this->orderWay),
 		$this->pagination($nbProducts);
 
 		$this->context->smarty->assign(array(
