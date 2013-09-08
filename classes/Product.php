@@ -5411,6 +5411,5 @@ class ProductCore extends ObjectModel
 		return Product::getProductsProperties((int)$id_lang, $result);
 	}
 
-
 }
 
