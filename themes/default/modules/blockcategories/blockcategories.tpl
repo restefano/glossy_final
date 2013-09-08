@@ -37,7 +37,7 @@
 		{/foreach}
 		</ul>
 
-		<span><br>Ver Todos os Produtos<br></span>
+		<span><br><a href="www.glossyme.com.br/ver-todos" style="color:#333;">Ver Todos os Produtos</a><br></span>
 
 
 		{* Javascript moved here to fix bug #PSCFI-151 *}
