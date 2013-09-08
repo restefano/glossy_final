@@ -228,6 +228,17 @@ var fieldRequired = '{l s='Please fill in all the required fields before saving 
 	<div id="pb-left-column">
 		<h1>{$product->name|escape:'htmlall':'UTF-8'}</h1>
 
+
+			<!-- availability -->
+			<p id="availability_statut">
+				<span id="availability_label">{l s='Availability:'}</span><br>
+				<span id="availability_value" style="margin-left:20px"{if ($allow_oosp)}>{$product->available_now}{else}{$allow_oosp}xxx{if ($product->quantity<=0)} class="warning_inline">{l s='This product is no longer in stock'}{else}>{$product->available_now}{/if}{/if}</span>				
+			</p>
+			<p id="availability_date"{if ($product->quantity > 0) OR !$product->available_for_order OR $PS_CATALOG_MODE OR !isset($product->available_date) OR $product->available_date < $smarty.now|date_format:'%Y-%m-%d'} style="display: none;"{/if}>
+				<span id="availability_date_label">{l s='Availability date:'}</span>
+				<span id="availability_date_value">{dateFormat date=$product->available_date full=false}</span>
+			</p>
+
 		{if $product->description_short OR $packItems|@count > 0}
 		<div id="short_description_block">
 			{if $product->description_short}
@@ -254,15 +265,6 @@ var fieldRequired = '{l s='Please fill in all the required fields before saving 
 				<span class="editable">{$product->reference|escape:'htmlall':'UTF-8'}</span>
 			</p>
 
-			<!-- availability -->
-			<p id="availability_statut">
-				<span id="availability_label">{l s='Availability:'}</span><br>
-				<span id="availability_value" style="margin-left:20px"{if ($allow_oosp)}>{$product->available_now}{else}{$allow_oosp}xxx{if ($product->quantity<=0)} class="warning_inline">{l s='This product is no longer in stock'}{else}>{$product->available_now}{/if}{/if}</span>				
-			</p>
-			<p id="availability_date"{if ($product->quantity > 0) OR !$product->available_for_order OR $PS_CATALOG_MODE OR !isset($product->available_date) OR $product->available_date < $smarty.now|date_format:'%Y-%m-%d'} style="display: none;"{/if}>
-				<span id="availability_date_label">{l s='Availability date:'}</span>
-				<span id="availability_date_value">{dateFormat date=$product->available_date full=false}</span>
-			</p>
 
 		{/if}
 
