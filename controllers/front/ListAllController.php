@@ -37,7 +37,7 @@ class ListAllControllerCore extends FrontController
 		$this->pagination($nbProducts);
 
 		$this->context->smarty->assign(array(
-			'products' => ProductSale::getBestSales($this->context->language->id, $this->p - 1, $this->n, $this->orderBy, $this->orderWay),
+			'products' => Product::getProducts($this->context->language->id, $this->p - 1, $this->n, $this->orderBy, $this->orderWay),
 			'add_prod_display' => Configuration::get('PS_ATTRIBUTE_CATEGORY_DISPLAY'),
 			'nbProducts' => $nbProducts,
 			'homeSize' => Image::getSize(ImageType::getFormatedName('home')),
