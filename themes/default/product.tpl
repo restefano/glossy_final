@@ -228,7 +228,6 @@ var fieldRequired = '{l s='Please fill in all the required fields before saving 
 	<div id="pb-left-column">
 		<h1>{$product->name|escape:'htmlall':'UTF-8'}</h1>
 
-
 			<!-- availability -->
 			<p id="availability_statut">
 				<span id="availability_label">{l s='Availability:'}</span><br>
@@ -237,6 +236,10 @@ var fieldRequired = '{l s='Please fill in all the required fields before saving 
 			<p id="availability_date"{if ($product->quantity > 0) OR !$product->available_for_order OR $PS_CATALOG_MODE OR !isset($product->available_date) OR $product->available_date < $smarty.now|date_format:'%Y-%m-%d'} style="display: none;"{/if}>
 				<span id="availability_date_label">{l s='Availability date:'}</span>
 				<span id="availability_date_value">{dateFormat date=$product->available_date full=false}</span>
+			</p>
+			<p id="product_reference" {if isset($groups) OR !$product->reference}style="display: none;"{/if}>
+				<label for="product_reference">{l s='Reference:'} </label>
+				<span class="editable">{$product->reference|escape:'htmlall':'UTF-8'}</span>
 			</p>
 
 		{if $product->description_short OR $packItems|@count > 0}
@@ -259,13 +262,6 @@ var fieldRequired = '{l s='Please fill in all the required fields before saving 
 				</div>
 			{/if}
 		</div>
-
-			<p id="product_reference" {if isset($groups) OR !$product->reference}style="display: none;"{/if}>
-				<label for="product_reference">{l s='Reference:'} </label>
-				<span class="editable">{$product->reference|escape:'htmlall':'UTF-8'}</span>
-			</p>
-
-
 		{/if}
 
 		{*{if isset($colors) && $colors}
