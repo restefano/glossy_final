@@ -23,6 +23,20 @@
 *  International Registered Trademark & Property of PrestaShop SA
 *}
 
+		<script type="text/javascript">
+			$(document).ready(function() {
+	    		jQuery.ias({
+        			container : '.listing',
+        			item: '.post',
+        			pagination: '#content .navigation',
+        			next: '.next-posts a',
+        			loader: '<img src="../src/images/loader.gif"/>',
+        			triggerPageThreshold: 2,
+    			});
+			});
+		</script>
+
+
 {capture assign='page_title'}{l s='New products'}{/capture}
 {include file='./page-title.tpl'}
 

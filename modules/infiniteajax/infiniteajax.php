@@ -92,17 +92,19 @@ class infiniteajax extends Module
 	{
 		global $smarty, $cookie;
 
+
+
 		if ($this->isPhoneDevice()) return;
 		
 		if (version_compare(_PS_VERSION_,'1.5','>')) {
 			$page_name = Tools::getValue('controller');
 			$id_shop = (int) Context::getContext()->shop->id;
-			$pages_with_productlist = array("category", "manufacturer", "supplier", "search", "pricesdrop", "newproducts", "bestsales");
+			$pages_with_productlist = array("category", "manufacturer", "supplier", "search", "pricesdrop", "newproducts", "bestsales", "listall");
 		} else {
 			$pathinfo = pathinfo(__FILE__);
 			$page_name = basename($_SERVER['PHP_SELF'], '.'.$pathinfo['extension']);
 			$id_shop = 0;
-			$pages_with_productlist = array("category", "manufacturer", "supplier", "search", "prices-drop", "new-products", "best-sales");
+			$pages_with_productlist = array("category", "manufacturer", "supplier", "search", "prices-drop", "new-products", "best-sales", "listall");
 		}
 
 		// Si il s'agit d'une page affichant une liste de produits

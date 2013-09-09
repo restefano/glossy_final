@@ -87,10 +87,10 @@
 	if (Layered && Layered.State == true) {
         $('html,body').scrollTop(0);
 		//util.forceScrollTop(0);
-		if (window.location.hash.substring(0, 7) == "#/page-")
+		if (window.location.hash.substring(0, 7) == "#/bloco-")
 			window.location.replace(('' + window.location).split('#')[0] + ''); 
-		else if (window.location.href.split('/page-').length == 2 && window.location.href.split('/page-')[1] != '')
-			window.location.replace(('' + window.location).split('/page-')[0] + '');
+		else if (window.location.href.split('/bloco-').length == 2 && window.location.href.split('/bloco-')[1] != '')
+			window.location.replace(('' + window.location).split('/bloco-')[0] + '');
 	}
 	else {
 			// load and scroll to previous page
@@ -437,7 +437,7 @@
 			
 			// Mellow : Get next page num (from urlNextPage string)
 			if (Layered && Layered.State == true) {
-				var NextPage = urlNextPage.split('page-')[urlNextPage.split('page-').length-1];
+				var NextPage = urlNextPage.split('bloco-')[urlNextPage.split('bloco-').length-1];
 				// correct little bug with blocklayered strange urls...
 				if ( NextPage == '1') NextPage = '2';
 			}
@@ -449,7 +449,7 @@
 			}
 			
 			// Generate interpage (class ajax_block_product is requied! Adjust css of #ias_interpage  in /css/jquery.ias.css)
-			var interpage = $('<li id="ias_interpage" class="ajax_block_product"><span>Page ' + NextPage + EndPageNum + '</span></li>');
+			var interpage = $('<li id="ias_interpage" class="ajax_block_product"><span>Página ' + NextPage + EndPageNum + '</span></li>');
 			
             if (opts.customLoaderProc !== false) {
                 opts.customLoaderProc(loader);
@@ -461,9 +461,11 @@
 			
 			// Mellow : Show interpage only when loader is removed (a plugin for special event 'destroyed' is added at the end of this file)
 			// If you want to show interpage and loader at the same time, change css of #ias_interpage to 'display:block' 
-			$(loader).bind('destroyed', function() {
-				interpage.fadeIn();
-			});	
+
+//			$(loader).bind('destroyed', function() {
+//				interpage.fadeIn();
+//			});	
+
         }
 
         /**
@@ -820,9 +822,9 @@
                 }
             }
             else {
-                haveState = (window.location.hash.substring(0, 7) === '#/page-');
+                haveState = (window.location.hash.substring(0, 7) === '#/bloco-');
                 if (haveState) {
-                    pageNum = parseInt(window.location.hash.replace('#/page-', ''), 10);
+                    pageNum = parseInt(window.location.hash.replace('#/bloco-', ''), 10);
                     return { page : pageNum };
                 }
             }
@@ -868,10 +870,10 @@
 				// Mellow treat blocklayered friendly urls
 				if (stateObj.page > 0 ) {
 					if (window.location.href.split('#').length == 2 && window.location.href.split('#')[1] != '') {
-						hash = '#' + window.location.href.split('#')[1].replace(/\/page-(\d+)/, '') + "/page-" + stateObj.page;
+						hash = '#' + window.location.href.split('#')[1].replace(/\/bloco-(\d+)/, '') + "/bloco-" + stateObj.page;
 						window.location.replace(('' + window.location).split('#')[0] + hash); 
 					} else {
-						hash = "#/page-" + stateObj.page;
+						hash = "#/bloco-" + stateObj.page;
 						window.location.replace(hash);
 					}
 				}
