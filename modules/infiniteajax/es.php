@@ -1,0 +1,34 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{infiniteajax}prestashop>infiniteajax_f4b9e5214e74ca6128064d123911f53b'] = 'Scroll infinito con Ajax';
+$_MODULE['<{infiniteajax}prestashop>infiniteajax_63ae6ee723732e3310fdfec982a622b8'] = 'Scroll infinito con localización automática';
+$_MODULE['<{infiniteajax}prestashop>infiniteajax_f4f70727dc34561dfde1a3c529b6205c'] = 'Configuración';
+$_MODULE['<{infiniteajax}prestashop>infiniteajax_c1ee76f076a5b97e3b4b0c0e5703246e'] = 'Configuración no se puede guardar';
+$_MODULE['<{infiniteajax}prestashop>infiniteajax_c888438d14855d7d96a2724ee9c306bd'] = 'Configuración guardada';
+$_MODULE['<{infiniteajax}prestashop>infiniteajax_613dc745a6a44d7035687ecb1638d8c2'] = 'Comportamiento :';
+$_MODULE['<{infiniteajax}prestashop>infiniteajax_16d2b386b2034b9488996466aaae0b57'] = 'Histórico';
+$_MODULE['<{infiniteajax}prestashop>infiniteajax_00d23a76e43b46dae9ec7aa9dcbebb32'] = 'Activar';
+$_MODULE['<{infiniteajax}prestashop>infiniteajax_b9f5c797ebbf55adccdd8539a65a0241'] = 'Desactivar';
+$_MODULE['<{infiniteajax}prestashop>infiniteajax_e9c937f848b66c1c47d79bd697a6577a'] = 'El histórico añade etiquetas (formato: # / page-x) a la url de la página, para mantener la última página visitada, después de visitar un elemento de la página cuando un visitante hace clic en el botón, otra vez, el script carga todos los elementos arriba, la última página visitada y se desplaza hasta el elemento. El uso de esta función puede ser problemático en algunos casos. Si es así, puede desactivar esta función.';
+$_MODULE['<{infiniteajax}prestashop>infiniteajax_d72725c58c51a9a42d6b2784fe5107ad'] = 'Margen de inicio';
+$_MODULE['<{infiniteajax}prestashop>infiniteajax_cc0b0fe82463c12b6e58ee73304c36f1'] = 'Establecer un margen de inicio-X significa que la página siguiente comenzará a cargar X píxeles antes de la parte inferior del último elemento es visible. Un margen positivo significa que la siguiente página comenzará a cargar X píxeles después del último elemento.';
+$_MODULE['<{infiniteajax}prestashop>infiniteajax_17c03d3eb248af31852d9d82d71a949b'] = 'Ubicación de la imagen de Carga';
+$_MODULE['<{infiniteajax}prestashop>infiniteajax_ba50d64dc970ede10ee6ffd7bba9119d'] = 'Animación que aparece cuando se carga la página siguiente (en relación con la instalación de Prestashop. Por defecto :  modules/infiniteajax/images/loader.gif)';
+$_MODULE['<{infiniteajax}prestashop>infiniteajax_3f1df879bf2d39c7665f76ef54d7d47e'] = 'Elementos de la lista de productos (ajustado en el tema por defecto, cambiar dependiendo del tema)';
+$_MODULE['<{infiniteajax}prestashop>infiniteajax_20342c167a5045e18711ea632c040840'] = '\'id\' de la lista de productos';
+$_MODULE['<{infiniteajax}prestashop>infiniteajax_900201cb29e31f42afab186166efc46c'] = '\'id\' del elemento que contiene la lista de los productos (en el producto-list.tpl, por defecto: \'product_list\')';
+$_MODULE['<{infiniteajax}prestashop>infiniteajax_667ca088493c3bd7efebe59835bb9378'] = '\'class\' bloque de producto';
+$_MODULE['<{infiniteajax}prestashop>infiniteajax_315d7be416f4fe78856d73e01f96324b'] = 'Clase que contiene elementos en los productos (productos list.tpl, por defecto: \'ajax_block_produc\')';
+$_MODULE['<{infiniteajax}prestashop>infiniteajax_47bf2807ffbdd628ba3eb1a61123e617'] = '\'id\' de la paginacion';
+$_MODULE['<{infiniteajax}prestashop>infiniteajax_4c31958255fea0b2597da8ccaa8cdcad'] = '\'id\' que contiene el elemento de paginación (en pagination.tpl, por defecto: \'pagination\')';
+$_MODULE['<{infiniteajax}prestashop>infiniteajax_b0d397fba78af74fc9593906ae1f5f92'] = '\'id\' del botón \'Siguiente\'';
+$_MODULE['<{infiniteajax}prestashop>infiniteajax_6ab08f1ea21a8e5ba02431e9d0bdff51'] = 'Identificador del botón \'Siguiente\' (en pagination.tpl , por defecto : \'pagination_next\')';
+$_MODULE['<{infiniteajax}prestashop>infiniteajax_ab6fa62e40baa0ef28d9a9e602626039'] = 'Función para la bajada';
+$_MODULE['<{infiniteajax}prestashop>infiniteajax_290a42daff1f1e439b3e053eae03c5df'] = 'Función\'onRenderComplete\'';
+$_MODULE['<{infiniteajax}prestashop>infiniteajax_6c17cfcb56da2686c25e373338bfb212'] = 'Esta función de JavaScript se ejecuta al final de la carga del módulo nueva página.';
+$_MODULE['<{infiniteajax}prestashop>infiniteajax_f96eacc7cc6f2c142d93eee5dcc3dd6e'] = 'Por defecto :';
+$_MODULE['<{infiniteajax}prestashop>infiniteajax_373c08f0dc2ad2f17c9c8e4c01916d50'] = 'Esto puede ser muy útil cuando se tiene una función javascript que normalmente realiza acciones sobre los elementos de la página con el evento \"document.ready\". Cuando se carga una nueva página con este módulo, el gerente  \"document.ready\" no se ejecuta. Utilice este evento en su lugar.';
+$_MODULE['<{infiniteajax}prestashop>infiniteajax_ae5e7d5d3755717ab450d7a648443d84'] = 'Lo mejor es comprimir su función javascript antes de la  insertar aquí. ver';
+$_MODULE['<{infiniteajax}prestashop>infiniteajax_38fb7d24e0d60a048f540ecb18e13376'] = 'Guardar';
