@@ -1,0 +1,13 @@
+cd /home/gloss354/public_html/cache/smarty
+mv cache/index.php index.php
+rm -Rf cache
+mkdir cache
+mv index.php cache/index.php
+mv compile/index.php index.php
+rm -Rf compile
+mkdir compile
+mv index.php compile/index.php
+cd /home/gloss354/public_html/img
+rm -Rf tmp
+mkdir tmp
+
