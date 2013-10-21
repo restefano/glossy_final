@@ -139,3 +139,6 @@
 [01-Sep-2013 00:24:14] PHP Warning:  file_put_contents(/home/gloss354/public_html/themes/default/modules/referralprogram/mails/br/referralprogram-voucher.txt) [<a href='function.file-put-contents'>function.file-put-contents</a>]: failed to open stream: No such file or directory in /home/gloss354/public_html/controllers/admin/AdminTranslationsController.php on line 1457
 [01-Sep-2013 00:24:14] PHP Warning:  file_put_contents(/home/gloss354/public_html/themes/default/modules/sendtoafriend/mails/br/send_to_a_friend.txt) [<a href='function.file-put-contents'>function.file-put-contents</a>]: failed to open stream: No such file or directory in /home/gloss354/public_html/controllers/admin/AdminTranslationsController.php on line 1457
 [02-Sep-2013 03:19:40] PHP Warning:  preg_match() expects parameter 2 to be string, array given in /home/gloss354/public_html/classes/Validate.php on line 177
+[20-Sep-2013 10:57:20] PHP Warning:  preg_match() expects parameter 2 to be string, array given in /home/gloss354/public_html/classes/Validate.php on line 177
+[22-Sep-2013 20:25:12] PHP Warning:  preg_match() expects parameter 2 to be string, array given in /home/gloss354/public_html/classes/Validate.php on line 177
+[23-Sep-2013 22:38:36] PHP Warning:  preg_match() expects parameter 2 to be string, array given in /home/gloss354/public_html/classes/Validate.php on line 177

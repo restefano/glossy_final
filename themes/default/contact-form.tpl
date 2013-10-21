@@ -44,7 +44,7 @@
 <p>
 Por chat, ali embaixo nessa página...<br>
 Por telefone fixo: <span style="color:#F000A0">(48) 3363-4723</span><br>
-Por telefone celular (TIM): <span style="color:#F000A0">(48) 9938-6460</span><br>
+Por telefone celular (VIVO): <span style="color:#F000A0">(48) 9182-7656</span><br>
 Por e-Mail: <a href="mailto:contato@glossyme.com.br" style="color:#0000FF">contato@glossyme.com.br</a><br>
 Pelo Facebook (InBox): <a href="http://www.facebook.com.br/glossyme.com.br" style="color:#0000FF">www.facebook.com.br/glossyme.com.br</a><br>
 Pelo Twitter: <a href="http://www.twitter.com/glossymebrasil" style="color:#0000FF">@glossymebrasil</a><br>

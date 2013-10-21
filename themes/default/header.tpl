@@ -34,6 +34,12 @@
 
 
 <div id="fb-root"></div>
+
+
+<div id="sitelock_shield_logo" class="fixed_btm" style="position:fixed;bottom:33px;right:0;z-index:1024;"><a href="https://www.sitelock.com/verify.php?site=glossyme.com.br" onclick="window.open('https://www.sitelock.com/verify.php?site=glossyme.com.br','SiteLock','width=600,height=600,left=160,top=170');return false;" ><img alt="malware removal and website security" title="SiteLock"  src="//shield.sitelock.com/shield/glossyme.com.br"/></a></div>
+
+<meta name="sitelock-site-verification" content="794" />
+
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
