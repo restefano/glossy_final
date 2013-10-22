@@ -142,3 +142,5 @@
 [20-Sep-2013 10:57:20] PHP Warning:  preg_match() expects parameter 2 to be string, array given in /home/gloss354/public_html/classes/Validate.php on line 177
 [22-Sep-2013 20:25:12] PHP Warning:  preg_match() expects parameter 2 to be string, array given in /home/gloss354/public_html/classes/Validate.php on line 177
 [23-Sep-2013 22:38:36] PHP Warning:  preg_match() expects parameter 2 to be string, array given in /home/gloss354/public_html/classes/Validate.php on line 177
+[21-Oct-2013 22:46:10] PHP Warning:  preg_match() expects parameter 2 to be string, array given in /home1/glossyme/public_html/glossyme/classes/Validate.php on line 177
+[21-Oct-2013 22:46:10] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/glossyme/public_html/glossyme/classes/Validate.php:177) in /home1/glossyme/public_html/glossyme/classes/Tools.php on line 141
